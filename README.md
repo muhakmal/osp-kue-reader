@@ -28,6 +28,7 @@
   - [Architecture & Tech Stack](#architecture--tech-stack)
   - [Getting Started & Build Instructions](#getting-started--build-instructions)
   - [Privacy & Security](#privacy--security)
+  - [Project Roadmap](ROADMAP.md)
   - [Disclaimer & Trademarks](#disclaimer--trademarks)
 - [Bahasa Indonesia](#-bahasa-indonesia)
   - [Ikhtisar](#ikhtisar)
@@ -153,6 +154,11 @@ File APK siap dipasang ke ponsel Android ber-NFC di `app/build/outputs/apk/debug
 1. **Non-Affiliation**: This software is an independent open-source project created for personal interoperability and educational utility. It is not affiliated with, endorsed by, or authorized by Bank Mandiri, Bank Central Asia, Bank Negara Indonesia, Bank Rakyat Indonesia, Bank DKI, or PT Kereta Commuter Indonesia.
 2. **Trademarks**: *Mandiri e-money*, *Flazz*, *TapCash*, *Brizzi*, *JakCard*, *KMT*, and other referenced card names/logos are trademarks of their respective banking and transit institutions.
 3. **No Warranty**: Provided under the [Apache License 2.0](LICENSE) on an "AS IS" basis, without warranties of any kind.
+
+---
+
+## 🗺️ Project Roadmap
+Check out [ROADMAP.md](ROADMAP.md) to explore planned milestones, upcoming card protocols, and long-term goals for 2026-2027.
 
 ---
 
