@@ -33,17 +33,25 @@ jobs:
         run: chmod +x gradlew
 
       - name: Run Unit Tests
-        run: ./gradlew testDebugUnitTest --stacktrace
+        run: ./gradlew :kue-reader:testDebugUnitTest --stacktrace
 
-      - name: Assemble Debug APK
-        run: ./gradlew assembleDebug --stacktrace
+      - name: Build SDK AAR and Sample APK
+        run: ./gradlew :kue-reader:assembleRelease :sample:assembleDebug --stacktrace
 
-      - name: Upload Debug APK
+      - name: Upload SDK AAR
         if: github.ref == 'refs/heads/main'
         uses: actions/upload-artifact@v4
         with:
-          name: osp-kue-reader-debug-apk
-          path: app/build/outputs/apk/debug/app-debug.apk
+          name: kue-reader-aar
+          path: kue-reader/build/outputs/aar/kue-reader-release.aar
+          retention-days: 7
+
+      - name: Upload Sample APK
+        if: github.ref == 'refs/heads/main'
+        uses: actions/upload-artifact@v4
+        with:
+          name: sample-debug-apk
+          path: sample/build/outputs/apk/debug/sample-debug.apk
           retention-days: 7
 
   ci-gate:

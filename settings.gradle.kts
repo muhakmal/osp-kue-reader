@@ -16,12 +16,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven {
-            url = uri("https://android-sdk.is.com/")
-        }
     }
 }
 
-rootProject.name = "PembacaKUE"
-include(":app")
- 
+rootProject.name = "kue-reader"
+include(":kue-reader")
+include(":sample")
