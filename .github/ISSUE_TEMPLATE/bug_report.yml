@@ -1,0 +1,56 @@
+name: 🐛 Bug Report
+description: Report an issue or unexpected behavior in OSP KUE Reader
+title: "fix: [Short bug description]"
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug! Please provide as much detail as possible so we can reproduce and fix it.
+  - type: input
+    id: device
+    attributes:
+      label: Device & OS
+      description: What Android device and OS version are you using?
+      placeholder: "e.g., Google Pixel 8, Android 15 / Samsung Galaxy S23, Android 14"
+    validations:
+      required: true
+  - type: dropdown
+    id: card_type
+    attributes:
+      label: Card Type Involved
+      description: Select which card was being read when the issue occurred (if applicable)
+      options:
+        - Mandiri e-money
+        - BCA Flazz (Gen 1 / Gen 2)
+        - BNI TapCash
+        - BRI Brizzi
+        - Bank DKI JakCard
+        - KMT (Kartu Multi Trip)
+        - Other / UI only
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the Bug
+      description: A clear description of what happened vs what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Step-by-step instructions to reproduce the problem.
+      value: |
+        1. Open the app
+        2. Tap card on back of phone...
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Logs (Optional)
+      description: Paste any logcat or error output (please sanitize any personal info).
+      render: shell

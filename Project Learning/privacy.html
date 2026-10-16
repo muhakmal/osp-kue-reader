@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kebijakan Privasi | PembacaKUE</title>
+    <meta name="description" content="Kebijakan privasi aplikasi PembacaKUE — data apa yang dikumpulkan, untuk apa, dan apa yang tidak pernah meninggalkan perangkat Anda.">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .policy { max-width: 780px; margin: 0 auto; padding: 32px 20px 80px; line-height: 1.7; }
+        .policy h1 { margin-bottom: 4px; }
+        .policy .updated { opacity: .7; font-size: .9rem; margin-bottom: 32px; }
+        .policy h2 { margin-top: 36px; margin-bottom: 10px; }
+        .policy ul { padding-left: 22px; }
+        .policy li { margin-bottom: 8px; }
+        .policy table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+        .policy th, .policy td { text-align: left; padding: 10px 12px; border-bottom: 1px solid rgba(128,128,128,.3); vertical-align: top; }
+        .policy .highlight { border-left: 4px solid #A855F7; padding: 14px 18px; margin: 24px 0; background: rgba(168,85,247,.08); border-radius: 0 10px 10px 0; }
+    </style>
+</head>
+<body>
+<main class="policy">
+
+    <h1>Kebijakan Privasi PembacaKUE</h1>
+    <p class="updated">Berlaku sejak 22 Agustus 2026 · Aplikasi <code>com.baskom.pembacakue</code></p>
+
+    <div class="highlight">
+        <strong>Ringkasnya:</strong> saldo, nomor seri, dan riwayat transaksi kartu uang elektronik Anda
+        dibaca dan disimpan <strong>di perangkat Anda sendiri</strong>. Isi kartu tidak pernah kami kirim
+        ke server mana pun, dan kami tidak pernah bisa mengubah saldo kartu Anda — aplikasi ini hanya
+        membaca, tidak menulis.
+    </div>
+
+    <h2>1. Data yang tetap di perangkat Anda</h2>
+    <ul>
+        <li><strong>Saldo dan riwayat transaksi kartu.</strong> Dibaca lewat NFC setiap kali Anda menempelkan
+            kartu, ditampilkan di layar, dan (bila fitur riwayat aktif) disimpan di basis data lokal aplikasi.</li>
+        <li><strong>Nama panggilan kartu</strong> yang Anda beri sendiri.</li>
+        <li><strong>Preferensi</strong>: bahasa, suara pembaca saldo, golongan kendaraan, dan pilihan persetujuan iklan.</li>
+    </ul>
+    <p>Semua ini bisa Anda hapus kapan saja lewat <em>Pengaturan → Hapus Semua Riwayat</em>, atau dengan
+        mencopot aplikasi. Penyimpanan riwayat juga bisa dimatikan sepenuhnya lewat
+        <em>Pengaturan → Simpan Riwayat Scan</em>.</p>
+
+    <h2>2. Data yang dikirim ke server kami</h2>
+    <table>
+        <tr><th>Data</th><th>Untuk apa</th></tr>
+        <tr>
+            <td><strong>Sidik (hash) nomor seri kartu</strong> — hasil SHA-256, bukan nomor aslinya</td>
+            <td>Menghitung berapa banyak kartu berbeda yang berhasil dibaca, supaya kami tahu jenis kartu
+                mana yang perlu didukung lebih baik. Nomor seri asli tidak pernah dikirim dan tidak bisa
+                dipulihkan dari hash-nya.</td>
+        </tr>
+        <tr>
+            <td><strong>Jenis kartu</strong> (mis. "Mandiri e-money") dan waktu pembacaan</td>
+            <td>Statistik dukungan kartu yang sama seperti di atas.</td>
+        </tr>
+        <tr>
+            <td><strong>Nama terminal/gerbang</strong> yang Anda perbaiki sendiri</td>
+            <td>Urun daya: agar pengguna lain melihat "Stasiun LRT Cikoko" alih-alih kode terminal mentah.
+                Hanya nama tempat, tanpa kaitan ke identitas Anda.</td>
+        </tr>
+        <tr>
+            <td><strong>ID anonim</strong> dari Firebase Authentication</td>
+            <td>Dibuat otomatis oleh perangkat, tanpa email, nomor telepon, atau akun apa pun. Dipakai
+                semata-mata untuk mencegah penyalahgunaan penulisan data.</td>
+        </tr>
+    </table>
+    <p><strong>Saldo Anda tidak termasuk di sini.</strong> Nominal saldo dan daftar transaksi tidak pernah
+        dikirim ke server kami.</p>
+
+    <h2>3. Lokasi</h2>
+    <p>Izin lokasi hanya diminta ketika Anda membuka <strong>Kalkulator Tarif Tol</strong>, dan hanya dipakai saat
+        layar itu terbuka. Koordinat Anda dikirim ke layanan peta pihak ketiga untuk menerjemahkan lokasi
+        menjadi nama tempat dan menghitung rute:</p>
+    <ul>
+        <li>OpenStreetMap Nominatim — mengubah koordinat menjadi nama wilayah</li>
+        <li>Photon (Komoot) — saran nama tujuan saat Anda mengetik</li>
+        <li>OSRM — menghitung rute berkendara ke tujuan</li>
+    </ul>
+    <p>Kami tidak menyimpan riwayat lokasi Anda, baik di perangkat maupun di server kami. Menolak izin lokasi
+        tidak memengaruhi fungsi pembacaan kartu sama sekali.</p>
+
+    <h2>4. Iklan</h2>
+    <p>Versi gratis menampilkan iklan melalui <strong>ironSource / LevelPlay</strong>, yang dapat menggunakan
+        <em>Advertising ID</em> perangkat Anda. Sebelum iklan dimuat, aplikasi menampilkan formulir persetujuan
+        resmi Google (User Messaging Platform). Anda dapat mengubah pilihan itu kapan saja lewat
+        <em>Pengaturan → Pengaturan Privasi Iklan</em>.</p>
+    <p>Berlangganan bebas iklan menghentikan pemuatan iklan sepenuhnya. Pembayaran ditangani sepenuhnya oleh
+        Google Play Billing — kami tidak pernah menerima atau menyimpan data kartu kredit Anda.</p>
+
+    <h2>5. Ekspor data</h2>
+    <p>Fitur <em>Ekspor Riwayat (CSV)</em> membuat berkas di penyimpanan sementara aplikasi dan menyerahkannya
+        ke menu berbagi bawaan Android. Ke mana berkas itu pergi sepenuhnya keputusan Anda; kami tidak
+        menerima salinannya.</p>
+
+    <h2>6. Anak-anak</h2>
+    <p>Aplikasi ini tidak ditujukan untuk anak di bawah 13 tahun dan kami tidak dengan sengaja mengumpulkan
+        data dari mereka.</p>
+
+    <h2>7. Perubahan kebijakan</h2>
+    <p>Bila kebijakan ini berubah, tanggal di bagian atas halaman ikut diperbarui dan versi aplikasi
+        berikutnya akan menautkan ke versi terbaru.</p>
+
+    <h2>8. Menghubungi kami</h2>
+    <p>Pertanyaan atau permintaan penghapusan data:
+        <a href="mailto:baskomdevs@gmail.com">baskomdevs@gmail.com</a></p>
+
+    <p style="margin-top:40px"><a href="index.html">← Kembali ke Pusat Edukasi</a></p>
+
+</main>
+</body>
+</html>

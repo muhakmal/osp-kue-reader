@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komponen Project | PembacaKUE Learning</title>
+    <meta name="description" content="Mengenal komponen teknis dalam project PembacaKUE: Android NFC API dan Smart Card.">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <span class="logo-icon"></span>
+            PembacaKUE <span style="font-weight: 300; font-size: 1rem; margin-left: 10px;">Learning</span>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="radio-waves.html">Gelombang Radio</a></li>
+            <li><a href="nfc-basics.html">Dasar NFC</a></li>
+            <li><a href="data-exchange.html">Pertukaran Data</a></li>
+            <li><a href="components.html" class="active">Komponen Project</a></li>
+            <li><a href="history-trivia.html">Sejarah & Trivia</a></li>
+            <li><a href="terminology.html">Kamus Istilah</a></li>
+            <li><a href="regulasi-bi.html">Regulasi BI</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero fade-in">
+            <h1>Membedah Project <span class="text-gradient">PembacaKUE</span></h1>
+            <p>
+                Sekarang kita tahu teorinya, mari kita lihat bagaimana teknologi ini diterapkan dalam kode pada project aplikasi <strong>Cek Saldo E-Toll</strong>.
+            </p>
+        </section>
+
+        <section class="content-section fade-in delay-1">
+            <div class="split-layout">
+                <div class="text-content">
+                    <h2>1. Perangkat Pembaca (Reader / Initiator)</h2>
+                    <p>
+                        Dalam project ini, HP Android bertindak sebagai <em>Reader</em>. Aplikasi Android menggunakan <strong>Android NFC API</strong> untuk mengakses perangkat keras antena NFC di HP.
+                    </p>
+                    <p>
+                        Kelas utama yang digunakan di Android adalah <code>NfcAdapter</code> dan kelas-kelas teknologi seperti <code>IsoDep</code> atau <code>NfcA</code>.
+                    </p>
+                    <p>
+                        Tugas utama HP di aplikasi ini adalah:
+                        <ul style="margin-left: 1.5rem; color: var(--text-secondary); margin-top: 10px;">
+                            <li>Mendeteksi saat ada kartu ditempelkan (Intent Action <code>ACTION_TECH_DISCOVERED</code>).</li>
+                            <li>Mengirim perintah baca (Transceive APDU) ke kartu.</li>
+                            <li>Menerjemahkan data Hexadecimal balasan menjadi Rupiah (Rp).</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="visual-content">
+                    <div class="glass-card" style="width: 100%;">
+                        <div class="card-icon" style="margin: 0 auto 1.5rem auto;">🤖</div>
+                        <h3 style="text-align: center;">Android NFC API</h3>
+                        <div style="background: rgba(0,0,0,0.3); padding: 15px; border-radius: 8px; font-family: monospace; font-size: 0.8rem; margin-top: 15px;">
+                            <span style="color: var(--accent-3);">val</span> nfcAdapter = NfcAdapter.getDefaultAdapter(context)<br>
+                            <span style="color: var(--accent-3);">val</span> isoDep = IsoDep.get(tag)<br>
+                            isoDep.connect()<br>
+                            <span style="color: var(--text-secondary);">// Kirim perintah (Transceive)</span><br>
+                            <span style="color: var(--accent-3);">val</span> response = isoDep.transceive(apduCommand)
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="split-layout reverse fade-in delay-2">
+                <div class="text-content">
+                    <h2>2. Kartu Target (Tag)</h2>
+                    <p>
+                        Kartu E-Money/KMT yang dibaca merupakan <strong>Smart Card</strong> (Kartu Pintar). Berbeda dengan kartu memori biasa, kartu pintar ini memiliki CPU mini (mikrokontroler) dan sistem operasinya sendiri (biasanya Java Card OS).
+                    </p>
+                    <p>
+                        Kartu ini akan menerima perintah dari HP, memprosesnya dengan keamanannya sendiri (misal mengecek PIN atau kunci enkripsi), dan baru memberikan saldo jika HP mengirim perintah yang benar.
+                    </p>
+                </div>
+                <div class="visual-content">
+                    <div class="glass-card" style="text-align: center; width: 100%;">
+                        <div class="card-icon" style="margin: 0 auto 1.5rem auto;">💳</div>
+                        <h3>Smart Card ISO 14443</h3>
+                        <p style="font-size: 0.9rem; margin-top: 10px;">Punya chip kecil untuk memproses data keamanan dan menyimpan file saldo (EF/DF).</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass-card fade-in delay-3" style="margin-top: 4rem; text-align: center; border-color: var(--accent-1);">
+                <h2 style="font-size: 2rem; margin-bottom: 1rem;">Selamat! 🎉</h2>
+                <p style="font-size: 1.1rem; max-width: 700px; margin: 0 auto; color: var(--text-secondary);">
+                    Kamu telah menyelesaikan panduan dasar tentang cara kerja NFC dan IoT di balik project <strong>PembacaKUE</strong>.
+                    Sekarang, saat kamu menempelkan kartu E-Toll ke HP, kamu sudah tahu keajaiban induksi magnetik, modulasi, dan APDU yang terjadi dalam hitungan milidetik!
+                </p>
+                <div style="margin-top: 2rem;">
+                    <a href="index.html" style="color: var(--accent-1); text-decoration: none; font-weight: 600;">Kembali ke Beranda ↺</a>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Project Learning PembacaKUE. Dibuat dengan cinta untuk pembelajaran IoT.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

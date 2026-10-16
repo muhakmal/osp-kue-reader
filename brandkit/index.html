@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PembacaKUE Brand Guidelines</title>
+    <style>
+        :root {
+            --primary: #0D47A1;
+            --secondary: #1976FF;
+            --accent: #FFC107;
+            --light: #F2F4F7;
+            --dark: #263238;
+            --text-dark: #111827;
+            --text-gray: #6B7280;
+            --font: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 40px;
+            background: #E5E7EB;
+            font-family: var(--font);
+            display: flex;
+            justify-content: center;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Main Presentation Canvas */
+        .presentation {
+            width: 1400px;
+            height: 940px;
+            background: #FFFFFF;
+            position: relative;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.15);
+            overflow: hidden;
+        }
+
+        /* --- 1px Grid Lines (Absolute Positioned for Perfection) --- */
+        /* Vertical */
+        .line-v-1 { position: absolute; left: 52%; top: 0; bottom: 0; width: 1px; background: #E5E7EB; z-index: 10; }
+        .line-v-2 { position: absolute; left: 76%; top: 0; height: 540px; width: 1px; background: #E5E7EB; z-index: 10; }
+        .line-v-3 { position: absolute; left: 78%; top: 540px; bottom: 0; width: 1px; background: #E5E7EB; z-index: 10; }
+        /* Horizontal */
+        .line-h-1 { position: absolute; top: 280px; left: 0; right: 0; height: 1px; background: #E5E7EB; z-index: 10; }
+        .line-h-2 { position: absolute; top: 540px; left: 0; right: 0; height: 1px; background: #E5E7EB; z-index: 10; }
+
+        /* --- Blocks --- */
+        .block {
+            position: absolute;
+            padding: 40px;
+            box-sizing: border-box;
+            z-index: 20;
+        }
+
+        /* Row 1 */
+        .block-logo { top: 0; left: 0; width: 52%; height: 280px; display: flex; align-items: center; justify-content: center; gap: 40px; }
+        .block-appicon { top: 0; left: 52%; width: 24%; height: 280px; }
+        .block-logogram { top: 0; left: 76%; width: 24%; height: 280px; }
+
+        /* Row 2 */
+        .block-design { top: 280px; left: 0; width: 52%; height: 260px; }
+        .block-color { top: 280px; left: 52%; width: 24%; height: 260px; }
+        .block-typo { top: 280px; left: 76%; width: 24%; height: 260px; }
+
+        /* Row 3 */
+        .block-appuse { top: 540px; left: 0; width: 52%; height: 400px; }
+        .block-phones { top: 540px; left: 52%; width: 26%; height: 400px; padding: 40px 0 0 0; display: flex; justify-content: center; align-items: flex-end; gap: 16px; }
+        .block-uielements { top: 540px; left: 78%; width: 22%; height: 400px; display: flex; flex-direction: column; justify-content: space-between; }
+
+        /* Section Titles */
+        .section-title {
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* --- Background Waves --- */
+        .footer-waves {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 800px;
+            height: 350px;
+            z-index: 1; /* Behind content */
+            pointer-events: none;
+        }
+
+        /* --- Components --- */
+        @keyframes ping {
+            0% { transform: scale(0.8); opacity: 1; }
+            100% { transform: scale(1.8); opacity: 0; }
+        }
+        .ping-ring {
+            animation: ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Global SVG Definitions -->
+    <svg style="display:none;">
+        <defs>
+            <clipPath id="card-clip">
+                <rect x="25" y="15" width="50" height="70" rx="10" />
+            </clipPath>
+            <mask id="gap-mask">
+                <rect x="-50" y="-50" width="200" height="200" fill="white" />
+                <rect x="20" y="65" width="60" height="6" fill="black" />
+            </mask>
+            
+            <!-- Standard Logo Symbol (Light Blue Arcs, for main logo) -->
+            <g id="logo-master">
+                <g transform="rotate(30, 50, 50)">
+                    <g clip-path="url(#card-clip)">
+                        <rect x="25" y="15" width="50" height="70" fill="var(--primary)"/>
+                        <rect x="25" y="65" width="50" height="6" fill="#FFFFFF"/>
+                        <rect x="25" y="71" width="50" height="14" fill="var(--accent)"/>
+                    </g>
+                    <!-- Arcs -->
+                    <path d="M 83 25 A 10 10 0 0 0 75 15" fill="none" stroke="var(--secondary)" stroke-width="6" stroke-linecap="round"/>
+                    <path d="M 97 25 A 24 24 0 0 0 75 1" fill="none" stroke="var(--secondary)" stroke-width="6" stroke-linecap="round"/>
+                    <path d="M 111 25 A 38 38 0 0 0 75 -13" fill="none" stroke="var(--secondary)" stroke-width="6" stroke-linecap="round"/>
+                </g>
+            </g>
+
+            <!-- Standard Logo Symbol (Dark Blue Arcs, for Logogram) -->
+            <g id="logo-logogram">
+                <g transform="rotate(30, 50, 50)">
+                    <g clip-path="url(#card-clip)">
+                        <rect x="25" y="15" width="50" height="70" fill="var(--primary)"/>
+                        <rect x="25" y="65" width="50" height="6" fill="#FFFFFF"/>
+                        <rect x="25" y="71" width="50" height="14" fill="var(--accent)"/>
+                    </g>
+                    <path d="M 83 25 A 10 10 0 0 0 75 15" fill="none" stroke="var(--primary)" stroke-width="6" stroke-linecap="round"/>
+                    <path d="M 97 25 A 24 24 0 0 0 75 1" fill="none" stroke="var(--primary)" stroke-width="6" stroke-linecap="round"/>
+                    <path d="M 111 25 A 38 38 0 0 0 75 -13" fill="none" stroke="var(--primary)" stroke-width="6" stroke-linecap="round"/>
+                </g>
+            </g>
+
+            <!-- White Logo Symbol -->
+            <g id="logo-white">
+                <g transform="rotate(30, 50, 50)">
+                    <rect x="25" y="15" width="50" height="70" rx="10" fill="#FFFFFF" mask="url(#gap-mask)"/>
+                    <g clip-path="url(#card-clip)">
+                        <rect x="25" y="71" width="50" height="14" fill="var(--accent)"/>
+                    </g>
+                    <path d="M 83 25 A 10 10 0 0 0 75 15" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+                    <path d="M 97 25 A 24 24 0 0 0 75 1" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+                    <path d="M 111 25 A 38 38 0 0 0 75 -13" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+                </g>
+            </g>
+        </defs>
+    </svg>
+
+    <div class="presentation">
+        
+        <!-- Grid Lines -->
+        <div class="line-v-1"></div>
+        <div class="line-v-2"></div>
+        <div class="line-v-3"></div>
+        <div class="line-h-1"></div>
+        <div class="line-h-2"></div>
+
+        <!-- Background Waves -->
+        <div class="footer-waves">
+            <svg viewBox="0 0 1000 400" preserveAspectRatio="xMaxYMax meet" style="width: 100%; height: 100%;">
+                <path d="M -100 400 C 100 250 400 350 1000 100 L 1000 400 Z" fill="var(--accent)"/>
+                <path d="M 100 400 C 300 200 600 300 1000 50 L 1000 400 Z" fill="var(--secondary)"/>
+                <path d="M 300 400 C 500 250 800 350 1000 150 L 1000 400 Z" fill="var(--primary)"/>
+            </svg>
+        </div>
+
+
+        <!-- ================= ROW 1 ================= -->
+
+        <!-- Logo Block -->
+        <div class="block block-logo">
+            <svg viewBox="-20 -20 160 160" style="width: 180px; height: 180px;">
+                <use href="#logo-master" transform="translate(10, 10) scale(1.2)"/>
+            </svg>
+            <div style="display: flex; flex-direction: column;">
+                <div style="font-size: 76px; font-weight: 800; color: var(--primary); line-height: 1; letter-spacing: -2px;">
+                    Pembaca<span style="color: var(--secondary);">KUE</span>
+                </div>
+                <div style="font-size: 22px; color: var(--text-gray); font-weight: 500; line-height: 1.5; margin-top: 16px;">
+                    Scan. Baca. Transaksi.<br>Kartu Uang Elektronik.
+                </div>
+            </div>
+        </div>
+
+        <!-- App Icon Block -->
+        <div class="block block-appicon">
+            <div class="section-title">ICON (APP ICON)</div>
+            <div style="width: 160px; height: 160px; border-radius: 36px; background: var(--primary); display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 30px rgba(0,0,0,0.1); margin: 30px auto 0;">
+                <svg viewBox="-20 -20 140 140" style="width: 110px; height: 110px;">
+                    <use href="#logo-white"/>
+                </svg>
+            </div>
+        </div>
+
+        <!-- Logogram Block -->
+        <div class="block block-logogram">
+            <div class="section-title">LOGOGRAM</div>
+            <div style="width: 160px; height: 160px; border-radius: 50%; background: #F8FAFC; display: flex; align-items: center; justify-content: center; margin: 30px auto 0;">
+                <svg viewBox="-20 -20 140 140" style="width: 110px; height: 110px;">
+                    <use href="#logo-logogram"/>
+                </svg>
+            </div>
+        </div>
+
+
+        <!-- ================= ROW 2 ================= -->
+
+        <!-- Design Language Block -->
+        <div class="block block-design">
+            <div class="section-title">DESIGN LANGUAGE</div>
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; height: 100%; padding-top: 50px;">
+                
+                <!-- Connect -->
+                <div style="text-align: center; width: 130px;">
+                    <svg viewBox="0 0 100 100" style="width: 60px; height: 60px; margin-bottom: 20px;">
+                        <circle cx="30" cy="50" r="10" fill="var(--primary)"/>
+                        <path d="M 55 30 A 28 28 0 0 1 55 70" fill="none" stroke="var(--primary)" stroke-width="8" stroke-linecap="round"/>
+                        <path d="M 75 10 A 56 56 0 0 1 75 90" fill="none" stroke="var(--primary)" stroke-width="8" stroke-linecap="round"/>
+                    </svg>
+                    <div style="font-size: 15px; font-weight: 700; color: var(--text-dark); margin-bottom: 8px;">Connect</div>
+                    <div style="font-size: 12px; color: var(--text-gray); line-height: 1.5;">Terhubung dengan<br>teknologi nirkabel</div>
+                </div>
+
+                <!-- Read / Scan -->
+                <div style="text-align: center; width: 130px;">
+                    <svg viewBox="-20 -20 140 140" style="width: 60px; height: 60px; margin-bottom: 20px;">
+                        <g transform="rotate(30, 50, 50)">
+                            <g clip-path="url(#card-clip)">
+                                <rect x="25" y="15" width="50" height="70" fill="var(--primary)"/>
+                                <rect x="25" y="65" width="50" height="6" fill="#FFFFFF"/>
+                                <rect x="25" y="71" width="50" height="14" fill="var(--accent)"/>
+                            </g>
+                        </g>
+                    </svg>
+                    <div style="font-size: 15px; font-weight: 700; color: var(--text-dark); margin-bottom: 8px;">Read / Scan</div>
+                    <div style="font-size: 12px; color: var(--text-gray); line-height: 1.5;">Membaca kartu<br>dengan cepat</div>
+                </div>
+
+                <!-- Trust / Secure -->
+                <div style="text-align: center; width: 130px;">
+                    <svg viewBox="0 0 100 100" style="width: 60px; height: 60px; margin-bottom: 20px;">
+                        <path d="M 50 15 L 25 25 L 25 50 C 25 70 35 85 50 95 C 65 85 75 70 75 50 L 75 25 Z" fill="none" stroke="var(--primary)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M 35 55 L 45 65 L 65 40" fill="none" stroke="var(--primary)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <div style="font-size: 15px; font-weight: 700; color: var(--text-dark); margin-bottom: 8px;">Trust / Secure</div>
+                    <div style="font-size: 12px; color: var(--text-gray); line-height: 1.5;">Aman untuk setiap<br>transaksi</div>
+                </div>
+
+                <!-- Toll / Journey -->
+                <div style="text-align: center; width: 130px;">
+                    <svg viewBox="0 0 100 100" style="width: 60px; height: 60px; margin-bottom: 20px;">
+                        <path d="M 25 90 L 40 20 L 60 20 L 75 90" fill="none" stroke="var(--primary)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M 30 50 L 70 50" fill="none" stroke="var(--primary)" stroke-width="8" stroke-linecap="round"/>
+                        <path d="M 36 30 L 64 30" fill="none" stroke="var(--primary)" stroke-width="8" stroke-linecap="round"/>
+                        <path d="M 50 90 L 50 20" fill="none" stroke="var(--primary)" stroke-width="8" stroke-dasharray="10 10" stroke-linecap="round"/>
+                    </svg>
+                    <div style="font-size: 15px; font-weight: 700; color: var(--text-dark); margin-bottom: 8px;">Toll / Journey</div>
+                    <div style="font-size: 12px; color: var(--text-gray); line-height: 1.5;">Mendukung perjalanan<br>yang lebih lancar</div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Color Palette Block -->
+        <div class="block block-color">
+            <div class="section-title">COLOR PALETTE</div>
+            <div style="display: flex; justify-content: space-between; align-items: center; height: 100%; padding-top: 20px;">
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 12px;">
+                    <div style="width: 44px; height: 68px; background: #0D47A1; border-radius: 12px;"></div>
+                    <span style="font-size: 11px; font-weight: 600; color: var(--text-gray);">#0D47A1</span>
+                </div>
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 12px;">
+                    <div style="width: 44px; height: 68px; background: #1976FF; border-radius: 12px;"></div>
+                    <span style="font-size: 11px; font-weight: 600; color: var(--text-gray);">#1976FF</span>
+                </div>
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 12px;">
+                    <div style="width: 44px; height: 68px; background: #FFC107; border-radius: 12px;"></div>
+                    <span style="font-size: 11px; font-weight: 600; color: var(--text-gray);">#FFC107</span>
+                </div>
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 12px;">
+                    <div style="width: 44px; height: 68px; background: #F2F4F7; border-radius: 12px; border: 1px solid #E5E7EB; box-sizing: border-box;"></div>
+                    <span style="font-size: 11px; font-weight: 600; color: var(--text-gray);">#F2F4F7</span>
+                </div>
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 12px;">
+                    <div style="width: 44px; height: 68px; background: #263238; border-radius: 12px;"></div>
+                    <span style="font-size: 11px; font-weight: 600; color: var(--text-gray);">#263238</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Typography Block -->
+        <div class="block block-typo">
+            <div class="section-title">TYPOGRAPHY</div>
+            <div style="display: flex; flex-direction: column; justify-content: center; height: 100%; padding-top: 30px;">
+                <div style="font-size: 80px; font-weight: 800; color: var(--dark); line-height: 1; letter-spacing: -2px; margin-bottom: 4px;">Aa</div>
+                <div style="font-size: 22px; font-weight: 700; color: var(--text-dark); margin-bottom: 16px;">Poppins</div>
+                <div style="display: flex; gap: 12px; font-size: 14px; color: var(--text-dark);">
+                    <span style="font-weight: 800;">Bold</span>
+                    <span style="font-weight: 500;">Medium</span>
+                    <span style="font-weight: 400;">Regular</span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ================= ROW 3 ================= -->
+
+        <!-- App in Use Block -->
+        <div class="block block-appuse">
+            <div class="section-title">APLIKASI DALAM PENGGUNAAN</div>
+            <div style="position: relative; width: 100%; height: 100%;">
+                <svg width="100%" height="100%" viewBox="0 0 700 400" style="position: absolute; top: 0; left: 0;">
+                    <!-- Blue Arcs radiating from reader -->
+                    <path d="M 120 230 A 100 100 0 0 1 200 100" fill="none" stroke="var(--secondary)" stroke-width="8" stroke-linecap="round"/>
+                    <path d="M 80 250 A 150 150 0 0 1 200 50" fill="none" stroke="var(--secondary)" stroke-width="8" stroke-linecap="round"/>
+                    
+                    <!-- Reader Device -->
+                    <g transform="translate(260, 200) rotate(-15) translate(-140, -140)">
+                        <rect x="0" y="0" width="280" height="280" rx="40" fill="#FFFFFF" style="filter: drop-shadow(0 30px 40px rgba(0,0,0,0.15));"/>
+                        <!-- Inner rim -->
+                        <rect x="25" y="25" width="230" height="230" rx="30" fill="none" stroke="#F1F5F9" stroke-width="4"/>
+                        <!-- Logo -->
+                        <use href="#logo-master" x="90" y="90" transform="scale(0.8)"/>
+                        <!-- LED Slot -->
+                        <rect x="120" y="255" width="40" height="6" rx="3" fill="var(--primary)"/>
+                    </g>
+
+                    <!-- Floating E-Toll Card -->
+                    <g transform="translate(380, 160) rotate(5) translate(-150, -100)">
+                        <!-- Card Background -->
+                        <g style="filter: drop-shadow(-20px 30px 25px rgba(0,0,0,0.25));">
+                            <rect x="0" y="0" width="300" height="190" rx="16" fill="var(--primary)"/>
+                            <clipPath id="card-graphic-clip">
+                                <rect x="0" y="0" width="300" height="190" rx="16"/>
+                            </clipPath>
+                            <g clip-path="url(#card-graphic-clip)">
+                                <rect x="0" y="0" width="300" height="190" fill="#1976FF"/>
+                                <!-- Sun -->
+                                <circle cx="150" cy="100" r="60" fill="#60A5FA" opacity="0.6"/>
+                                <!-- Cityscape -->
+                                <path d="M 0 140 L 20 140 L 20 90 L 40 90 L 40 120 L 70 120 L 70 60 L 100 60 L 100 100 L 140 100 L 140 70 L 180 70 L 180 110 L 220 110 L 220 50 L 260 50 L 260 100 L 300 100 L 300 140 Z" fill="#0D47A1" opacity="0.8"/>
+                                <path d="M -10 160 L 30 160 L 30 110 L 60 110 L 60 130 L 100 130 L 100 90 L 140 90 L 140 120 L 190 120 L 190 100 L 240 100 L 240 130 L 310 130 L 310 160 Z" fill="#0B3A82"/>
+                                <!-- Road -->
+                                <path d="M 0 190 Q 150 120 300 190 Z" fill="#1F2937"/>
+                                <path d="M 20 190 Q 150 130 280 190" fill="none" stroke="#FFC107" stroke-width="5" stroke-dasharray="16 10"/>
+                            </g>
+                            <text x="30" y="50" fill="white" font-size="28" font-weight="800">e-Tollcard</text>
+                            <!-- NFC -->
+                            <g transform="translate(230, 20) scale(0.4) rotate(90)">
+                                <path d="M 20 50 A 30 30 0 0 1 80 50" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+                                <path d="M 35 50 A 15 15 0 0 1 65 50" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+                                <circle cx="50" cy="50" r="6" fill="#FFFFFF" />
+                            </g>
+                        </g>
+                        
+                        <!-- Highly stylized flat vector hand gripping -->
+                        <!-- Thumb -->
+                        <path d="M 270 120 C 230 100 220 150 230 180 C 250 210 290 190 320 160 C 340 140 310 90 270 120 Z" fill="#FDBA74" style="filter: drop-shadow(-5px 5px 10px rgba(0,0,0,0.2));"/>
+                        <!-- Thumb nail -->
+                        <path d="M 230 150 C 230 140 240 140 240 150 C 240 160 230 160 230 150 Z" fill="#FDE68A"/>
+                        <!-- Arm/Wrist extending out -->
+                        <path d="M 270 120 C 310 130 360 200 400 250 C 350 280 300 210 230 180" fill="#FDBA74"/>
+                    </g>
+                </svg>
+            </div>
+        </div>
+
+        <!-- Phones Block -->
+        <div class="block block-phones">
+            
+            <!-- Phone 1 (Ready) -->
+            <div style="width: 175px; height: 360px; background: white; border-radius: 32px; border: 10px solid #111827; position: relative; box-shadow: 0 20px 40px rgba(0,0,0,0.15); display: flex; flex-direction: column;">
+                <div style="position: absolute; top: 10px; left: 50%; transform: translateX(-50%); width: 60px; height: 18px; background: #111827; border-radius: 9px; z-index: 10;"></div>
+                
+                <div style="padding: 34px 14px 14px; display: flex; justify-content: space-between; align-items: center;">
+                    <div style="display: flex; align-items: center; gap: 6px;">
+                        <svg viewBox="-20 -20 140 140" style="width: 18px; height: 18px;"><use href="#logo-master"/></svg>
+                        <span style="font-weight: 700; font-size: 11px; color: var(--text-dark);">PembacaKUE</span>
+                    </div>
+                    <svg width="16" height="16" fill="none" stroke="#111827" stroke-width="2"><path d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/></svg>
+                </div>
+
+                <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0 16px;">
+                    <div style="position: relative; width: 110px; height: 110px; display: flex; align-items: center; justify-content: center;">
+                        <div style="position: absolute; width: 100%; height: 100%; border-radius: 50%; border: 1px solid #E5E7EB;"></div>
+                        <div style="position: absolute; width: 70%; height: 70%; border-radius: 50%; background: #EFF6FF;"></div>
+                        <div class="ping-ring" style="position: absolute; width: 100%; height: 100%; border-radius: 50%; background: var(--secondary);"></div>
+                        <svg viewBox="-20 -20 140 140" style="width: 44px; height: 44px; position: relative; z-index: 2;"><use href="#logo-master"/></svg>
+                    </div>
+                    <div style="font-weight: 700; font-size: 13px; color: var(--text-dark); margin-top: 24px;">Siap membaca kartu</div>
+                    <div style="font-size: 10px; color: var(--text-gray); text-align: center; margin-top: 6px; line-height: 1.4;">Tempelkan kartu e-Toll<br>pada perangkat</div>
+                </div>
+
+                <div style="padding: 16px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 14px; border: 1px solid #E5E7EB; border-radius: 12px; background: #F8FAFC;">
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <div style="width: 8px; height: 8px; background: #10B981; border-radius: 50%; box-shadow: 0 0 0 3px #D1FAE5;"></div>
+                            <span style="font-size: 11px; font-weight: 600; color: var(--text-dark);">Terhubung</span>
+                        </div>
+                        <svg width="14" height="14" fill="none" stroke="#9CA3AF" stroke-width="2"><path d="M9 5l7 7-7 7"/></svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phone 2 (Success) -->
+            <div style="width: 175px; height: 360px; background: white; border-radius: 32px; border: 10px solid #111827; position: relative; box-shadow: 0 20px 40px rgba(0,0,0,0.15); display: flex; flex-direction: column;">
+                <div style="position: absolute; top: 10px; left: 50%; transform: translateX(-50%); width: 60px; height: 18px; background: #111827; border-radius: 9px; z-index: 10;"></div>
+                
+                <div style="padding: 34px 14px 10px; display: flex; align-items: center; gap: 10px;">
+                    <svg width="16" height="16" fill="none" stroke="#111827" stroke-width="2"><path d="M15 19l-7-7 7-7"/></svg>
+                    <span style="font-weight: 700; font-size: 12px; color: var(--text-dark);">Transaksi Berhasil</span>
+                </div>
+
+                <div style="flex: 1; padding: 10px 16px 0; display: flex; flex-direction: column; align-items: center;">
+                    <div style="width: 50px; height: 50px; background: #22C55E; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; box-shadow: 0 10px 20px rgba(34,197,94,0.2);">
+                        <svg width="24" height="24" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+                    </div>
+                    
+                    <div style="font-size: 10px; color: var(--text-gray);">Saldo</div>
+                    <div style="font-size: 22px; font-weight: 800; color: var(--text-dark); margin-top: 2px; letter-spacing: -0.5px;">Rp 125.000</div>
+                    <div style="font-size: 10px; color: var(--text-gray); margin-top: 4px;">e-Tollcard • Mandiri</div>
+
+                    <div style="width: 100%; border-top: 1px dashed #E5E7EB; margin: 16px 0 12px;"></div>
+
+                    <div style="width: 100%; display: flex; flex-direction: column; gap: 8px;">
+                        <div style="display: flex; justify-content: space-between;">
+                            <span style="font-size: 10px; color: var(--text-gray);">Waktu</span>
+                            <span style="font-size: 10px; font-weight: 600; color: var(--text-dark);">12 Mei 2024 &nbsp;10:30</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between;">
+                            <span style="font-size: 10px; color: var(--text-gray);">ID Transaksi</span>
+                            <span style="font-size: 10px; font-weight: 600; color: var(--text-dark);">TRX123456789</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="padding: 16px;">
+                    <button style="width: 100%; background: var(--secondary); color: white; border: none; padding: 12px; border-radius: 12px; font-weight: 700; font-size: 12px;">Selesai</button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- UI Elements Block -->
+        <div class="block block-uielements">
+            <div class="section-title">UI ELEMENTS</div>
+            
+            <div style="display: flex; flex-direction: column; justify-content: space-between; height: 100%; padding-top: 50px;">
+                
+                <!-- Square Buttons -->
+                <div style="display: flex; gap: 12px;">
+                    <div style="flex: 1; aspect-ratio: 1; border: 1px solid var(--secondary); background: #EFF6FF; border-radius: 14px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px;">
+                        <svg width="22" height="22" viewBox="0 0 100 100">
+                            <circle cx="30" cy="50" r="10" fill="var(--secondary)"/>
+                            <path d="M 55 30 A 28 28 0 0 1 55 70" fill="none" stroke="var(--secondary)" stroke-width="8" stroke-linecap="round"/>
+                            <path d="M 75 10 A 56 56 0 0 1 75 90" fill="none" stroke="var(--secondary)" stroke-width="8" stroke-linecap="round"/>
+                        </svg>
+                        <span style="font-size: 10px; font-weight: 700; color: var(--secondary);">Scan</span>
+                    </div>
+                    <div style="flex: 1; aspect-ratio: 1; border: 1px solid #E5E7EB; background: white; border-radius: 14px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px;">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--text-dark)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="9" />
+                            <path d="M12 7v5l3 2" />
+                        </svg>
+                        <span style="font-size: 10px; font-weight: 600; color: var(--text-dark);">Riwayat</span>
+                    </div>
+                    <div style="flex: 1; aspect-ratio: 1; border: 1px solid #E5E7EB; background: white; border-radius: 14px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px;">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--text-dark)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="3" />
+                            <path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z" />
+                        </svg>
+                        <span style="font-size: 10px; font-weight: 600; color: var(--text-dark);">Pengaturan</span>
+                    </div>
+                </div>
+
+                <!-- Chips -->
+                <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                    <div style="background: #DCFCE7; color: #16A34A; padding: 8px 12px; border-radius: 20px; font-size: 11px; font-weight: 700; display: flex; align-items: center; gap: 6px;">
+                        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+                        Berhasil
+                    </div>
+                    <div style="background: #FEF3C7; color: #D97706; padding: 8px 12px; border-radius: 20px; font-size: 11px; font-weight: 700; display: flex; align-items: center; gap: 6px;">
+                        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                        Menunggu
+                    </div>
+                    <div style="background: #FEE2E2; color: #DC2626; padding: 8px 12px; border-radius: 20px; font-size: 11px; font-weight: 700; display: flex; align-items: center; gap: 6px;">
+                        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+                        Gagal
+                    </div>
+                </div>
+
+                <!-- Connection Flow -->
+                <div style="display: flex; align-items: center; justify-content: space-between; position: relative;">
+                    <div style="position: absolute; top: 18px; left: 20px; right: 20px; border-top: 2px dashed #9CA3AF; z-index: 1;"></div>
+                    
+                    <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; position: relative; z-index: 2; background: white; padding: 0 4px;">
+                        <div style="width: 36px; height: 36px; border-radius: 50%; border: 2px solid var(--secondary); display: flex; align-items: center; justify-content: center; background: white; color: var(--secondary);">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 6.5l11 11L12 23V1l5.5 5.5-11 11"/></svg>
+                        </div>
+                        <span style="font-size: 10px; font-weight: 700; color: var(--text-dark);">Hubungkan</span>
+                    </div>
+                    
+                    <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; position: relative; z-index: 2; background: white; padding: 0 4px;">
+                        <div style="width: 36px; height: 36px; border-radius: 50%; border: 2px solid var(--text-dark); display: flex; align-items: center; justify-content: center; background: white; color: var(--text-dark);">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18"/></svg>
+                        </div>
+                        <span style="font-size: 10px; font-weight: 700; color: var(--text-dark);">Tempelkan Kartu</span>
+                    </div>
+
+                    <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; position: relative; z-index: 2; background: white; padding: 0 4px;">
+                        <div style="width: 36px; height: 36px; border-radius: 50%; border: 2px solid #E5E7EB; display: flex; align-items: center; justify-content: center; background: white; color: #9CA3AF;">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+                        </div>
+                        <span style="font-size: 10px; font-weight: 700; color: #9CA3AF;">Selesai</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

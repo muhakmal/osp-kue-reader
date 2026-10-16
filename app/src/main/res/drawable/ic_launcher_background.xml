@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  PembacaKUE — App Icon Background
+  Warna solid Soft Violet: flat & minimal, identitas brand tunggal.
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#6D5AE6"/>
+</shape>

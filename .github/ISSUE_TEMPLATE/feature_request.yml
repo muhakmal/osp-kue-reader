@@ -1,0 +1,29 @@
+name: 💡 Feature Request
+description: Propose a new feature, improvement, or idea for OSP KUE Reader
+title: "feat: [Short feature summary]"
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea to make OSP KUE Reader better? Let us know below!
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Use Case
+      description: Is your feature request related to a problem or a missing capability?
+      placeholder: "e.g., I'm always frustrated when..."
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed Solution
+      description: A clear description of what you want to happen and how it should look or behave.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative solutions or features you've considered.

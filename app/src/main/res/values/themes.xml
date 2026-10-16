@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Window background terang (BgBase) — mencegah kilatan warna salah saat
+         cold start. Versi gelap ada di values-night/themes.xml. -->
+    <style name="Theme.PembacaKUE" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#FFF6F6F9</item>
+    </style>
+</resources>

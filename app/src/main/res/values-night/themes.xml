@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Window background gelap (BgBase) saat HP dalam mode gelap — mencegah
+         kilatan terang saat cold start & transisi antar layar. -->
+    <style name="Theme.PembacaKUE" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#FF0B0B10</item>
+    </style>
+</resources>

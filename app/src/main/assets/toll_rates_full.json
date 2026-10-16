@@ -1,0 +1,5951 @@
+[
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cikupa",
+    "tujuan": "Balaraja Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 3500,
+    "tarif_gol2": 5500,
+    "tarif_gol3": 7000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cikupa",
+    "tujuan": "Balaraja Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 6500,
+    "tarif_gol2": 10000,
+    "tarif_gol3": 13000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cikupa",
+    "tujuan": "Cikande",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 18000,
+    "tarif_gol2": 28000,
+    "tarif_gol3": 36500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cikupa",
+    "tujuan": "Ciujung",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 24500,
+    "tarif_gol2": 38000,
+    "tarif_gol3": 49500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cikupa",
+    "tujuan": "SS Walantaka",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 28000,
+    "tarif_gol2": 44000,
+    "tarif_gol3": 57000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cikupa",
+    "tujuan": "Serang Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 35000,
+    "tarif_gol2": 55000,
+    "tarif_gol3": 71000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cikupa",
+    "tujuan": "Serang Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 39500,
+    "tarif_gol2": 62000,
+    "tarif_gol3": 80500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cikupa",
+    "tujuan": "Cilegon Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 48000,
+    "tarif_gol2": 75500,
+    "tarif_gol3": 97500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cikupa",
+    "tujuan": "Cilegon Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 55000,
+    "tarif_gol2": 86500,
+    "tarif_gol3": 111500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cikupa",
+    "tujuan": "Merak",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 58000,
+    "tarif_gol2": 91000,
+    "tarif_gol3": 117500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Balaraja Timur",
+    "tujuan": "Balaraja Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 3000,
+    "tarif_gol2": 4500,
+    "tarif_gol3": 6000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Balaraja Timur",
+    "tujuan": "Cikande",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 14500,
+    "tarif_gol2": 22500,
+    "tarif_gol3": 29000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Balaraja Timur",
+    "tujuan": "Ciujung",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 21000,
+    "tarif_gol2": 33000,
+    "tarif_gol3": 42500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Balaraja Timur",
+    "tujuan": "SS walantaka",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 24500,
+    "tarif_gol2": 38500,
+    "tarif_gol3": 49500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Balaraja Timur",
+    "tujuan": "Serang Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 31500,
+    "tarif_gol2": 49500,
+    "tarif_gol3": 64000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Balaraja Timur",
+    "tujuan": "Serang Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 36000,
+    "tarif_gol2": 56500,
+    "tarif_gol3": 73500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Balaraja Timur",
+    "tujuan": "Cilegon Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 44500,
+    "tarif_gol2": 70000,
+    "tarif_gol3": 90500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Balaraja Timur",
+    "tujuan": "Cilegon Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 51500,
+    "tarif_gol2": 81000,
+    "tarif_gol3": 104500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Balaraja Timur",
+    "tujuan": "Merak",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 54500,
+    "tarif_gol2": 85500,
+    "tarif_gol3": 110500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Balaraja Timur",
+    "tujuan": "Cikupa",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 3500,
+    "tarif_gol2": 5500,
+    "tarif_gol3": 7000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Balaraja Barat",
+    "tujuan": "Cikande",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 11500,
+    "tarif_gol2": 18000,
+    "tarif_gol3": 23500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Balaraja Barat",
+    "tujuan": "Ciujung",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 18000,
+    "tarif_gol2": 28500,
+    "tarif_gol3": 36500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Balaraja Barat",
+    "tujuan": "SS walantaka",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 21500,
+    "tarif_gol2": 34000,
+    "tarif_gol3": 44000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Balaraja Barat",
+    "tujuan": "Serang Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 28500,
+    "tarif_gol2": 45000,
+    "tarif_gol3": 58000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Balaraja Barat",
+    "tujuan": "Serang Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 33500,
+    "tarif_gol2": 52500,
+    "tarif_gol3": 67500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Balaraja Barat",
+    "tujuan": "Cilegon Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 41500,
+    "tarif_gol2": 65500,
+    "tarif_gol3": 84500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Balaraja Barat",
+    "tujuan": "Cilegon Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 48500,
+    "tarif_gol2": 76500,
+    "tarif_gol3": 98500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Balaraja Barat",
+    "tujuan": "Merak",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 51500,
+    "tarif_gol2": 81000,
+    "tarif_gol3": 105
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Balaraja Barat",
+    "tujuan": "Cikupa",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 6500,
+    "tarif_gol2": 10000,
+    "tarif_gol3": 13000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Balaraja Barat",
+    "tujuan": "Balaraja Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 3000,
+    "tarif_gol2": 4500,
+    "tarif_gol3": 6000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cikande",
+    "tujuan": "Ciujung",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 6500,
+    "tarif_gol2": 10000,
+    "tarif_gol3": 13000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cikande",
+    "tujuan": "SS Walantaka",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 10000,
+    "tarif_gol2": 16000,
+    "tarif_gol3": 20500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cikande",
+    "tujuan": "Serang Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 17000,
+    "tarif_gol2": 27000,
+    "tarif_gol3": 34500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cikande",
+    "tujuan": "Serang Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 21500,
+    "tarif_gol2": 34000,
+    "tarif_gol3": 44000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cikande",
+    "tujuan": "Cilegon Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 30000,
+    "tarif_gol2": 47500,
+    "tarif_gol3": 61500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cikande",
+    "tujuan": "Cilegon Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 37000,
+    "tarif_gol2": 58000,
+    "tarif_gol3": 75500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cikande",
+    "tujuan": "Merak",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 40000,
+    "tarif_gol2": 63000,
+    "tarif_gol3": 81500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cikande",
+    "tujuan": "Cikupa",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 18000,
+    "tarif_gol2": 28000,
+    "tarif_gol3": 36500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cikande",
+    "tujuan": "Balaraja Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 14500,
+    "tarif_gol2": 22500,
+    "tarif_gol3": 2900
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cikande",
+    "tujuan": "Balaraja Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 11500,
+    "tarif_gol2": 18000,
+    "tarif_gol3": 23500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Ciujung",
+    "tujuan": "SS Walantaka",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 3500,
+    "tarif_gol2": 5500,
+    "tarif_gol3": 7500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Ciujung",
+    "tujuan": "Serang Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 10500,
+    "tarif_gol2": 16500,
+    "tarif_gol3": 21500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Ciujung",
+    "tujuan": "Serang Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 15500,
+    "tarif_gol2": 24000,
+    "tarif_gol3": 31000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Ciujung",
+    "tujuan": "Cilegon Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 23500,
+    "tarif_gol2": 37000,
+    "tarif_gol3": 48000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Ciujung",
+    "tujuan": "Cilegon Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 30500,
+    "tarif_gol2": 48000,
+    "tarif_gol3": 62000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Ciujung",
+    "tujuan": "Merak",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 33500,
+    "tarif_gol2": 53000,
+    "tarif_gol3": 68000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Ciujung",
+    "tujuan": "Cikupa",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 24500,
+    "tarif_gol2": 38000,
+    "tarif_gol3": 49500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Ciujung",
+    "tujuan": "Balaraja Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 21000,
+    "tarif_gol2": 33000,
+    "tarif_gol3": 42500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Ciujung",
+    "tujuan": "Balaraja Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 18000,
+    "tarif_gol2": 28500,
+    "tarif_gol3": 36500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Ciujung",
+    "tujuan": "Cikande",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 6500,
+    "tarif_gol2": 10000,
+    "tarif_gol3": 13000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "SS Walantaka",
+    "tujuan": "Serang Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 7000,
+    "tarif_gol2": 11000,
+    "tarif_gol3": 14000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "SS Walantaka",
+    "tujuan": "Serang Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 11500,
+    "tarif_gol2": 18500,
+    "tarif_gol3": 23500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "SS Walantaka",
+    "tujuan": "Cilegon Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 20000,
+    "tarif_gol2": 31500,
+    "tarif_gol3": 41000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "SS Walantaka",
+    "tujuan": "Cilegon Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 27000,
+    "tarif_gol2": 42500,
+    "tarif_gol3": 54500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "SS Walantaka",
+    "tujuan": "Merak",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 30000,
+    "tarif_gol2": 47000,
+    "tarif_gol3": 61000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "SS Walantaka",
+    "tujuan": "Cikupa",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 28000,
+    "tarif_gol2": 44000,
+    "tarif_gol3": 57000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "SS Walantaka",
+    "tujuan": "Balaraja Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 24500,
+    "tarif_gol2": 38500,
+    "tarif_gol3": 49500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "SS Walantaka",
+    "tujuan": "Balaraja Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 21500,
+    "tarif_gol2": 34000,
+    "tarif_gol3": 44000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "SS Walantaka",
+    "tujuan": "Cikande",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 10000,
+    "tarif_gol2": 16000,
+    "tarif_gol3": 20500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "SS Walantaka",
+    "tujuan": "Ciujung",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 3500,
+    "tarif_gol2": 5500,
+    "tarif_gol3": 7500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Serang Timur",
+    "tujuan": "Serang Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 4500,
+    "tarif_gol2": 7500,
+    "tarif_gol3": 9500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Serang Timur",
+    "tujuan": "Cilegon Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 13000,
+    "tarif_gol2": 20500,
+    "tarif_gol3": 26500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Serang Timur",
+    "tujuan": "Cilegon Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 20000,
+    "tarif_gol2": 31500,
+    "tarif_gol3": 40500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Serang Timur",
+    "tujuan": "Merak",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 23000,
+    "tarif_gol2": 36000,
+    "tarif_gol3": 46500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Serang Timur",
+    "tujuan": "Cikupa",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 35000,
+    "tarif_gol2": 55000,
+    "tarif_gol3": 71000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Serang Timur",
+    "tujuan": "Balaraja Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 31500,
+    "tarif_gol2": 49500,
+    "tarif_gol3": 64000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Serang Timur",
+    "tujuan": "Balaraja Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 28500,
+    "tarif_gol2": 45000,
+    "tarif_gol3": 58000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Serang Timur",
+    "tujuan": "Cikande",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 17000,
+    "tarif_gol2": 27000,
+    "tarif_gol3": 34500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Serang Timur",
+    "tujuan": "Ciujung",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 10500,
+    "tarif_gol2": 16500,
+    "tarif_gol3": 21500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Serang Timur",
+    "tujuan": "SS Walantaka",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 7000,
+    "tarif_gol2": 11000,
+    "tarif_gol3": 14000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Serang Barat",
+    "tujuan": "Cilegon Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 8500,
+    "tarif_gol2": 13500,
+    "tarif_gol3": 17000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Serang Barat",
+    "tujuan": "Cilegon Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 15500,
+    "tarif_gol2": 24000,
+    "tarif_gol3": 31000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Serang Barat",
+    "tujuan": "Merak",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 18500,
+    "tarif_gol2": 29000,
+    "tarif_gol3": 37000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Serang Barat",
+    "tujuan": "Cikupa",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 39500,
+    "tarif_gol2": 62000,
+    "tarif_gol3": 80500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Serang Barat",
+    "tujuan": "Balaraja Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 36000,
+    "tarif_gol2": 56500,
+    "tarif_gol3": 73500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Serang Barat",
+    "tujuan": "Balaraja Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 33500,
+    "tarif_gol2": 52500,
+    "tarif_gol3": 67500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Serang Barat",
+    "tujuan": "Cikande",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 21500,
+    "tarif_gol2": 34000,
+    "tarif_gol3": 44000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Serang Barat",
+    "tujuan": "Ciujung",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 15500,
+    "tarif_gol2": 24000,
+    "tarif_gol3": 31000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Serang Barat",
+    "tujuan": "SS Walantaka",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 11500,
+    "tarif_gol2": 18500,
+    "tarif_gol3": 23500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Serang Barat",
+    "tujuan": "Serang Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 4500,
+    "tarif_gol2": 7500,
+    "tarif_gol3": 9500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cilegon Timur",
+    "tujuan": "Cilegon Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 7000,
+    "tarif_gol2": 11000,
+    "tarif_gol3": 14000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cilegon Timur",
+    "tujuan": "Merak",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 10000,
+    "tarif_gol2": 15500,
+    "tarif_gol3": 20000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cilegon Timur",
+    "tujuan": "Cikupa",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 48000,
+    "tarif_gol2": 75500,
+    "tarif_gol3": 97500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cilegon Timur",
+    "tujuan": "Balaraja Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 44500,
+    "tarif_gol2": 70000,
+    "tarif_gol3": 90500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cilegon Timur",
+    "tujuan": "Balaraja Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 41500,
+    "tarif_gol2": 65500,
+    "tarif_gol3": 84500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cilegon Timur",
+    "tujuan": "Cikande",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 30000,
+    "tarif_gol2": 47500,
+    "tarif_gol3": 61500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cilegon Timur",
+    "tujuan": "Ciujung",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 23500,
+    "tarif_gol2": 37000,
+    "tarif_gol3": 48000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cilegon Timur",
+    "tujuan": "SS Walantaka",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 20000,
+    "tarif_gol2": 31500,
+    "tarif_gol3": 41000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cilegon Timur",
+    "tujuan": "Serang Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 13000,
+    "tarif_gol2": 20500,
+    "tarif_gol3": 26500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cilegon Timur",
+    "tujuan": "Serang Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 8500,
+    "tarif_gol2": 13500,
+    "tarif_gol3": 17000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cilegon Barat",
+    "tujuan": "Cikupa",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 55000,
+    "tarif_gol2": 86500,
+    "tarif_gol3": 111500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cilegon Barat",
+    "tujuan": "Balaraja Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 51500,
+    "tarif_gol2": 81000,
+    "tarif_gol3": 104500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cilegon Barat",
+    "tujuan": "Balaraja Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 48500,
+    "tarif_gol2": 76500,
+    "tarif_gol3": 98500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cilegon Barat",
+    "tujuan": "Cikande",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 37000,
+    "tarif_gol2": 58000,
+    "tarif_gol3": 75500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cilegon Barat",
+    "tujuan": "Ciujung",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 30500,
+    "tarif_gol2": 48000,
+    "tarif_gol3": 62000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cilegon Barat",
+    "tujuan": "SS Walantaka",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 27000,
+    "tarif_gol2": 42500,
+    "tarif_gol3": 54500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cilegon Barat",
+    "tujuan": "Serang Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 20000,
+    "tarif_gol2": 31500,
+    "tarif_gol3": 40500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cilegon Barat",
+    "tujuan": "Serang Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 15500,
+    "tarif_gol2": 24000,
+    "tarif_gol3": 31000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Cilegon Barat",
+    "tujuan": "Cielgon Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 7000,
+    "tarif_gol2": 11000,
+    "tarif_gol3": 14000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Merak",
+    "tujuan": "Cikupa",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 58000,
+    "tarif_gol2": 91000,
+    "tarif_gol3": 117500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Merak",
+    "tujuan": "Balaraja Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 54500,
+    "tarif_gol2": 85500,
+    "tarif_gol3": 110500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Merak",
+    "tujuan": "Balaraja Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 51500,
+    "tarif_gol2": 81000,
+    "tarif_gol3": 105000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Merak",
+    "tujuan": "Cikande",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 40000,
+    "tarif_gol2": 63000,
+    "tarif_gol3": 81500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Merak",
+    "tujuan": "Ciujung",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 33500,
+    "tarif_gol2": 53000,
+    "tarif_gol3": 68000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Merak",
+    "tujuan": "SS Walantaka",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 30000,
+    "tarif_gol2": 47000,
+    "tarif_gol3": 61000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Merak",
+    "tujuan": "Serang Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 23000,
+    "tarif_gol2": 36000,
+    "tarif_gol3": 46500
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Merak",
+    "tujuan": "Serang Barat",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 18500,
+    "tarif_gol2": 29000,
+    "tarif_gol3": 37000
+  },
+  {
+    "ruas": "Tangerang-Merak",
+    "asal": "Merak",
+    "tujuan": "Cilegon Timur",
+    "kepmen": "KEPMEN PUPR Nomor 176/KPTS/M/2025",
+    "tarif_gol1": 10000,
+    "tarif_gol2": 15500,
+    "tarif_gol3": 20000
+  },
+  {
+    "ruas": "Jakarta-Tangerang",
+    "asal": "SS Tomang",
+    "tujuan": "Cikupa",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 8500,
+    "tarif_gol2": 12500,
+    "tarif_gol3": 16500
+  },
+  {
+    "ruas": "Jakarta-Cikampek dan Jakarta - Cikampek II Elevated",
+    "asal": "Jakarta IC",
+    "tujuan": "Pondok Gede Barat/Timur",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 5500,
+    "tarif_gol2": 8000,
+    "tarif_gol3": 11000
+  },
+  {
+    "ruas": "Jakarta-Cikampek dan Jakarta - Cikampek II Elevated",
+    "asal": "Jakarta IC",
+    "tujuan": "Cikunir",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 9500,
+    "tarif_gol2": 14000,
+    "tarif_gol3": 19000
+  },
+  {
+    "ruas": "Jakarta-Cikampek dan Jakarta -Cikampek II Elevated",
+    "asal": "Jakarta IC",
+    "tujuan": "Bekasi Timur",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 9500,
+    "tarif_gol2": 14000,
+    "tarif_gol3": 19000
+  },
+  {
+    "ruas": "Jakarta-Cikampek dan Jakarta -Cikampek II Elevated",
+    "asal": "Jakarta IC",
+    "tujuan": "Tambun",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 9500,
+    "tarif_gol2": 14000,
+    "tarif_gol3": 19000
+  },
+  {
+    "ruas": "Jakarta-Cikampek dan Jakarta - Cikampek II Elevated",
+    "asal": "Jakarta IC",
+    "tujuan": "Cibitung",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 9500,
+    "tarif_gol2": 14000,
+    "tarif_gol3": 19000
+  },
+  {
+    "ruas": "Jakarta-Cikampek dan Jakarta - Cikampek II Elevated",
+    "asal": "Jakarta IC",
+    "tujuan": "Cikarang Barat",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 9500,
+    "tarif_gol2": 14000,
+    "tarif_gol3": 19000
+  },
+  {
+    "ruas": "Jakarta-Cikampek dan Jakarta - Cikampek II Elevated",
+    "asal": "Jakarta IC",
+    "tujuan": "Cibatu",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 16500,
+    "tarif_gol2": 24500,
+    "tarif_gol3": 32500
+  },
+  {
+    "ruas": "Jakarta-Cikampek dan Jakarta - Cikampek II Elevated",
+    "asal": "Jakarta IC",
+    "tujuan": "Cikarang Timur",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 16500,
+    "tarif_gol2": 24500,
+    "tarif_gol3": 32500
+  },
+  {
+    "ruas": "Jakarta-Cikampek dan Jakarta - Cikampek II Elevated",
+    "asal": "Jakarta IC",
+    "tujuan": "Karawang Barat",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 16500,
+    "tarif_gol2": 24500,
+    "tarif_gol3": 32500
+  },
+  {
+    "ruas": "Jakarta-Cikampek dan Jakarta - Cikampek II Elevated",
+    "asal": "Jakarta IC",
+    "tujuan": "Karawang Timur",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 27000,
+    "tarif_gol2": 40500,
+    "tarif_gol3": 54000
+  },
+  {
+    "ruas": "Jakarta-Cikampek dan Jakarta - Cikampek II Elevated",
+    "asal": "Jakarta IC",
+    "tujuan": "Dawuan",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 27000,
+    "tarif_gol2": 40500,
+    "tarif_gol3": 54000
+  },
+  {
+    "ruas": "Jakarta-Cikampek dan Jakarta - Cikampek II Elevated",
+    "asal": "Jakarta IC",
+    "tujuan": "Kalihurip",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 27000,
+    "tarif_gol2": 40500,
+    "tarif_gol3": 54000
+  },
+  {
+    "ruas": "Jakarta-Cikampek dan Jakarta - Cikampek II Elevated",
+    "asal": "Jakarta IC",
+    "tujuan": "Cikampek",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 27000,
+    "tarif_gol2": 40500,
+    "tarif_gol3": 54000
+  },
+  {
+    "ruas": "Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek",
+    "asal": "Halim 3",
+    "tujuan": "Jakarta IC",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 5500,
+    "tarif_gol2": 8000,
+    "tarif_gol3": 11000
+  },
+  {
+    "ruas": "Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek",
+    "asal": "Halim 3",
+    "tujuan": "Pondok Gede Barat/Timur",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 5500,
+    "tarif_gol2": 8000,
+    "tarif_gol3": 11000
+  },
+  {
+    "ruas": "Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek",
+    "asal": "Halim 3",
+    "tujuan": "Cikunir",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 9500,
+    "tarif_gol2": 14000,
+    "tarif_gol3": 19000
+  },
+  {
+    "ruas": "Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek",
+    "asal": "Halim 3",
+    "tujuan": "Bekasi Barat",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 9500,
+    "tarif_gol2": 14000,
+    "tarif_gol3": 19000
+  },
+  {
+    "ruas": "Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek",
+    "asal": "Halim 3",
+    "tujuan": "Bekasi Timur",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 9500,
+    "tarif_gol2": 14000,
+    "tarif_gol3": 19000
+  },
+  {
+    "ruas": "Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek",
+    "asal": "Halim 3",
+    "tujuan": "Tambun",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 9500,
+    "tarif_gol2": 14000,
+    "tarif_gol3": 19000
+  },
+  {
+    "ruas": "Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek",
+    "asal": "Halim 3",
+    "tujuan": "Cibitung",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 9500,
+    "tarif_gol2": 14000,
+    "tarif_gol3": 19000
+  },
+  {
+    "ruas": "Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek",
+    "asal": "Halim 3",
+    "tujuan": "Cikarang Barat",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 9500,
+    "tarif_gol2": 14000,
+    "tarif_gol3": 19000
+  },
+  {
+    "ruas": "Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek",
+    "asal": "Halim 3",
+    "tujuan": "Cibatu",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 16500,
+    "tarif_gol2": 24500,
+    "tarif_gol3": 32500
+  },
+  {
+    "ruas": "Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek",
+    "asal": "Halim 3",
+    "tujuan": "Cikarang Timur",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 16500,
+    "tarif_gol2": 24500,
+    "tarif_gol3": 32500
+  },
+  {
+    "ruas": "Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek",
+    "asal": "Halim 3",
+    "tujuan": "Karawang Barat",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 16500,
+    "tarif_gol2": 24500,
+    "tarif_gol3": 32500
+  },
+  {
+    "ruas": "Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek",
+    "asal": "Halim 3",
+    "tujuan": "Karawang Timur",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 27000,
+    "tarif_gol2": 40500,
+    "tarif_gol3": 54000
+  },
+  {
+    "ruas": "Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek",
+    "asal": "Halim 3",
+    "tujuan": "Dawuan",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 27000,
+    "tarif_gol2": 40500,
+    "tarif_gol3": 54000
+  },
+  {
+    "ruas": "Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek",
+    "asal": "Halim 3",
+    "tujuan": "Kalihurip",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 27000,
+    "tarif_gol2": 40500,
+    "tarif_gol3": 54000
+  },
+  {
+    "ruas": "Jalan Akses Tol KM 1+842 Sebagai Bagian Dari Jalan Tol Jakarta Cikampek",
+    "asal": "Halim 3",
+    "tujuan": "Cikampek",
+    "kepmen": "KEPMEN PUPR Nomor 2692/KPTS/M/2024",
+    "tarif_gol1": 27000,
+    "tarif_gol2": 40500,
+    "tarif_gol3": 54000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Cikopo",
+    "tujuan": "Kalijati",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 30500,
+    "tarif_gol2": 50500,
+    "tarif_gol3": 63500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Cikopo",
+    "tujuan": "Subang",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 43000,
+    "tarif_gol2": 71500,
+    "tarif_gol3": 89500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Cikopo",
+    "tujuan": "Cikedung",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 75500,
+    "tarif_gol2": 125000,
+    "tarif_gol3": 156500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Cikopo",
+    "tujuan": "JC Dawuan",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 90500,
+    "tarif_gol2": 149000,
+    "tarif_gol3": 187000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Cikopo",
+    "tujuan": "Kertajati",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 97000,
+    "tarif_gol2": 160000,
+    "tarif_gol3": 201000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Cikopo",
+    "tujuan": "Kertajati Utama",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 97000,
+    "tarif_gol2": 160000,
+    "tarif_gol3": 201000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Cikopo",
+    "tujuan": "Sumberjaya",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 115000,
+    "tarif_gol2": 190000,
+    "tarif_gol3": 238500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Cikopo",
+    "tujuan": "Palimanan",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 132000,
+    "tarif_gol2": 217500,
+    "tarif_gol3": 273000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Kalijati",
+    "tujuan": "Cikopo",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 30500,
+    "tarif_gol2": 50500,
+    "tarif_gol3": 63500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Kalijati",
+    "tujuan": "Subang",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 12500,
+    "tarif_gol2": 21000,
+    "tarif_gol3": 26000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Kalijati",
+    "tujuan": "Cikedung",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 45000,
+    "tarif_gol2": 74500,
+    "tarif_gol3": 93500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Kalijati",
+    "tujuan": "JC Dawuan",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 60000,
+    "tarif_gol2": 98500,
+    "tarif_gol3": 123500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Kalijati",
+    "tujuan": "Kertajati",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 66500,
+    "tarif_gol2": 110000,
+    "tarif_gol3": 137500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Kalijati",
+    "tujuan": "Kertajati Utama",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 66500,
+    "tarif_gol2": 110000,
+    "tarif_gol3": 137500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Kalijati",
+    "tujuan": "Sumberjaya",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 84500,
+    "tarif_gol2": 139500,
+    "tarif_gol3": 175000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Kalijati",
+    "tujuan": "Palimanan",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 101500,
+    "tarif_gol2": 167000,
+    "tarif_gol3": 210000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Subang",
+    "tujuan": "Cikopo",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 43000,
+    "tarif_gol2": 71500,
+    "tarif_gol3": 89500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Subang",
+    "tujuan": "Kalijati",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 12500,
+    "tarif_gol2": 21000,
+    "tarif_gol3": 26000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Subang",
+    "tujuan": "Cikedung",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 32500,
+    "tarif_gol2": 53500,
+    "tarif_gol3": 67000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Subang",
+    "tujuan": "JC Dawuan",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 47000,
+    "tarif_gol2": 77500,
+    "tarif_gol3": 97500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Subang",
+    "tujuan": "Kertajati",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 54000,
+    "tarif_gol2": 89000,
+    "tarif_gol3": 111500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Subang",
+    "tujuan": "Kertajati Utama",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 54000,
+    "tarif_gol2": 89000,
+    "tarif_gol3": 111500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Subang",
+    "tujuan": "Sumberjaya",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 72000,
+    "tarif_gol2": 118500,
+    "tarif_gol3": 149000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Subang",
+    "tujuan": "Palimanan",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 88500,
+    "tarif_gol2": 146500,
+    "tarif_gol3": 183500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Cikedung",
+    "tujuan": "Cikopo",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 75500,
+    "tarif_gol2": 125000,
+    "tarif_gol3": 156500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Cikedung",
+    "tujuan": "JC Dawuan",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 14500,
+    "tarif_gol2": 24000,
+    "tarif_gol3": 30500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Cikedung",
+    "tujuan": "Kalijati",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 45000,
+    "tarif_gol2": 74500,
+    "tarif_gol3": 93500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Cikedung",
+    "tujuan": "Subang",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 32500,
+    "tarif_gol2": 53500,
+    "tarif_gol3": 67000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Cikedung",
+    "tujuan": "Kertajati",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 21500,
+    "tarif_gol2": 35500,
+    "tarif_gol3": 44500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Cikedung",
+    "tujuan": "Kertajati Utama",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 21500,
+    "tarif_gol2": 35500,
+    "tarif_gol3": 44500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Cikedung",
+    "tujuan": "Sumberjaya",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 39500,
+    "tarif_gol2": 65000,
+    "tarif_gol3": 82000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Cikedung",
+    "tujuan": "Palimanan",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 56500,
+    "tarif_gol2": 93000,
+    "tarif_gol3": 116500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "JC Dawuan",
+    "tujuan": "Cikopo",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 90500,
+    "tarif_gol2": 149000,
+    "tarif_gol3": 187000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "JC Dawuan",
+    "tujuan": "Kalijati",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 60000,
+    "tarif_gol2": 98500,
+    "tarif_gol3": 123500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "JC Dawuan",
+    "tujuan": "Subang",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 47000,
+    "tarif_gol2": 77500,
+    "tarif_gol3": 97500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "JC Dawuan",
+    "tujuan": "Cikedung",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 14500,
+    "tarif_gol2": 24000,
+    "tarif_gol3": 30500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "JC Dawuan",
+    "tujuan": "Kertajati",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 7000,
+    "tarif_gol2": 11000,
+    "tarif_gol3": 14000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "JC Dawuan",
+    "tujuan": "Kertajati Utama",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 7000,
+    "tarif_gol2": 11000,
+    "tarif_gol3": 14000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "JC Dawuan",
+    "tujuan": "Sumberjaya",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 25000,
+    "tarif_gol2": 41000,
+    "tarif_gol3": 51500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "JC Dawuan",
+    "tujuan": "Palimanan",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 41500,
+    "tarif_gol2": 68500,
+    "tarif_gol3": 86000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Kertajati",
+    "tujuan": "Cikopo",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 97000,
+    "tarif_gol2": 160000,
+    "tarif_gol3": 201000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Kertajati",
+    "tujuan": "Kalijati",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 66500,
+    "tarif_gol2": 110000,
+    "tarif_gol3": 137500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Kertajati",
+    "tujuan": "Subang",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 54000,
+    "tarif_gol2": 89000,
+    "tarif_gol3": 111500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Kertajati",
+    "tujuan": "Cikedung",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 21500,
+    "tarif_gol2": 35500,
+    "tarif_gol3": 44500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Kertajati",
+    "tujuan": "JC Dawuan",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 7000,
+    "tarif_gol2": 11000,
+    "tarif_gol3": 14000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Kertajati",
+    "tujuan": "Sumberjaya",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 18000,
+    "tarif_gol2": 30000,
+    "tarif_gol3": 37500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Kertajati",
+    "tujuan": "Palimanan",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 35000,
+    "tarif_gol2": 57500,
+    "tarif_gol3": 72000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Sumberjaya",
+    "tujuan": "Cikopo",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 115000,
+    "tarif_gol2": 190000,
+    "tarif_gol3": 238500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Sumberjaya",
+    "tujuan": "Kalijati",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 84500,
+    "tarif_gol2": 139500,
+    "tarif_gol3": 175000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Sumberjaya",
+    "tujuan": "Subang",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 72000,
+    "tarif_gol2": 118500,
+    "tarif_gol3": 149000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Sumberjaya",
+    "tujuan": "Cikedung",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 39500,
+    "tarif_gol2": 65000,
+    "tarif_gol3": 82000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Sumberjaya",
+    "tujuan": "JC Dawuan",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 25000,
+    "tarif_gol2": 41000,
+    "tarif_gol3": 51500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Sumberjaya",
+    "tujuan": "Kertajati",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 18000,
+    "tarif_gol2": 30000,
+    "tarif_gol3": 37500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Sumberjaya",
+    "tujuan": "Kertajati Utama",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 18000,
+    "tarif_gol2": 30000,
+    "tarif_gol3": 37500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Sumberjaya",
+    "tujuan": "Palimanan",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 16500,
+    "tarif_gol2": 27500,
+    "tarif_gol3": 34500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Palimanan",
+    "tujuan": "Cikopo",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 132000,
+    "tarif_gol2": 217500,
+    "tarif_gol3": 273000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Palimanan",
+    "tujuan": "Kalijati",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 101500,
+    "tarif_gol2": 167000,
+    "tarif_gol3": 210000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Palimanan",
+    "tujuan": "Subang",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 88500,
+    "tarif_gol2": 146500,
+    "tarif_gol3": 183500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Palimanan",
+    "tujuan": "Cikedung",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 56500,
+    "tarif_gol2": 93000,
+    "tarif_gol3": 116500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Palimanan",
+    "tujuan": "JC Dawuan",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 41500,
+    "tarif_gol2": 68500,
+    "tarif_gol3": 86000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Palimanan",
+    "tujuan": "Kertajati",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 35000,
+    "tarif_gol2": 57500,
+    "tarif_gol3": 72000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Palimanan",
+    "tujuan": "Kertajati Utama",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 35000,
+    "tarif_gol2": 57500,
+    "tarif_gol3": 72000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Palimanan",
+    "tujuan": "Sumberjaya",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 16500,
+    "tarif_gol2": 27500,
+    "tarif_gol3": 34500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Kertajati Utama",
+    "tujuan": "Cikopo",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 97000,
+    "tarif_gol2": 160000,
+    "tarif_gol3": 201000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Kertajati Utama",
+    "tujuan": "Kalijati",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 66500,
+    "tarif_gol2": 110000,
+    "tarif_gol3": 137500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Kertajati Utama",
+    "tujuan": "Subang",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 54000,
+    "tarif_gol2": 89000,
+    "tarif_gol3": 111500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Kertajati Utama",
+    "tujuan": "Cikedung",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 21500,
+    "tarif_gol2": 35500,
+    "tarif_gol3": 44500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Kertajati Utama",
+    "tujuan": "JC Dawuan",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 7000,
+    "tarif_gol2": 11000,
+    "tarif_gol3": 14000
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Kertajati Utama",
+    "tujuan": "Sumberjaya",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 18000,
+    "tarif_gol2": 30000,
+    "tarif_gol3": 37500
+  },
+  {
+    "ruas": "Cikampek-Palimanan",
+    "asal": "Kertajati Utama",
+    "tujuan": "Palimanan",
+    "kepmen": "KEPMEN PUPR Nomor 2789/KPTS/M/2022",
+    "tarif_gol1": 35000,
+    "tarif_gol2": 57500,
+    "tarif_gol3": 72000
+  },
+  {
+    "ruas": "Palimanan-Kanci",
+    "asal": "Palimanan",
+    "tujuan": "Plumbon",
+    "kepmen": "KEPMEN PUPR Nomor 755/KPTS/M/2023",
+    "tarif_gol1": 3000,
+    "tarif_gol2": 4000,
+    "tarif_gol3": 7000
+  },
+  {
+    "ruas": "Palimanan-Kanci",
+    "asal": "Palimanan",
+    "tujuan": "Ciperna",
+    "kepmen": "KEPMEN PUPR Nomor 755/KPTS/M/2023",
+    "tarif_gol1": 7000,
+    "tarif_gol2": 10000,
+    "tarif_gol3": 16000
+  },
+  {
+    "ruas": "Palimanan-Kanci",
+    "asal": "Palimanan",
+    "tujuan": "Kanci",
+    "kepmen": "KEPMEN PUPR Nomor 755/KPTS/M/2023",
+    "tarif_gol1": 13500,
+    "tarif_gol2": 19500,
+    "tarif_gol3": 32000
+  },
+  {
+    "ruas": "Palimanan-Kanci",
+    "asal": "Plumbon",
+    "tujuan": "Palimanan",
+    "kepmen": "KEPMEN PUPR Nomor 755/KPTS/M/2023",
+    "tarif_gol1": 3000,
+    "tarif_gol2": 4000,
+    "tarif_gol3": 7000
+  },
+  {
+    "ruas": "Palimanan-Kanci",
+    "asal": "Plumbon",
+    "tujuan": "Ciperna",
+    "kepmen": "KEPMEN PUPR Nomor 755/KPTS/M/2023",
+    "tarif_gol1": 4000,
+    "tarif_gol2": 5500,
+    "tarif_gol3": 9500
+  },
+  {
+    "ruas": "Palimanan-Kanci",
+    "asal": "Plumbon",
+    "tujuan": "Kanci",
+    "kepmen": "KEPMEN PUPR Nomor 755/KPTS/M/2023",
+    "tarif_gol1": 10500,
+    "tarif_gol2": 15000,
+    "tarif_gol3": 25000
+  },
+  {
+    "ruas": "Palimanan-Kanci",
+    "asal": "Ciperna",
+    "tujuan": "Palimanan",
+    "kepmen": "KEPMEN PUPR Nomor 755/KPTS/M/2023",
+    "tarif_gol1": 7000,
+    "tarif_gol2": 10000,
+    "tarif_gol3": 16000
+  },
+  {
+    "ruas": "Palimanan-Kanci",
+    "asal": "Ciperna",
+    "tujuan": "Plumbon",
+    "kepmen": "KEPMEN PUPR Nomor 755/KPTS/M/2023",
+    "tarif_gol1": 4000,
+    "tarif_gol2": 5500,
+    "tarif_gol3": 9500
+  },
+  {
+    "ruas": "Palimanan-Kanci",
+    "asal": "Ciperna",
+    "tujuan": "Kanci",
+    "kepmen": "KEPMEN PUPR Nomor 755/KPTS/M/2023",
+    "tarif_gol1": 6500,
+    "tarif_gol2": 9500,
+    "tarif_gol3": 15500
+  },
+  {
+    "ruas": "Palimanan-Kanci",
+    "asal": "Kanci",
+    "tujuan": "Palimanan",
+    "kepmen": "KEPMEN PUPR Nomor 755/KPTS/M/2023",
+    "tarif_gol1": 13500,
+    "tarif_gol2": 19500,
+    "tarif_gol3": 32000
+  },
+  {
+    "ruas": "Palimanan-Kanci",
+    "asal": "Kanci",
+    "tujuan": "Plumbon",
+    "kepmen": "KEPMEN PUPR Nomor 755/KPTS/M/2023",
+    "tarif_gol1": 10500,
+    "tarif_gol2": 15000,
+    "tarif_gol3": 25000
+  },
+  {
+    "ruas": "Palimanan-Kanci",
+    "asal": "Kanci",
+    "tujuan": "Ciperna",
+    "kepmen": "KEPMEN PUPR Nomor 755/KPTS/M/2023",
+    "tarif_gol1": 6500,
+    "tarif_gol2": 9500,
+    "tarif_gol3": 15500
+  },
+  {
+    "ruas": "Kanci-Pejagan",
+    "asal": "Kanci",
+    "tujuan": "Pejagan",
+    "kepmen": "KEPMEN PUPR Nomor 755/KPTS/M/2023",
+    "tarif_gol1": 31500,
+    "tarif_gol2": 47500,
+    "tarif_gol3": 63500
+  },
+  {
+    "ruas": "Kanci-Pejagan",
+    "asal": "Kanci",
+    "tujuan": "Ciledug",
+    "kepmen": "KEPMEN PUPR Nomor 755/KPTS/M/2023",
+    "tarif_gol1": 17000,
+    "tarif_gol2": 25500,
+    "tarif_gol3": 34000
+  },
+  {
+    "ruas": "Kanci-Pejagan",
+    "asal": "Ciledug",
+    "tujuan": "Pejagan",
+    "kepmen": "KEPMEN PUPR Nomor 755/KPTS/M/2023",
+    "tarif_gol1": 15000,
+    "tarif_gol2": 22000,
+    "tarif_gol3": 29500
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "Pejagan",
+    "tujuan": "Brebes Barat",
+    "kepmen": "KEPMEN PUPR Nomor 755/KPTS/M/2023",
+    "tarif_gol1": 16500,
+    "tarif_gol2": 24500,
+    "tarif_gol3": 32500
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "Pejagan",
+    "tujuan": "Brebes Timur",
+    "kepmen": "KEPMEN PUPR Nomor 755/KPTS/M/2023",
+    "tarif_gol1": 23000,
+    "tarif_gol2": 35000,
+    "tarif_gol3": 46500
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "Pejagan",
+    "tujuan": "Tegal Timur",
+    "kepmen": "KEPMEN PUPR Nomor 755/KPTS/M/2023",
+    "tarif_gol1": 35000,
+    "tarif_gol2": 53000,
+    "tarif_gol3": 70500
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "Pejagan",
+    "tujuan": "Pemalang",
+    "kepmen": "KEPMEN PUPR Nomor 755/KPTS/M/2023",
+    "tarif_gol1": 66000,
+    "tarif_gol2": 99000,
+    "tarif_gol3": 132000
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "Brebes Barat",
+    "tujuan": "Brebes Timur",
+    "kepmen": "KEPMEN PUPR Nomor 755/KPTS/M/2023",
+    "tarif_gol1": 7000,
+    "tarif_gol2": 10500,
+    "tarif_gol3": 14000
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "Brebes Barat",
+    "tujuan": "Tegal Timur",
+    "kepmen": "KEPMEN PUPR Nomor 755/KPTS/M/2023",
+    "tarif_gol1": 19000,
+    "tarif_gol2": 28500,
+    "tarif_gol3": 37500
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "Brebes Barat",
+    "tujuan": "Pemalang",
+    "kepmen": "KEPMEN PUPR Nomor 755/KPTS/M/2023",
+    "tarif_gol1": 50000,
+    "tarif_gol2": 74500,
+    "tarif_gol3": 99500
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "Brebes Barat",
+    "tujuan": "Pejagan",
+    "kepmen": "KEPMEN PUPR Nomor 755/KPTS/M/2023",
+    "tarif_gol1": 16500,
+    "tarif_gol2": 24500,
+    "tarif_gol3": 32500
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "Brebes Timur",
+    "tujuan": "Tegal Timur",
+    "kepmen": "KEPMEN PUPR Nomor 755/KPTS/M/2023",
+    "tarif_gol1": 12000,
+    "tarif_gol2": 18000,
+    "tarif_gol3": 24000
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "Brebes Timur",
+    "tujuan": "Pemalang",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 43000,
+    "tarif_gol2": 64500,
+    "tarif_gol3": 86000
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "Brebes Timur",
+    "tujuan": "Brebes Barat",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 7000,
+    "tarif_gol2": 10500,
+    "tarif_gol3": 14000
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "Brebes Timur",
+    "tujuan": "Pejagan",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 23000,
+    "tarif_gol2": 35000,
+    "tarif_gol3": 46500
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "Tegal Timur",
+    "tujuan": "Pemalang",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 31000,
+    "tarif_gol2": 46500,
+    "tarif_gol3": 62000
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "Tegal Timur",
+    "tujuan": "Brebes Timur",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 12000,
+    "tarif_gol2": 18000,
+    "tarif_gol3": 24000
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "Tegal Timur",
+    "tujuan": "Brebes Barat",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 19000,
+    "tarif_gol2": 28500,
+    "tarif_gol3": 37500
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "Tegal Timur",
+    "tujuan": "Pejagan",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 35000,
+    "tarif_gol2": 53000,
+    "tarif_gol3": 70500
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "Pemalang",
+    "tujuan": "Tegal Timur",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 31000,
+    "tarif_gol2": 46500,
+    "tarif_gol3": 62000
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "Pemalang",
+    "tujuan": "Brebes Timur",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 43000,
+    "tarif_gol2": 64500,
+    "tarif_gol3": 86000
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "Pemalang",
+    "tujuan": "Brebes Barat",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 50000,
+    "tarif_gol2": 74500,
+    "tarif_gol3": 99500
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "Pemalang",
+    "tujuan": "Pejagan",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 66000,
+    "tarif_gol2": 99000,
+    "tarif_gol3": 132000
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "Pemalang/ Sewaka",
+    "tujuan": "SS Pemalang",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 7500,
+    "tarif_gol2": 11000,
+    "tarif_gol3": 14500
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "Pemalang/Sewaka",
+    "tujuan": "SS Pekalongan",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 33000,
+    "tarif_gol2": 49500,
+    "tarif_gol3": 66000
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "Pemalang/Sewaka",
+    "tujuan": "SS Batang",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 47500,
+    "tarif_gol2": 71000,
+    "tarif_gol3": 95000
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "Pemalang/Sewaka",
+    "tujuan": "Pasekaran",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 53000,
+    "tarif_gol2": 79500,
+    "tarif_gol3": 106000
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "SS Pemalang",
+    "tujuan": "SS Pekalongan",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 25500,
+    "tarif_gol2": 38500,
+    "tarif_gol3": 51000
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "SS Pemalang",
+    "tujuan": "SS Batang",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 40000,
+    "tarif_gol2": 60000,
+    "tarif_gol3": 80000
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "SS Pemalang",
+    "tujuan": "Pasekaran",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 46000,
+    "tarif_gol2": 68500,
+    "tarif_gol3": 91500
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "SS Pemalang",
+    "tujuan": "Pemalang/Sewaka",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 7500,
+    "tarif_gol2": 11000,
+    "tarif_gol3": 14500
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "SS Pekalongan",
+    "tujuan": "SS Batang",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 14500,
+    "tarif_gol2": 21500,
+    "tarif_gol3": 29000
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "SS Pekalongan",
+    "tujuan": "Pasekaran",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 20000,
+    "tarif_gol2": 30500,
+    "tarif_gol3": 40500
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "SS Pekalongan",
+    "tujuan": "SS Pemalang",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 25500,
+    "tarif_gol2": 38500,
+    "tarif_gol3": 51000
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "SS Pekalongan",
+    "tujuan": "Pemalang/Sewaka",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 33000,
+    "tarif_gol2": 49500,
+    "tarif_gol3": 66000
+  },
+  {
+    "ruas": "Pejagan-Pemalang",
+    "asal": "SS Batang",
+    "tujuan": "Pasekaran",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 5500,
+    "tarif_gol2": 8500,
+    "tarif_gol3": 11500
+  },
+  {
+    "ruas": "Pemalang-Batang",
+    "asal": "SS Batang",
+    "tujuan": "Pemalang/ Sewaka",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 47500,
+    "tarif_gol2": 71000,
+    "tarif_gol3": 95000
+  },
+  {
+    "ruas": "Pemalang-Batang",
+    "asal": "SS Batang",
+    "tujuan": "SS Pemalang",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 40000,
+    "tarif_gol2": 60000,
+    "tarif_gol3": 80000
+  },
+  {
+    "ruas": "Pemalang-Batang",
+    "asal": "SS Batang",
+    "tujuan": "SS Pekalongan",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 14500,
+    "tarif_gol2": 21500,
+    "tarif_gol3": 29000
+  },
+  {
+    "ruas": "Pemalang-Batang",
+    "asal": "Pasekaran",
+    "tujuan": "Pemalang/ Sewaka",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 53000,
+    "tarif_gol2": 79500,
+    "tarif_gol3": 106000
+  },
+  {
+    "ruas": "Pemalang-Batang",
+    "asal": "Pasekaran",
+    "tujuan": "SS Pemalang",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 46000,
+    "tarif_gol2": 68500,
+    "tarif_gol3": 91500
+  },
+  {
+    "ruas": "Pemalang-Batang",
+    "asal": "Pasekaran",
+    "tujuan": "SS Pekalongan",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 20000,
+    "tarif_gol2": 30500,
+    "tarif_gol3": 40500
+  },
+  {
+    "ruas": "Pemalang-Batang",
+    "asal": "Pasekaran",
+    "tujuan": "SS Batang",
+    "kepmen": "KEPMEN PUPR Nomor 1835/KPTS/M/2023",
+    "tarif_gol1": 5500,
+    "tarif_gol2": 8500,
+    "tarif_gol3": 11500
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Batang/Pasekaran",
+    "tujuan": "Kandeman",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2023",
+    "tarif_gol1": 5000,
+    "tarif_gol2": 7000,
+    "tarif_gol3": 9500
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Batang/Pasekaran",
+    "tujuan": "Weleri",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2024",
+    "tarif_gol1": 58500,
+    "tarif_gol2": 88000,
+    "tarif_gol3": 117000
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Batang/Pasekaran",
+    "tujuan": "Kendal",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2025",
+    "tarif_gol1": 75000,
+    "tarif_gol2": 112500,
+    "tarif_gol3": 150000
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Batang/Pasekaran",
+    "tujuan": "Kaliwungu",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2026",
+    "tarif_gol1": 95000,
+    "tarif_gol2": 142500,
+    "tarif_gol3": 190000
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Batang/Pasekaran",
+    "tujuan": "Semarang/KaliKangkung",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2027",
+    "tarif_gol1": 111500,
+    "tarif_gol2": 167500,
+    "tarif_gol3": 223000
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Kandeman",
+    "tujuan": "Weleri",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2028",
+    "tarif_gol1": 54000,
+    "tarif_gol2": 80500,
+    "tarif_gol3": 107500
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Kandeman",
+    "tujuan": "Kendal",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2029",
+    "tarif_gol1": 70000,
+    "tarif_gol2": 105000,
+    "tarif_gol3": 140500
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Kandeman",
+    "tujuan": "Semarang/KaliKangkung",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2030",
+    "tarif_gol1": 107000,
+    "tarif_gol2": 160000,
+    "tarif_gol3": 213500
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Kandeman",
+    "tujuan": "Batang/Pasekaran",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2031",
+    "tarif_gol1": 5000,
+    "tarif_gol2": 7000,
+    "tarif_gol3": 9500
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Weleri",
+    "tujuan": "Kendal",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2032",
+    "tarif_gol1": 16500,
+    "tarif_gol2": 24500,
+    "tarif_gol3": 33000
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Weleri",
+    "tujuan": "Kaliwungu",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2033",
+    "tarif_gol1": 36500,
+    "tarif_gol2": 54500,
+    "tarif_gol3": 7300
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Weleri",
+    "tujuan": "Semarang/KaliKangkung",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2034",
+    "tarif_gol1": 53000,
+    "tarif_gol2": 79500,
+    "tarif_gol3": 106000
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Weleri",
+    "tujuan": "Batang/Pasekaran",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2035",
+    "tarif_gol1": 58500,
+    "tarif_gol2": 88000,
+    "tarif_gol3": 117000
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Weleri",
+    "tujuan": "Kandeman",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2036",
+    "tarif_gol1": 54000,
+    "tarif_gol2": 80500,
+    "tarif_gol3": 107500
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Kendal",
+    "tujuan": "Kaliwungu",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2037",
+    "tarif_gol1": 20000,
+    "tarif_gol2": 30000,
+    "tarif_gol3": 40000
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Kendal",
+    "tujuan": "Semarang/Kali Kangkung",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2038",
+    "tarif_gol1": 36500,
+    "tarif_gol2": 55000,
+    "tarif_gol3": 73500
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Kendal",
+    "tujuan": "Batang/Pasekaran",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2039",
+    "tarif_gol1": 75000,
+    "tarif_gol2": 112500,
+    "tarif_gol3": 150000
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Kendal",
+    "tujuan": "Kandeman",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2040",
+    "tarif_gol1": 70000,
+    "tarif_gol2": 105000,
+    "tarif_gol3": 140500
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Kendal",
+    "tujuan": "Weleri",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2041",
+    "tarif_gol1": 16500,
+    "tarif_gol2": 24500,
+    "tarif_gol3": 33000
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Kaliwungu",
+    "tujuan": "Semarang/KaliKangkung",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2042",
+    "tarif_gol1": 16500,
+    "tarif_gol2": 25000,
+    "tarif_gol3": 33000
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Kaliwungu",
+    "tujuan": "Batang/Pasekaran",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2023",
+    "tarif_gol1": 95000,
+    "tarif_gol2": 142500,
+    "tarif_gol3": 190000
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Kaliwungu",
+    "tujuan": "Kandeman",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2023",
+    "tarif_gol1": 90000,
+    "tarif_gol2": 135500,
+    "tarif_gol3": 180500
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Kaliwungu",
+    "tujuan": "Weleri",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2023",
+    "tarif_gol1": 36500,
+    "tarif_gol2": 54500,
+    "tarif_gol3": 73000
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Kaliwungu",
+    "tujuan": "Kendal",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2023",
+    "tarif_gol1": 20000,
+    "tarif_gol2": 30000,
+    "tarif_gol3": 40000
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Semarang/KaliKangkung",
+    "tujuan": "Batang/Pasekaran",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2023",
+    "tarif_gol1": 111500,
+    "tarif_gol2": 167500,
+    "tarif_gol3": 223000
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Semarang/KaliKangkung",
+    "tujuan": "Kandeman",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2023",
+    "tarif_gol1": 107000,
+    "tarif_gol2": 160000,
+    "tarif_gol3": 213500
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Semarang/KaliKangkung",
+    "tujuan": "Weleri",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2023",
+    "tarif_gol1": 53000,
+    "tarif_gol2": 79500,
+    "tarif_gol3": 106000
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Semarang/KaliKangkung",
+    "tujuan": "Kendal",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2023",
+    "tarif_gol1": 36500,
+    "tarif_gol2": 55000,
+    "tarif_gol3": 73500
+  },
+  {
+    "ruas": "Semarang-Batang",
+    "asal": "Semarang/Kali Kangkung",
+    "tujuan": "Kaliwungu",
+    "kepmen": "KEPMEN PUPR Nomor 1155/KPTS/M/2023",
+    "tarif_gol1": 16500,
+    "tarif_gol2": 25000,
+    "tarif_gol3": 33000
+  },
+  {
+    "ruas": "SS KIT Batang pada Jalan TolBatang-Semarang",
+    "asal": "KIT Batang",
+    "tujuan": "Weleri",
+    "kepmen": "KEPMEN PUPR Nomor 1321/KPTS/M/2024",
+    "tarif_gol1": 19000,
+    "tarif_gol2": 28500,
+    "tarif_gol3": 38000
+  },
+  {
+    "ruas": "SS KIT Batang pada Jalan TolBatang-Semarang",
+    "asal": "KIT Batang",
+    "tujuan": "Kandeman",
+    "kepmen": "KEPMEN PUPR Nomor 1321/KPTS/M/2024",
+    "tarif_gol1": 34500,
+    "tarif_gol2": 52000,
+    "tarif_gol3": 69500
+  },
+  {
+    "ruas": "SS KIT Batang pada Jalan TolBatang-Semarang",
+    "asal": "KIT Batang",
+    "tujuan": "Kendal",
+    "kepmen": "KEPMEN PUPR Nomor 1321/KPTS/M/2024",
+    "tarif_gol1": 35500,
+    "tarif_gol2": 53000,
+    "tarif_gol3": 71000
+  },
+  {
+    "ruas": "SS KIT Batang pada Jalan TolBatang-Semarang",
+    "asal": "KIT Batang",
+    "tujuan": "Batang/Pasekaran",
+    "kepmen": "KEPMEN PUPR Nomor 1321/KPTS/M/2024",
+    "tarif_gol1": 39500,
+    "tarif_gol2": 59000,
+    "tarif_gol3": 79000
+  },
+  {
+    "ruas": "SS KIT Batang pada Jalan TolBatang-Semarang",
+    "asal": "KIT Batang",
+    "tujuan": "Kaliwungu",
+    "kepmen": "KEPMEN PUPR Nomor 1321/KPTS/M/2024",
+    "tarif_gol1": 55500,
+    "tarif_gol2": 83500,
+    "tarif_gol3": 111000
+  },
+  {
+    "ruas": "SS KIT Batang pada Jalan TolBatang-Semarang",
+    "asal": "KIT Batang",
+    "tujuan": "Semarang/KaliKangkung",
+    "kepmen": "KEPMEN PUPR Nomor 1321/KPTS/M/2024",
+    "tarif_gol1": 72000,
+    "tarif_gol2": 108000,
+    "tarif_gol3": 144000
+  },
+  {
+    "ruas": "Semarang Seksi A, B, C",
+    "asal": "Manyaran",
+    "tujuan": "Kaligawe",
+    "kepmen": "KEPMEN PUPR Nomor 399/KPTS/M/2025",
+    "tarif_gol1": 6000,
+    "tarif_gol2": 8500,
+    "tarif_gol3": 8500
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Banyumanik",
+    "tujuan": "Ungaran",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 10500,
+    "tarif_gol2": 15500,
+    "tarif_gol3": 21000
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Banyumanik",
+    "tujuan": "Bawen",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 22000,
+    "tarif_gol2": 33000,
+    "tarif_gol3": 43500
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Banyumanik",
+    "tujuan": "Salatiga",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 47000,
+    "tarif_gol2": 70000,
+    "tarif_gol3": 93500
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Banyumanik",
+    "tujuan": "Boyolali",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 80000,
+    "tarif_gol2": 120500,
+    "tarif_gol3": 160500
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Banyumanik",
+    "tujuan": "Kartasura",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 92000,
+    "tarif_gol2": 138500,
+    "tarif_gol3": 184500
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Ungaran",
+    "tujuan": "Banyumanik",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 11500,
+    "tarif_gol2": 17000,
+    "tarif_gol3": 23000
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Ungaran",
+    "tujuan": "Bawen",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 36500,
+    "tarif_gol2": 54500,
+    "tarif_gol3": 72500
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Ungaran",
+    "tujuan": "Salatiga",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 70000,
+    "tarif_gol2": 104500,
+    "tarif_gol3": 139500
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Ungaran",
+    "tujuan": "Boyolali",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 81500,
+    "tarif_gol2": 122500,
+    "tarif_gol3": 163500
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Ungaran",
+    "tujuan": "Kartasura",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 10500,
+    "tarif_gol2": 15500,
+    "tarif_gol3": 21000
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Bawen",
+    "tujuan": "Banyumanik",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 25000,
+    "tarif_gol2": 37500,
+    "tarif_gol3": 50000
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Bawen",
+    "tujuan": "Ungaran",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 58500,
+    "tarif_gol2": 87500,
+    "tarif_gol3": 116500
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Bawen",
+    "tujuan": "Salatiga",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 70500,
+    "tarif_gol2": 105500,
+    "tarif_gol3": 140500
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Bawen",
+    "tujuan": "Boyolali",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 22000,
+    "tarif_gol2": 33000,
+    "tarif_gol3": 43500
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Bawen",
+    "tujuan": "Kartasura",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 11500,
+    "tarif_gol2": 17000,
+    "tarif_gol3": 23000
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Salatiga",
+    "tujuan": "Banyumanik",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 33500,
+    "tarif_gol2": 50000,
+    "tarif_gol3": 67000
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Salatiga",
+    "tujuan": "Ungaran",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 45500,
+    "tarif_gol2": 68000,
+    "tarif_gol3": 91000
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Salatiga",
+    "tujuan": "Bawen",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 47000,
+    "tarif_gol2": 70000,
+    "tarif_gol3": 93500
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Salatiga",
+    "tujuan": "Boyolali",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 36500,
+    "tarif_gol2": 54500,
+    "tarif_gol3": 72500
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Salatiga",
+    "tujuan": "Kartasura",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 25000,
+    "tarif_gol2": 37500,
+    "tarif_gol3": 50000
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Boyolali",
+    "tujuan": "Banyumanik",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 12000,
+    "tarif_gol2": 18000,
+    "tarif_gol3": 24000
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Boyolali",
+    "tujuan": "Ungaran",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 80000,
+    "tarif_gol2": 120500,
+    "tarif_gol3": 160500
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Boyolali",
+    "tujuan": "Bawen",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 70000,
+    "tarif_gol2": 104500,
+    "tarif_gol3": 139500
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Boyolali",
+    "tujuan": "Salatiga",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 58500,
+    "tarif_gol2": 87500,
+    "tarif_gol3": 116500
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Boyolali",
+    "tujuan": "Kartasura",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 33500,
+    "tarif_gol2": 50000,
+    "tarif_gol3": 67000
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Kartasura",
+    "tujuan": "Banyumanik",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 92000,
+    "tarif_gol2": 138500,
+    "tarif_gol3": 184500
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Kartasura",
+    "tujuan": "Ungaran",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 81500,
+    "tarif_gol2": 122500,
+    "tarif_gol3": 163500
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Kartasura",
+    "tujuan": "Bawen",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 70500,
+    "tarif_gol2": 105500,
+    "tarif_gol3": 140500
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Kartasura",
+    "tujuan": "Salatiga",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 45500,
+    "tarif_gol2": 68000,
+    "tarif_gol3": 91000
+  },
+  {
+    "ruas": "Semarang-Solo",
+    "asal": "Kartasura",
+    "tujuan": "Boyolali",
+    "kepmen": "KEPMEN PUPR Nomor 1541/KPTS/M/2023",
+    "tarif_gol1": 12000,
+    "tarif_gol2": 18000,
+    "tarif_gol3": 24000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Kartasura",
+    "tujuan": "Colomadu",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 1000,
+    "tarif_gol2": 1500,
+    "tarif_gol3": 2000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Kartasura",
+    "tujuan": "Bandara Adi Suamrmo",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 8000,
+    "tarif_gol2": 12000,
+    "tarif_gol3": 16000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Kartasura",
+    "tujuan": "Solo/Ngemplak",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 17000,
+    "tarif_gol2": 26000,
+    "tarif_gol3": 34500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Kartasura",
+    "tujuan": "Purwodadi",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 21000,
+    "tarif_gol2": 31500,
+    "tarif_gol3": 42000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Kartasura",
+    "tujuan": "Karanganyar",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 31500,
+    "tarif_gol2": 47500,
+    "tarif_gol3": 63500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Kartasura",
+    "tujuan": "Sragen",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 51500,
+    "tarif_gol2": 77500,
+    "tarif_gol3": 103000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Kartasura",
+    "tujuan": "Sragen Timur",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 75500,
+    "tarif_gol2": 113000,
+    "tarif_gol3": 151000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Kartasura",
+    "tujuan": "Ngawi",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 125000,
+    "tarif_gol2": 187500,
+    "tarif_gol3": 250000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Kartasura",
+    "tujuan": "Klitik",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 131000,
+    "tarif_gol2": 196000,
+    "tarif_gol3": 261500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Colomadu",
+    "tujuan": "Bandara Adi Suamrmo",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 7000,
+    "tarif_gol2": 10500,
+    "tarif_gol3": 14000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Colomadu",
+    "tujuan": "Solo/Ngemplak",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 16000,
+    "tarif_gol2": 24500,
+    "tarif_gol3": 32500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Colomadu",
+    "tujuan": "Purwodadi",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 20000,
+    "tarif_gol2": 30000,
+    "tarif_gol3": 40000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Colomadu",
+    "tujuan": "Karanganyar",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 30500,
+    "tarif_gol2": 46000,
+    "tarif_gol3": 61500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Colomadu",
+    "tujuan": "Sragen",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 50500,
+    "tarif_gol2": 76000,
+    "tarif_gol3": 101000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Colomadu",
+    "tujuan": "Sragen Timur",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 74500,
+    "tarif_gol2": 111500,
+    "tarif_gol3": 149000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Colomadu",
+    "tujuan": "Ngawi",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 124000,
+    "tarif_gol2": 186000,
+    "tarif_gol3": 248500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Colomadu",
+    "tujuan": "Klitik",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 130000,
+    "tarif_gol2": 195000,
+    "tarif_gol3": 260000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Colomadu",
+    "tujuan": "Kartasura",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 1000,
+    "tarif_gol2": 1500,
+    "tarif_gol3": 2000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Bandara Adi Sumarmo",
+    "tujuan": "Solo/Ngemplak",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 9500,
+    "tarif_gol2": 14000,
+    "tarif_gol3": 18500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Bandara Adi Sumarmo",
+    "tujuan": "Purwodadi",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 13000,
+    "tarif_gol2": 19500,
+    "tarif_gol3": 26000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Bandara Adi Sumarmo",
+    "tujuan": "Karanganyar",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 24000,
+    "tarif_gol2": 35500,
+    "tarif_gol3": 47500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Bandara Adi Sumarmo",
+    "tujuan": "Sragen",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 43500,
+    "tarif_gol2": 65500,
+    "tarif_gol3": 87500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Bandara Adi Sumarmo",
+    "tujuan": "Sragen Timur",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 67500,
+    "tarif_gol2": 101500,
+    "tarif_gol3": 135000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Bandara Adi Sumarmo",
+    "tujuan": "Ngawi",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 117000,
+    "tarif_gol2": 175000,
+    "tarif_gol3": 234500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Bandara Adi Sumarmo",
+    "tujuan": "Klitik",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 123000,
+    "tarif_gol2": 184500,
+    "tarif_gol3": 246000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Bandara Adi Sumarmo",
+    "tujuan": "Kartasura",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 8000,
+    "tarif_gol2": 12000,
+    "tarif_gol3": 16000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Bandara Adi Sumarmo",
+    "tujuan": "Colomadu",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 7000,
+    "tarif_gol2": 10500,
+    "tarif_gol3": 14000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Solo/Ngemplak",
+    "tujuan": "Purwodadi",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 3500,
+    "tarif_gol2": 5500,
+    "tarif_gol3": 7500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Solo/Ngemplak",
+    "tujuan": "Karanganyar",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 14500,
+    "tarif_gol2": 21500,
+    "tarif_gol3": 29000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Solo/Ngemplak",
+    "tujuan": "Sragen",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 34500,
+    "tarif_gol2": 51500,
+    "tarif_gol3": 68500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Solo/Ngemplak",
+    "tujuan": "Sragen Timur",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 58500,
+    "tarif_gol2": 87500,
+    "tarif_gol3": 116500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Solo/Ngemplak",
+    "tujuan": "Ngawi",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 108000,
+    "tarif_gol2": 162000,
+    "tarif_gol3": 216000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Solo/Ngemplak",
+    "tujuan": "Klitik",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 113500,
+    "tarif_gol2": 170500,
+    "tarif_gol3": 227500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Solo/Ngemplak",
+    "tujuan": "Kartasura",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 17000,
+    "tarif_gol2": 26000,
+    "tarif_gol3": 34500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Solo/Ngemplak",
+    "tujuan": "Colomadu",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 16000,
+    "tarif_gol2": 24500,
+    "tarif_gol3": 32500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Solo/Ngemplak",
+    "tujuan": "Bandara Adi Suamrmo",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 9500,
+    "tarif_gol2": 14000,
+    "tarif_gol3": 18500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Purwodadi",
+    "tujuan": "Karanganyar",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 10500,
+    "tarif_gol2": 16000,
+    "tarif_gol3": 21500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Purwodadi",
+    "tujuan": "Sragen",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 30500,
+    "tarif_gol2": 46000,
+    "tarif_gol3": 61500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Purwodadi",
+    "tujuan": "Sragen Timur",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 54500,
+    "tarif_gol2": 82000,
+    "tarif_gol3": 109000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Purwodadi",
+    "tujuan": "Ngawi",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 104000,
+    "tarif_gol2": 156000,
+    "tarif_gol3": 208500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Purwodadi",
+    "tujuan": "Klitik",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 110000,
+    "tarif_gol2": 165000,
+    "tarif_gol3": 220000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Purwodadi",
+    "tujuan": "Kartasura",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 21000,
+    "tarif_gol2": 31500,
+    "tarif_gol3": 42000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Purwodadi",
+    "tujuan": "Colomadu",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 20000,
+    "tarif_gol2": 30000,
+    "tarif_gol3": 40000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Purwodadi",
+    "tujuan": "Bandara Adi Suamrmo",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 13000,
+    "tarif_gol2": 19500,
+    "tarif_gol3": 26000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Purwodadi",
+    "tujuan": "Solo/Ngemplak",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 3500,
+    "tarif_gol2": 5500,
+    "tarif_gol3": 7500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Karanganyar",
+    "tujuan": "Sragen",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 20000,
+    "tarif_gol2": 30000,
+    "tarif_gol3": 40000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Karanganyar",
+    "tujuan": "Sragen Timur",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 44000,
+    "tarif_gol2": 65500,
+    "tarif_gol3": 87500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Karanganyar",
+    "tujuan": "Ngawi",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 93500,
+    "tarif_gol2": 140000,
+    "tarif_gol3": 187000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Karanganyar",
+    "tujuan": "Klitik",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 99000,
+    "tarif_gol2": 148500,
+    "tarif_gol3": 198500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Karanganyar",
+    "tujuan": "Kartasura",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 31500,
+    "tarif_gol2": 47500,
+    "tarif_gol3": 63500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Karanganyar",
+    "tujuan": "Colomadu",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 30500,
+    "tarif_gol2": 46000,
+    "tarif_gol3": 61500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Karanganyar",
+    "tujuan": "Bandara Adi Suamrmo",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 24000,
+    "tarif_gol2": 35500,
+    "tarif_gol3": 47500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Karanganyar",
+    "tujuan": "Solo/Ngemplak",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 14500,
+    "tarif_gol2": 21500,
+    "tarif_gol3": 29000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Karanganyar",
+    "tujuan": "Purwodadi",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 10500,
+    "tarif_gol2": 16000,
+    "tarif_gol3": 21500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Sragen",
+    "tujuan": "Sragen Timur",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 24000,
+    "tarif_gol2": 36000,
+    "tarif_gol3": 48000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Sragen",
+    "tujuan": "Ngawi",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 73500,
+    "tarif_gol2": 110500,
+    "tarif_gol3": 147000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Sragen",
+    "tujuan": "Klitik",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 79500,
+    "tarif_gol2": 119000,
+    "tarif_gol3": 158500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Sragen",
+    "tujuan": "Kartasura",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 51500,
+    "tarif_gol2": 77500,
+    "tarif_gol3": 103000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Sragen",
+    "tujuan": "Colomadu",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 50500,
+    "tarif_gol2": 76000,
+    "tarif_gol3": 101000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Sragen",
+    "tujuan": "Bandara Adi Suamrmo",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 43500,
+    "tarif_gol2": 65500,
+    "tarif_gol3": 87500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Sragen",
+    "tujuan": "Solo/Ngemplak",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 34500,
+    "tarif_gol2": 51500,
+    "tarif_gol3": 68500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Sragen",
+    "tujuan": "Purwodadi",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 30500,
+    "tarif_gol2": 46000,
+    "tarif_gol3": 61500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Sragen",
+    "tujuan": "Karanganyar",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 20000,
+    "tarif_gol2": 30000,
+    "tarif_gol3": 40000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Sragen Timur",
+    "tujuan": "Ngawi",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 49500,
+    "tarif_gol2": 74500,
+    "tarif_gol3": 99500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Sragen Timur",
+    "tujuan": "Klitik",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 55500,
+    "tarif_gol2": 83000,
+    "tarif_gol3": 111000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Sragen Timur",
+    "tujuan": "Kartasura",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 75500,
+    "tarif_gol2": 113000,
+    "tarif_gol3": 151000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Sragen Timur",
+    "tujuan": "Colomadu",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 74500,
+    "tarif_gol2": 111500,
+    "tarif_gol3": 149000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Sragen Timur",
+    "tujuan": "Bandara Adi Suamrmo",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 67500,
+    "tarif_gol2": 101500,
+    "tarif_gol3": 135000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Sragen Timur",
+    "tujuan": "Solo/Ngemplak",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 58500,
+    "tarif_gol2": 87500,
+    "tarif_gol3": 116500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Sragen Timur",
+    "tujuan": "Purwodadi",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 54500,
+    "tarif_gol2": 82000,
+    "tarif_gol3": 109000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Sragen Timur",
+    "tujuan": "Karanganyar",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 44000,
+    "tarif_gol2": 65500,
+    "tarif_gol3": 87500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Sragen Timur",
+    "tujuan": "Sragen",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 24000,
+    "tarif_gol2": 36000,
+    "tarif_gol3": 48000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Ngawi",
+    "tujuan": "Klitik",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 5500,
+    "tarif_gol2": 8500,
+    "tarif_gol3": 11500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Ngawi",
+    "tujuan": "Kartasura",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 125000,
+    "tarif_gol2": 187500,
+    "tarif_gol3": 250000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Ngawi",
+    "tujuan": "Colomadu",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 124000,
+    "tarif_gol2": 186000,
+    "tarif_gol3": 248500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Ngawi",
+    "tujuan": "Bandara Adi Suamrmo",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 117000,
+    "tarif_gol2": 175500,
+    "tarif_gol3": 234500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Ngawi",
+    "tujuan": "Solo/Ngemplak",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 108000,
+    "tarif_gol2": 162000,
+    "tarif_gol3": 216000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Ngawi",
+    "tujuan": "Purwodadi",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 104000,
+    "tarif_gol2": 156000,
+    "tarif_gol3": 208000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Ngawi",
+    "tujuan": "Karanganyar",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 93500,
+    "tarif_gol2": 140000,
+    "tarif_gol3": 187000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Ngawi",
+    "tujuan": "Sragen",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 73500,
+    "tarif_gol2": 110500,
+    "tarif_gol3": 147000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Ngawi",
+    "tujuan": "Sragen Timur",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 49500,
+    "tarif_gol2": 74500,
+    "tarif_gol3": 99500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Klitik",
+    "tujuan": "Kartasura",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 131000,
+    "tarif_gol2": 196000,
+    "tarif_gol3": 261500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Klitik",
+    "tujuan": "Colomadu",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 130000,
+    "tarif_gol2": 195000,
+    "tarif_gol3": 260000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Klitik",
+    "tujuan": "BandaraAdiSuamrmo",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 123000,
+    "tarif_gol2": 184500,
+    "tarif_gol3": 246000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Klitik",
+    "tujuan": "Solo/Ngemplak",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 113500,
+    "tarif_gol2": 170500,
+    "tarif_gol3": 227500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Klitik",
+    "tujuan": "Purwodadi",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 110000,
+    "tarif_gol2": 165000,
+    "tarif_gol3": 220000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Klitik",
+    "tujuan": "Karanganyar",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 99000,
+    "tarif_gol2": 148500,
+    "tarif_gol3": 198500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Klitik",
+    "tujuan": "Sragen",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 79500,
+    "tarif_gol2": 119000,
+    "tarif_gol3": 158500
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Klitik",
+    "tujuan": "Sragen Timur",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 55500,
+    "tarif_gol2": 83000,
+    "tarif_gol3": 111000
+  },
+  {
+    "ruas": "Solo-Ngawi",
+    "asal": "Klitik",
+    "tujuan": "Ngawi",
+    "kepmen": "KEPMEN PUPR Nomor 1086/KPTS/M/2023",
+    "tarif_gol1": 5500,
+    "tarif_gol2": 8500,
+    "tarif_gol3": 11500
+  },
+  {
+    "ruas": "Ngawi-Kertosono",
+    "asal": "Klitik",
+    "tujuan": "IC Madiun",
+    "kepmen": "KEPMEN PUPR Nomor 873/KPTS/M/2023",
+    "tarif_gol1": 22500,
+    "tarif_gol2": 33500,
+    "tarif_gol3": 44500
+  },
+  {
+    "ruas": "Ngawi-Kertosono",
+    "asal": "Klitik",
+    "tujuan": "IC Caruban",
+    "kepmen": "KEPMEN PUPR Nomor 873/KPTS/M/2023",
+    "tarif_gol1": 31500,
+    "tarif_gol2": 47500,
+    "tarif_gol3": 63500
+  },
+  {
+    "ruas": "Ngawi-Kertosono",
+    "asal": "Klitik",
+    "tujuan": "IC Nganjuk",
+    "kepmen": "KEPMEN PUPR Nomor 873/KPTS/M/2023",
+    "tarif_gol1": 71000,
+    "tarif_gol2": 106500,
+    "tarif_gol3": 141500
+  },
+  {
+    "ruas": "Ngawi-Kertosono",
+    "asal": "Klitik",
+    "tujuan": "Kertosono",
+    "kepmen": "KEPMEN PUPR Nomor 873/KPTS/M/2023",
+    "tarif_gol1": 98000,
+    "tarif_gol2": 147000,
+    "tarif_gol3": 196000
+  },
+  {
+    "ruas": "Ngawi-Kertosono",
+    "asal": "IC Madiun",
+    "tujuan": "IC Caruban",
+    "kepmen": "KEPMEN PUPR Nomor 873/KPTS/M/2023",
+    "tarif_gol1": 9500,
+    "tarif_gol2": 14000,
+    "tarif_gol3": 19000
+  },
+  {
+    "ruas": "Ngawi-Kertosono",
+    "asal": "IC Madiun",
+    "tujuan": "IC Nganjuk",
+    "kepmen": "KEPMEN PUPR Nomor 873/KPTS/M/2023",
+    "tarif_gol1": 48500,
+    "tarif_gol2": 73000,
+    "tarif_gol3": 97000
+  },
+  {
+    "ruas": "Ngawi-Kertosono",
+    "asal": "IC Madiun",
+    "tujuan": "Klitik",
+    "kepmen": "KEPMEN PUPR Nomor 873/KPTS/M/2023",
+    "tarif_gol1": 22500,
+    "tarif_gol2": 33500,
+    "tarif_gol3": 44500
+  },
+  {
+    "ruas": "Ngawi-Kertosono",
+    "asal": "IC Madiun",
+    "tujuan": "Kertosono",
+    "kepmen": "KEPMEN PUPR Nomor 873/KPTS/M/2023",
+    "tarif_gol1": 76000,
+    "tarif_gol2": 113500,
+    "tarif_gol3": 151500
+  },
+  {
+    "ruas": "Ngawi-Kertosono",
+    "asal": "IC Caruban",
+    "tujuan": "IC Nganjuk",
+    "kepmen": "KEPMEN PUPR Nomor 873/KPTS/M/2023",
+    "tarif_gol1": 39000,
+    "tarif_gol2": 59000,
+    "tarif_gol3": 78500
+  },
+  {
+    "ruas": "Ngawi-Kertosono",
+    "asal": "IC Caruban",
+    "tujuan": "Klitik",
+    "kepmen": "KEPMEN PUPR Nomor 873/KPTS/M/2023",
+    "tarif_gol1": 31500,
+    "tarif_gol2": 47500,
+    "tarif_gol3": 63500
+  },
+  {
+    "ruas": "Ngawi-Kertosono",
+    "asal": "IC Caruban",
+    "tujuan": "IC Madiun",
+    "kepmen": "KEPMEN PUPR Nomor 873/KPTS/M/2023",
+    "tarif_gol1": 9500,
+    "tarif_gol2": 14000,
+    "tarif_gol3": 19000
+  },
+  {
+    "ruas": "Ngawi-Kertosono",
+    "asal": "IC Caruban",
+    "tujuan": "Kertosono",
+    "kepmen": "KEPMEN PUPR Nomor 873/KPTS/M/2023",
+    "tarif_gol1": 66500,
+    "tarif_gol2": 99500,
+    "tarif_gol3": 132500
+  },
+  {
+    "ruas": "Ngawi-Kertosono",
+    "asal": "IC Nganjuk",
+    "tujuan": "Klitik",
+    "kepmen": "KEPMEN PUPR Nomor 873/KPTS/M/2023",
+    "tarif_gol1": 71000,
+    "tarif_gol2": 106500,
+    "tarif_gol3": 141500
+  },
+  {
+    "ruas": "Ngawi-Kertosono",
+    "asal": "IC Nganjuk",
+    "tujuan": "IC Madiun",
+    "kepmen": "KEPMEN PUPR Nomor 873/KPTS/M/2023",
+    "tarif_gol1": 48500,
+    "tarif_gol2": 73000,
+    "tarif_gol3": 97000
+  },
+  {
+    "ruas": "Ngawi-Kertosono",
+    "asal": "IC Nganjuk",
+    "tujuan": "IC Caruban",
+    "kepmen": "KEPMEN PUPR Nomor 873/KPTS/M/2023",
+    "tarif_gol1": 39000,
+    "tarif_gol2": 59000,
+    "tarif_gol3": 78500
+  },
+  {
+    "ruas": "Ngawi-Kertosono",
+    "asal": "IC Nganjuk",
+    "tujuan": "Kertosono",
+    "kepmen": "KEPMEN PUPR Nomor 873/KPTS/M/2023",
+    "tarif_gol1": 27000,
+    "tarif_gol2": 40500,
+    "tarif_gol3": 54500
+  },
+  {
+    "ruas": "Ngawi-Kertosono",
+    "asal": "Kertosono",
+    "tujuan": "IC Nganjuk",
+    "kepmen": "KEPMEN PUPR Nomor 873/KPTS/M/2023",
+    "tarif_gol1": 27000,
+    "tarif_gol2": 40500,
+    "tarif_gol3": 54500
+  },
+  {
+    "ruas": "Ngawi-Kertosono",
+    "asal": "Kertosono",
+    "tujuan": "IC Caruban",
+    "kepmen": "KEPMEN PUPR Nomor 873/KPTS/M/2023",
+    "tarif_gol1": 66500,
+    "tarif_gol2": 99500,
+    "tarif_gol3": 132500
+  },
+  {
+    "ruas": "Ngawi-Kertosono",
+    "asal": "Kertosono",
+    "tujuan": "IC Madiun",
+    "kepmen": "KEPMEN PUPR Nomor 873/KPTS/M/2023",
+    "tarif_gol1": 76000,
+    "tarif_gol2": 113500,
+    "tarif_gol3": 151500
+  },
+  {
+    "ruas": "Ngawi-Kertosono",
+    "asal": "Kertosono",
+    "tujuan": "Klitik",
+    "kepmen": "KEPMEN PUPR Nomor 873/KPTS/M/2023",
+    "tarif_gol1": 98000,
+    "tarif_gol2": 147000,
+    "tarif_gol3": 196000
+  },
+  {
+    "ruas": "Kertosono-Mojokerto",
+    "asal": "Bandar",
+    "tujuan": "Jombang",
+    "kepmen": "KEPMEN PUPR Nomor 252/KPTS/M/2024",
+    "tarif_gol1": 20000,
+    "tarif_gol2": 33500,
+    "tarif_gol3": 40000
+  },
+  {
+    "ruas": "Kertosono-Mojokerto",
+    "asal": "Bandar",
+    "tujuan": "Mojokerto Barat",
+    "kepmen": "KEPMEN PUPR Nomor 252/KPTS/M/2024",
+    "tarif_gol1": 47000,
+    "tarif_gol2": 79000,
+    "tarif_gol3": 94000
+  },
+  {
+    "ruas": "Kertosono-Mojokerto",
+    "asal": "Bandar",
+    "tujuan": "Mojokerto",
+    "kepmen": "KEPMEN PUPR Nomor 252/KPTS/M/2024",
+    "tarif_gol1": 54000,
+    "tarif_gol2": 90000,
+    "tarif_gol3": 108000
+  },
+  {
+    "ruas": "Kertosono-Mojokerto",
+    "asal": "Bandar",
+    "tujuan": "Batas Barat",
+    "kepmen": "KEPMEN PUPR Nomor 252/KPTS/M/2024",
+    "tarif_gol1": 1000,
+    "tarif_gol2": 2000,
+    "tarif_gol3": 2500
+  },
+  {
+    "ruas": "Kertosono-Mojokerto",
+    "asal": "Jombang",
+    "tujuan": "Mojokerto Barat",
+    "kepmen": "KEPMEN PUPR Nomor 252/KPTS/M/2024",
+    "tarif_gol1": 27000,
+    "tarif_gol2": 45500,
+    "tarif_gol3": 54000
+  },
+  {
+    "ruas": "Kertosono-Mojokerto",
+    "asal": "Jombang",
+    "tujuan": "Mojokerto",
+    "kepmen": "KEPMEN PUPR Nomor 252/KPTS/M/2024",
+    "tarif_gol1": 34000,
+    "tarif_gol2": 56500,
+    "tarif_gol3": 68000
+  },
+  {
+    "ruas": "Kertosono-Mojokerto",
+    "asal": "Jombang",
+    "tujuan": "Batas Barat",
+    "kepmen": "KEPMEN PUPR Nomor 252/KPTS/M/2024",
+    "tarif_gol1": 21000,
+    "tarif_gol2": 35500,
+    "tarif_gol3": 42500
+  },
+  {
+    "ruas": "Kertosono-Mojokerto",
+    "asal": "Jombang",
+    "tujuan": "Bandar",
+    "kepmen": "KEPMEN PUPR Nomor 252/KPTS/M/2024",
+    "tarif_gol1": 20000,
+    "tarif_gol2": 33500,
+    "tarif_gol3": 40000
+  },
+  {
+    "ruas": "Kertosono-Mojokerto",
+    "asal": "Mojokerto Barat",
+    "tujuan": "Mojokerto",
+    "kepmen": "KEPMEN PUPR Nomor 252/KPTS/M/2024",
+    "tarif_gol1": 7000,
+    "tarif_gol2": 11500,
+    "tarif_gol3": 13500
+  },
+  {
+    "ruas": "Kertosono-Mojokerto",
+    "asal": "Mojokerto Barat",
+    "tujuan": "Batas Barat",
+    "kepmen": "KEPMEN PUPR Nomor 252/KPTS/M/2024",
+    "tarif_gol1": 48500,
+    "tarif_gol2": 81000,
+    "tarif_gol3": 96500
+  },
+  {
+    "ruas": "Kertosono-Mojokerto",
+    "asal": "Mojokerto Barat",
+    "tujuan": "Bandar",
+    "kepmen": "KEPMEN PUPR Nomor 252/KPTS/M/2024",
+    "tarif_gol1": 47000,
+    "tarif_gol2": 79000,
+    "tarif_gol3": 94000
+  },
+  {
+    "ruas": "Kertosono-Mojokerto",
+    "asal": "Mojokerto Barat",
+    "tujuan": "Jombang",
+    "kepmen": "KEPMEN PUPR Nomor 252/KPTS/M/2024",
+    "tarif_gol1": 27000,
+    "tarif_gol2": 45500,
+    "tarif_gol3": 54000
+  },
+  {
+    "ruas": "Kertosono-Mojokerto",
+    "asal": "Mojokerto",
+    "tujuan": "Batas Barat",
+    "kepmen": "KEPMEN PUPR Nomor 252/KPTS/M/2024",
+    "tarif_gol1": 55000,
+    "tarif_gol2": 92500,
+    "tarif_gol3": 110000
+  },
+  {
+    "ruas": "Kertosono-Mojokerto",
+    "asal": "Mojokerto",
+    "tujuan": "Bandar",
+    "kepmen": "KEPMEN PUPR Nomor 252/KPTS/M/2024",
+    "tarif_gol1": 54000,
+    "tarif_gol2": 90000,
+    "tarif_gol3": 108000
+  },
+  {
+    "ruas": "Kertosono-Mojokerto",
+    "asal": "Mojokerto",
+    "tujuan": "Jombang",
+    "kepmen": "KEPMEN PUPR Nomor 252/KPTS/M/2024",
+    "tarif_gol1": 34000,
+    "tarif_gol2": 56500,
+    "tarif_gol3": 68000
+  },
+  {
+    "ruas": "Kertosono-Mojokerto",
+    "asal": "Mojokerto",
+    "tujuan": "Mojokerto Barat",
+    "kepmen": "KEPMEN PUPR Nomor 252/KPTS/M/2024",
+    "tarif_gol1": 7000,
+    "tarif_gol2": 11500,
+    "tarif_gol3": 13500
+  },
+  {
+    "ruas": "Kertosono-Mojokerto",
+    "asal": "Batas Barat",
+    "tujuan": "Bandar",
+    "kepmen": "KEPMEN PUPR Nomor 252/KPTS/M/2024",
+    "tarif_gol1": 1000,
+    "tarif_gol2": 2000,
+    "tarif_gol3": 2500
+  },
+  {
+    "ruas": "Kertosono-Mojokerto",
+    "asal": "Batas Barat",
+    "tujuan": "Jombang",
+    "kepmen": "KEPMEN PUPR Nomor 252/KPTS/M/2024",
+    "tarif_gol1": 21000,
+    "tarif_gol2": 35500,
+    "tarif_gol3": 42500
+  },
+  {
+    "ruas": "Kertosono-Mojokerto",
+    "asal": "Batas Barat",
+    "tujuan": "Mojokerto Barat",
+    "kepmen": "KEPMEN PUPR Nomor 252/KPTS/M/2024",
+    "tarif_gol1": 48500,
+    "tarif_gol2": 81000,
+    "tarif_gol3": 96500
+  },
+  {
+    "ruas": "Kertosono-Mojokerto",
+    "asal": "Batas Barat",
+    "tujuan": "Mojokerto",
+    "kepmen": "KEPMEN PUPR Nomor 252/KPTS/M/2024",
+    "tarif_gol1": 55000,
+    "tarif_gol2": 92500,
+    "tarif_gol3": 110000
+  },
+  {
+    "ruas": "Surabaya-Mojokerto",
+    "asal": "Waru (Terbuka)",
+    "tujuan": "Sepanjang",
+    "kepmen": "KEPMEN PUPR Nomor 1306/KPTS/M/2024",
+    "tarif_gol1": 3000,
+    "tarif_gol2": 5000,
+    "tarif_gol3": 7000
+  },
+  {
+    "ruas": "Surabaya-Mojokerto",
+    "asal": "Waru (Terbuka)",
+    "tujuan": "WRR/Warugunung",
+    "kepmen": "KEPMEN PUPR Nomor 1306/KPTS/M/2024",
+    "tarif_gol1": 8500,
+    "tarif_gol2": 14000,
+    "tarif_gol3": 21000
+  },
+  {
+    "ruas": "Surabaya-Mojokerto",
+    "asal": "WRR/Warugunung(Tertutup)",
+    "tujuan": "Driyorejo",
+    "kepmen": "KEPMEN PUPR Nomor 1306/KPTS/M/2024",
+    "tarif_gol1": 6500,
+    "tarif_gol2": 10500,
+    "tarif_gol3": 16000
+  },
+  {
+    "ruas": "Surabaya-Mojokerto",
+    "asal": "WRR/Warugunung(Tertutup)",
+    "tujuan": "Krian",
+    "kepmen": "KEPMEN PUPR Nomor 1306/KPTS/M/2024",
+    "tarif_gol1": 14000,
+    "tarif_gol2": 23500,
+    "tarif_gol3": 35500
+  },
+  {
+    "ruas": "Surabaya-Mojokerto",
+    "asal": "WRR/Warugunung(Tertutup)",
+    "tujuan": "WringinanomJunction",
+    "kepmen": "KEPMEN PUPR Nomor 1306/KPTS/M/2024",
+    "tarif_gol1": 20000,
+    "tarif_gol2": 32500,
+    "tarif_gol3": 49500
+  },
+  {
+    "ruas": "Surabaya-Mojokerto",
+    "asal": "WRR/Warugunung(Tertutup)",
+    "tujuan": "Mojokerto",
+    "kepmen": "KEPMEN PUPR Nomor 1306/KPTS/M/2024",
+    "tarif_gol1": 35000,
+    "tarif_gol2": 57000,
+    "tarif_gol3": 86500
+  },
+  {
+    "ruas": "Surabaya-Mojokerto",
+    "asal": "Driyorejo",
+    "tujuan": "Krian",
+    "kepmen": "KEPMEN PUPR Nomor 1306/KPTS/M/2024",
+    "tarif_gol1": 7500,
+    "tarif_gol2": 12500,
+    "tarif_gol3": 19000
+  },
+  {
+    "ruas": "Surabaya-Mojokerto",
+    "asal": "Driyorejo",
+    "tujuan": "WringinanomJunction",
+    "kepmen": "KEPMEN PUPR Nomor 1306/KPTS/M/2024",
+    "tarif_gol1": 13500,
+    "tarif_gol2": 22000,
+    "tarif_gol3": 33500
+  },
+  {
+    "ruas": "Surabaya-Mojokerto",
+    "asal": "Driyorejo",
+    "tujuan": "Mojokerto",
+    "kepmen": "KEPMEN PUPR Nomor 1306/KPTS/M/2024",
+    "tarif_gol1": 28500,
+    "tarif_gol2": 46500,
+    "tarif_gol3": 70500
+  },
+  {
+    "ruas": "Surabaya-Mojokerto",
+    "asal": "Driyorejo",
+    "tujuan": "WRR /Warugunung",
+    "kepmen": "KEPMEN PUPR Nomor 1306/KPTS/M/2024",
+    "tarif_gol1": 6500,
+    "tarif_gol2": 10500,
+    "tarif_gol3": 16000
+  },
+  {
+    "ruas": "Surabaya-Mojokerto",
+    "asal": "Krian",
+    "tujuan": "WringinanomJunction",
+    "kepmen": "KEPMEN PUPR Nomor 1306/KPTS/M/2024",
+    "tarif_gol1": 5500,
+    "tarif_gol2": 9500,
+    "tarif_gol3": 14000
+  },
+  {
+    "ruas": "Surabaya-Mojokerto",
+    "asal": "Krian",
+    "tujuan": "Mojokerto",
+    "kepmen": "KEPMEN PUPR Nomor 1306/KPTS/M/2024",
+    "tarif_gol1": 20500,
+    "tarif_gol2": 34000,
+    "tarif_gol3": 51000
+  },
+  {
+    "ruas": "Surabaya-Mojokerto",
+    "asal": "Krian",
+    "tujuan": "WRR /Warugunung",
+    "kepmen": "KEPMEN PUPR Nomor 1306/KPTS/M/2024",
+    "tarif_gol1": 14000,
+    "tarif_gol2": 23500,
+    "tarif_gol3": 35500
+  },
+  {
+    "ruas": "Surabaya-Mojokerto",
+    "asal": "Krian",
+    "tujuan": "Driyorejo",
+    "kepmen": "KEPMEN PUPR Nomor 1306/KPTS/M/2024",
+    "tarif_gol1": 7500,
+    "tarif_gol2": 12500,
+    "tarif_gol3": 19000
+  },
+  {
+    "ruas": "Surabaya-Mojokerto",
+    "asal": "Wringinanom Junction",
+    "tujuan": "Mojokerto",
+    "kepmen": "KEPMEN PUPR Nomor 1306/KPTS/M/2024",
+    "tarif_gol1": 15000,
+    "tarif_gol2": 24500,
+    "tarif_gol3": 37000
+  },
+  {
+    "ruas": "Surabaya-Mojokerto",
+    "asal": "Wringinanom Junction",
+    "tujuan": "WRR /Warugunung",
+    "kepmen": "KEPMEN PUPR Nomor 1306/KPTS/M/2024",
+    "tarif_gol1": 20000,
+    "tarif_gol2": 32500,
+    "tarif_gol3": 49500
+  },
+  {
+    "ruas": "Surabaya-Mojokerto",
+    "asal": "Wringinanom Junction",
+    "tujuan": "Driyorejo",
+    "kepmen": "KEPMEN PUPR Nomor 1306/KPTS/M/2024",
+    "tarif_gol1": 13500,
+    "tarif_gol2": 22000,
+    "tarif_gol3": 33500
+  },
+  {
+    "ruas": "Surabaya-Mojokerto",
+    "asal": "Wringinanom Junction",
+    "tujuan": "Krian",
+    "kepmen": "KEPMEN PUPR Nomor 1306/KPTS/M/2024",
+    "tarif_gol1": 5500,
+    "tarif_gol2": 9500,
+    "tarif_gol3": 14000
+  },
+  {
+    "ruas": "Surabaya-Mojokerto",
+    "asal": "Mojokerto",
+    "tujuan": "WringinanomJunction",
+    "kepmen": "KEPMEN PUPR Nomor 1306/KPTS/M/2024",
+    "tarif_gol1": 15000,
+    "tarif_gol2": 24500,
+    "tarif_gol3": 37000
+  },
+  {
+    "ruas": "Surabaya-Mojokerto",
+    "asal": "Mojokerto",
+    "tujuan": "Krian",
+    "kepmen": "KEPMEN PUPR Nomor 1306/KPTS/M/2024",
+    "tarif_gol1": 20500,
+    "tarif_gol2": 34000,
+    "tarif_gol3": 51000
+  },
+  {
+    "ruas": "Surabaya-Mojokerto",
+    "asal": "Mojokerto",
+    "tujuan": "Driyorejo",
+    "kepmen": "KEPMEN PUPR Nomor 1306/KPTS/M/2024",
+    "tarif_gol1": 28500,
+    "tarif_gol2": 46500,
+    "tarif_gol3": 70500
+  },
+  {
+    "ruas": "Surabaya-Mojokerto",
+    "asal": "Mojokerto",
+    "tujuan": "WRR /Warugunung",
+    "kepmen": "KEPMEN PUPR Nomor 1306/KPTS/M/2024",
+    "tarif_gol1": 35000,
+    "tarif_gol2": 57000,
+    "tarif_gol3": 86500
+  },
+  {
+    "ruas": "Surabaya-Gempol",
+    "asal": "Dupak",
+    "tujuan": "Waru",
+    "kepmen": "KEPMEN PUPR Nomor 1137/KPTS/M/2023",
+    "tarif_gol1": 6000,
+    "tarif_gol2": 9000,
+    "tarif_gol3": 12000
+  },
+  {
+    "ruas": "Surabaya-Gempol",
+    "asal": "Waru",
+    "tujuan": "Sidoarjo",
+    "kepmen": "KEPMEN PUPR Nomor 1137/KPTS/M/2023",
+    "tarif_gol1": 6500,
+    "tarif_gol2": 10500,
+    "tarif_gol3": 13500
+  },
+  {
+    "ruas": "Surabaya-Gempol",
+    "asal": "Waru",
+    "tujuan": "Porong",
+    "kepmen": "KEPMEN PUPR Nomor 1137/KPTS/M/2023",
+    "tarif_gol1": 10000,
+    "tarif_gol2": 15500,
+    "tarif_gol3": 20500
+  },
+  {
+    "ruas": "Surabaya-Gempol",
+    "asal": "Sidoarjo",
+    "tujuan": "Waru",
+    "kepmen": "KEPMEN PUPR Nomor 1137/KPTS/M/2023",
+    "tarif_gol1": 6500,
+    "tarif_gol2": 10500,
+    "tarif_gol3": 13500
+  },
+  {
+    "ruas": "Surabaya-Gempol",
+    "asal": "Sidoarjo",
+    "tujuan": "Porong",
+    "kepmen": "KEPMEN PUPR Nomor 1137/KPTS/M/2023",
+    "tarif_gol1": 6500,
+    "tarif_gol2": 9500,
+    "tarif_gol3": 13000
+  },
+  {
+    "ruas": "Surabaya-Gempol",
+    "asal": "Porong",
+    "tujuan": "Sidoarjo",
+    "kepmen": "KEPMEN PUPR Nomor 1137/KPTS/M/2023",
+    "tarif_gol1": 6500,
+    "tarif_gol2": 9500,
+    "tarif_gol3": 13000
+  },
+  {
+    "ruas": "Surabaya-Gempol",
+    "asal": "Porong",
+    "tujuan": "Waru",
+    "kepmen": "KEPMEN PUPR Nomor 1137/KPTS/M/2023",
+    "tarif_gol1": 10000,
+    "tarif_gol2": 15500,
+    "tarif_gol3": 20500
+  },
+  {
+    "ruas": "Surabaya-Gempol",
+    "asal": "Porong",
+    "tujuan": "Kejapanan",
+    "kepmen": "KEPMEN PUPR Nomor 1137/KPTS/M/2023",
+    "tarif_gol1": 6000,
+    "tarif_gol2": 9000,
+    "tarif_gol3": 12000
+  },
+  {
+    "ruas": "Surabaya-Gempol",
+    "asal": "Kejapanan",
+    "tujuan": "Gempol",
+    "kepmen": "KEPMEN PUPR Nomor 1137/KPTS/M/2023",
+    "tarif_gol1": 3500,
+    "tarif_gol2": 5000,
+    "tarif_gol3": 7000
+  },
+  {
+    "ruas": "Gempol-Pasuruan",
+    "asal": "Gempol",
+    "tujuan": "Bangil",
+    "kepmen": "KEPMEN PUPR Nomor 1080/KPTS/M/2023",
+    "tarif_gol1": 9500,
+    "tarif_gol2": 14000,
+    "tarif_gol3": 18500
+  },
+  {
+    "ruas": "Gempol-Pasuruan",
+    "asal": "Gempol",
+    "tujuan": "Rembang",
+    "kepmen": "KEPMEN PUPR Nomor 1080/KPTS/M/2023",
+    "tarif_gol1": 19000,
+    "tarif_gol2": 28500,
+    "tarif_gol3": 38000
+  },
+  {
+    "ruas": "Gempol-Pasuruan",
+    "asal": "Gempol",
+    "tujuan": "Pasuruan",
+    "kepmen": "KEPMEN PUPR Nomor 1080/KPTS/M/2023",
+    "tarif_gol1": 28000,
+    "tarif_gol2": 42000,
+    "tarif_gol3": 56000
+  },
+  {
+    "ruas": "Gempol-Pasuruan",
+    "asal": "Gempol",
+    "tujuan": "Grati",
+    "kepmen": "KEPMEN PUPR Nomor 1080/KPTS/M/2023",
+    "tarif_gol1": 46500,
+    "tarif_gol2": 70000,
+    "tarif_gol3": 93000
+  },
+  {
+    "ruas": "Gempol-Pasuruan",
+    "asal": "Bangil",
+    "tujuan": "Rembang",
+    "kepmen": "KEPMEN PUPR Nomor 1080/KPTS/M/2023",
+    "tarif_gol1": 9500,
+    "tarif_gol2": 14500,
+    "tarif_gol3": 19500
+  },
+  {
+    "ruas": "Gempol-Pasuruan",
+    "asal": "Bangil",
+    "tujuan": "Pasuruan",
+    "kepmen": "KEPMEN PUPR Nomor 1080/KPTS/M/2023",
+    "tarif_gol1": 18500,
+    "tarif_gol2": 28000,
+    "tarif_gol3": 37500
+  },
+  {
+    "ruas": "Gempol-Pasuruan",
+    "asal": "Bangil",
+    "tujuan": "Gempol",
+    "kepmen": "KEPMEN PUPR Nomor 1080/KPTS/M/2023",
+    "tarif_gol1": 9500,
+    "tarif_gol2": 14000,
+    "tarif_gol3": 18500
+  },
+  {
+    "ruas": "Gempol-Pasuruan",
+    "asal": "Bangil",
+    "tujuan": "Grati",
+    "kepmen": "KEPMEN PUPR Nomor 1080/KPTS/M/2023",
+    "tarif_gol1": 37500,
+    "tarif_gol2": 56000,
+    "tarif_gol3": 74500
+  },
+  {
+    "ruas": "Gempol-Pasuruan",
+    "asal": "Rembang",
+    "tujuan": "Pasuruan",
+    "kepmen": "KEPMEN PUPR Nomor 1080/KPTS/M/2023",
+    "tarif_gol1": 9000,
+    "tarif_gol2": 13500,
+    "tarif_gol3": 18000
+  },
+  {
+    "ruas": "Gempol-Pasuruan",
+    "asal": "Rembang",
+    "tujuan": "Gempol",
+    "kepmen": "KEPMEN PUPR Nomor 1080/KPTS/M/2023",
+    "tarif_gol1": 19000,
+    "tarif_gol2": 28500,
+    "tarif_gol3": 38000
+  },
+  {
+    "ruas": "Gempol-Pasuruan",
+    "asal": "Rembang",
+    "tujuan": "Bangil",
+    "kepmen": "KEPMEN PUPR Nomor 1080/KPTS/M/2023",
+    "tarif_gol1": 9500,
+    "tarif_gol2": 14500,
+    "tarif_gol3": 19500
+  },
+  {
+    "ruas": "Gempol-Pasuruan",
+    "asal": "Rembang",
+    "tujuan": "Grati",
+    "kepmen": "KEPMEN PUPR Nomor 1080/KPTS/M/2023",
+    "tarif_gol1": 27500,
+    "tarif_gol2": 41500,
+    "tarif_gol3": 55000
+  },
+  {
+    "ruas": "Gempol-Pasuruan",
+    "asal": "Pasuruan",
+    "tujuan": "Gempol",
+    "kepmen": "KEPMEN PUPR Nomor 1080/KPTS/M/2023",
+    "tarif_gol1": 28000,
+    "tarif_gol2": 42000,
+    "tarif_gol3": 56000
+  },
+  {
+    "ruas": "Gempol-Pasuruan",
+    "asal": "Pasuruan",
+    "tujuan": "Bangil",
+    "kepmen": "KEPMEN PUPR Nomor 1080/KPTS/M/2023",
+    "tarif_gol1": 18500,
+    "tarif_gol2": 2800,
+    "tarif_gol3": 37500
+  },
+  {
+    "ruas": "Gempol-Pasuruan",
+    "asal": "Pasuruan",
+    "tujuan": "Rembang",
+    "kepmen": "KEPMEN PUPR Nomor 1080/KPTS/M/2023",
+    "tarif_gol1": 9000,
+    "tarif_gol2": 13500,
+    "tarif_gol3": 18000
+  },
+  {
+    "ruas": "Gempol-Pasuruan",
+    "asal": "Pasuruan",
+    "tujuan": "Grati",
+    "kepmen": "KEPMEN PUPR Nomor 1080/KPTS/M/2023",
+    "tarif_gol1": 18500,
+    "tarif_gol2": 28000,
+    "tarif_gol3": 37000
+  },
+  {
+    "ruas": "Gempol-Pasuruan",
+    "asal": "Grati",
+    "tujuan": "Gempol",
+    "kepmen": "KEPMEN PUPR Nomor 1080/KPTS/M/2023",
+    "tarif_gol1": 46500,
+    "tarif_gol2": 70000,
+    "tarif_gol3": 93000
+  },
+  {
+    "ruas": "Gempol-Pasuruan",
+    "asal": "Grati",
+    "tujuan": "Bangil",
+    "kepmen": "KEPMEN PUPR Nomor 1080/KPTS/M/2023",
+    "tarif_gol1": 37500,
+    "tarif_gol2": 56000,
+    "tarif_gol3": 74500
+  },
+  {
+    "ruas": "Gempol-Pasuruan",
+    "asal": "Grati",
+    "tujuan": "Rembang",
+    "kepmen": "KEPMEN PUPR Nomor 1080/KPTS/M/2023",
+    "tarif_gol1": 27500,
+    "tarif_gol2": 41500,
+    "tarif_gol3": 55000
+  },
+  {
+    "ruas": "Gempol-Pasuruan",
+    "asal": "Grati",
+    "tujuan": "Pasuruan",
+    "kepmen": "KEPMEN PUPR Nomor 1080/KPTS/M/2023",
+    "tarif_gol1": 18500,
+    "tarif_gol2": 28000,
+    "tarif_gol3": 37000
+  },
+  {
+    "ruas": "Gempol-Pandaan",
+    "asal": "Gempol IC",
+    "tujuan": "Gempol JC",
+    "kepmen": "KEPMEN PUPR Nomor 768/KPTS/M/2024",
+    "tarif_gol1": 3500,
+    "tarif_gol2": 5500,
+    "tarif_gol3": 7000
+  },
+  {
+    "ruas": "Gempol-Pandaan",
+    "asal": "Gempol IC",
+    "tujuan": "Pandaan IC",
+    "kepmen": "KEPMEN PUPR Nomor 768/KPTS/M/2024",
+    "tarif_gol1": 12500,
+    "tarif_gol2": 21000,
+    "tarif_gol3": 26500
+  },
+  {
+    "ruas": "Gempol-Pandaan",
+    "asal": "Gempol IC",
+    "tujuan": "Pandaan",
+    "kepmen": "KEPMEN PUPR Nomor 768/KPTS/M/2024",
+    "tarif_gol1": 14500,
+    "tarif_gol2": 23500,
+    "tarif_gol3": 29500
+  },
+  {
+    "ruas": "Gempol-Pandaan",
+    "asal": "Gempol JC",
+    "tujuan": "Gempol IC",
+    "kepmen": "KEPMEN PUPR Nomor 768/KPTS/M/2024",
+    "tarif_gol1": 3500,
+    "tarif_gol2": 5500,
+    "tarif_gol3": 7000
+  },
+  {
+    "ruas": "Gempol-Pandaan",
+    "asal": "Gempol JC",
+    "tujuan": "Pandaan IC",
+    "kepmen": "KEPMEN PUPR Nomor 768/KPTS/M/2024",
+    "tarif_gol1": 9500,
+    "tarif_gol2": 15500,
+    "tarif_gol3": 19500
+  },
+  {
+    "ruas": "Gempol-Pandaan",
+    "asal": "Gempol JC",
+    "tujuan": "Pandaan",
+    "kepmen": "KEPMEN PUPR Nomor 768/KPTS/M/2024",
+    "tarif_gol1": 11000,
+    "tarif_gol2": 18000,
+    "tarif_gol3": 23000
+  },
+  {
+    "ruas": "Gempol-Pandaan",
+    "asal": "Pandaan IC",
+    "tujuan": "Gempol JC",
+    "kepmen": "KEPMEN PUPR Nomor 768/KPTS/M/2024",
+    "tarif_gol1": 9500,
+    "tarif_gol2": 15500,
+    "tarif_gol3": 19500
+  },
+  {
+    "ruas": "Gempol-Pandaan",
+    "asal": "Pandaan IC",
+    "tujuan": "Gempol IC",
+    "kepmen": "KEPMEN PUPR Nomor 768/KPTS/M/2024",
+    "tarif_gol1": 12500,
+    "tarif_gol2": 21000,
+    "tarif_gol3": 26500
+  },
+  {
+    "ruas": "Gempol-Pandaan",
+    "asal": "Pandaan IC",
+    "tujuan": "Pandaan",
+    "kepmen": "KEPMEN PUPR Nomor 768/KPTS/M/2024",
+    "tarif_gol1": 1500,
+    "tarif_gol2": 2500,
+    "tarif_gol3": 3500
+  },
+  {
+    "ruas": "Gempol-Pandaan",
+    "asal": "Pandaan",
+    "tujuan": "Pandaan IC",
+    "kepmen": "KEPMEN PUPR Nomor 768/KPTS/M/2024",
+    "tarif_gol1": 1500,
+    "tarif_gol2": 2500,
+    "tarif_gol3": 3500
+  },
+  {
+    "ruas": "Gempol-Pandaan",
+    "asal": "Pandaan",
+    "tujuan": "Gempol JC",
+    "kepmen": "KEPMEN PUPR Nomor 768/KPTS/M/2024",
+    "tarif_gol1": 11000,
+    "tarif_gol2": 18000,
+    "tarif_gol3": 23000
+  },
+  {
+    "ruas": "Gempol-Pandaan",
+    "asal": "Pandaan",
+    "tujuan": "Gempol IC",
+    "kepmen": "KEPMEN PUPR Nomor 768/KPTS/M/2024",
+    "tarif_gol1": 14500,
+    "tarif_gol2": 23500,
+    "tarif_gol3": 29500
+  },
+  {
+    "ruas": "Pasuruan-Probolinggo Seksi I - IVA",
+    "asal": "Grati",
+    "tujuan": "Tongas",
+    "kepmen": "KEPMEN PUPR Nomor 418/KPTS/M/2024",
+    "tarif_gol1": 17000,
+    "tarif_gol2": 25500,
+    "tarif_gol3": 34000
+  },
+  {
+    "ruas": "Pasuruan-Probolinggo Seksi I - IVA",
+    "asal": "Grati",
+    "tujuan": "Probolinggo Barat",
+    "kepmen": "KEPMEN PUPR Nomor 418/KPTS/M/2024",
+    "tarif_gol1": 26000,
+    "tarif_gol2": 39000,
+    "tarif_gol3": 52500
+  },
+  {
+    "ruas": "Pasuruan-Probolinggo Seksi I - IVA",
+    "asal": "Grati",
+    "tujuan": "Probolinggo Timur",
+    "kepmen": "KEPMEN PUPR Nomor 418/KPTS/M/2024",
+    "tarif_gol1": 40000,
+    "tarif_gol2": 60000,
+    "tarif_gol3": 80000
+  },
+  {
+    "ruas": "Pasuruan-Probolinggo Seksi I - IVA",
+    "asal": "Grati",
+    "tujuan": "Gending",
+    "kepmen": "KEPMEN PUPR Nomor 418/KPTS/M/2024",
+    "tarif_gol1": 52000,
+    "tarif_gol2": 78000,
+    "tarif_gol3": 104000
+  },
+  {
+    "ruas": "Pasuruan-Probolinggo Seksi I - IVA",
+    "asal": "Tongas",
+    "tujuan": "Probolinggo Barat",
+    "kepmen": "KEPMEN PUPR Nomor 418/KPTS/M/2024",
+    "tarif_gol1": 9000,
+    "tarif_gol2": 14000,
+    "tarif_gol3": 18500
+  },
+  {
+    "ruas": "Pasuruan-Probolinggo Seksi I - IVA",
+    "asal": "Tongas",
+    "tujuan": "Probolinggo Timur",
+    "kepmen": "KEPMEN PUPR Nomor 418/KPTS/M/2024",
+    "tarif_gol1": 23000,
+    "tarif_gol2": 34500,
+    "tarif_gol3": 46500
+  },
+  {
+    "ruas": "Pasuruan-Probolinggo Seksi I - IVA",
+    "asal": "Tongas",
+    "tujuan": "Gending",
+    "kepmen": "KEPMEN PUPR Nomor 418/KPTS/M/2024",
+    "tarif_gol1": 35000,
+    "tarif_gol2": 52500,
+    "tarif_gol3": 70000
+  },
+  {
+    "ruas": "Pasuruan-Probolinggo Seksi I - IVA",
+    "asal": "Tongas",
+    "tujuan": "Grati",
+    "kepmen": "KEPMEN PUPR Nomor 418/KPTS/M/2024",
+    "tarif_gol1": 17000,
+    "tarif_gol2": 25500,
+    "tarif_gol3": 34000
+  },
+  {
+    "ruas": "Pasuruan-Probolinggo Seksi I - IVA",
+    "asal": "Probolinggo Barat",
+    "tujuan": "Probolinggo Timur",
+    "kepmen": "KEPMEN PUPR Nomor 418/KPTS/M/2024",
+    "tarif_gol1": 14000,
+    "tarif_gol2": 21000,
+    "tarif_gol3": 28000
+  },
+  {
+    "ruas": "Pasuruan-Probolinggo Seksi I - IVA",
+    "asal": "Probolinggo Barat",
+    "tujuan": "Gending",
+    "kepmen": "KEPMEN PUPR Nomor 418/KPTS/M/2024",
+    "tarif_gol1": 26000,
+    "tarif_gol2": 39000,
+    "tarif_gol3": 51500
+  },
+  {
+    "ruas": "Pasuruan-Probolinggo Seksi I - IVA",
+    "asal": "Probolinggo Barat",
+    "tujuan": "Grati",
+    "kepmen": "KEPMEN PUPR Nomor 418/KPTS/M/2024",
+    "tarif_gol1": 26000,
+    "tarif_gol2": 39000,
+    "tarif_gol3": 52500
+  },
+  {
+    "ruas": "Pasuruan-Probolinggo Seksi I - IVA",
+    "asal": "Probolinggo Barat",
+    "tujuan": "Tongas",
+    "kepmen": "KEPMEN PUPR Nomor 418/KPTS/M/2024",
+    "tarif_gol1": 9000,
+    "tarif_gol2": 14000,
+    "tarif_gol3": 18500
+  },
+  {
+    "ruas": "Cengkareng - Kunciran",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 21500,
+    "tarif_gol2": 32250,
+    "tarif_gol3": 43000
+  },
+  {
+    "ruas": "Cengkareng - Kunciran",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 21500,
+    "tarif_gol2": 32250,
+    "tarif_gol3": 43000
+  },
+  {
+    "ruas": "Kunciran - Serpong",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 17000,
+    "tarif_gol2": 25500,
+    "tarif_gol3": 34000
+  },
+  {
+    "ruas": "Kunciran - Serpong",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 17000,
+    "tarif_gol2": 25500,
+    "tarif_gol3": 34000
+  },
+  {
+    "ruas": "Pondok Aren - Serpong",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 11000,
+    "tarif_gol2": 16500,
+    "tarif_gol3": 22000
+  },
+  {
+    "ruas": "Pondok Aren - Serpong",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 11000,
+    "tarif_gol2": 16500,
+    "tarif_gol3": 22000
+  },
+  {
+    "ruas": "Ulujami - Pondok Aren",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 8500,
+    "tarif_gol2": 12750,
+    "tarif_gol3": 17000
+  },
+  {
+    "ruas": "Ulujami - Pondok Aren",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 8500,
+    "tarif_gol2": 12750,
+    "tarif_gol3": 17000
+  },
+  {
+    "ruas": "Serpong - Cinere",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 10000,
+    "tarif_gol2": 15000,
+    "tarif_gol3": 20000
+  },
+  {
+    "ruas": "Serpong - Cinere",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 10000,
+    "tarif_gol2": 15000,
+    "tarif_gol3": 20000
+  },
+  {
+    "ruas": "JORR W1 (Kebon Jeruk - Penjaringan)",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 15000,
+    "tarif_gol2": 22500,
+    "tarif_gol3": 30000
+  },
+  {
+    "ruas": "JORR W1 (Kebon Jeruk - Penjaringan)",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 15000,
+    "tarif_gol2": 22500,
+    "tarif_gol3": 30000
+  },
+  {
+    "ruas": "JORR W2 Utara (Ciledug - Ulujami)",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 12000,
+    "tarif_gol2": 18000,
+    "tarif_gol3": 24000
+  },
+  {
+    "ruas": "JORR W2 Utara (Ciledug - Ulujami)",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 12000,
+    "tarif_gol2": 18000,
+    "tarif_gol3": 24000
+  },
+  {
+    "ruas": "Cawang - Tj. Priok - Ancol Timur - Jembatan Tiga/Pluit (Wiyoto - Wiyono)",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 41000,
+    "tarif_gol2": 61500,
+    "tarif_gol3": 82000
+  },
+  {
+    "ruas": "Cawang - Tj. Priok - Ancol Timur - Jembatan Tiga/Pluit (Wiyoto - Wiyono)",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 41000,
+    "tarif_gol2": 61500,
+    "tarif_gol3": 82000
+  },
+  {
+    "ruas": "6 Tol Dalam Kota Jakarta",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 14000,
+    "tarif_gol2": 21000,
+    "tarif_gol3": 28000
+  },
+  {
+    "ruas": "6 Tol Dalam Kota Jakarta",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 14000,
+    "tarif_gol2": 21000,
+    "tarif_gol3": 28000
+  },
+  {
+    "ruas": "JORR S (Pondok Pinang - TMII)",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 21500,
+    "tarif_gol2": 32250,
+    "tarif_gol3": 43000
+  },
+  {
+    "ruas": "JORR S (Pondok Pinang - TMII)",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 21500,
+    "tarif_gol2": 32250,
+    "tarif_gol3": 43000
+  },
+  {
+    "ruas": "Cinere - Jagorawi",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 19500,
+    "tarif_gol2": 29250,
+    "tarif_gol3": 39000
+  },
+  {
+    "ruas": "Cinere - Jagorawi",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 19500,
+    "tarif_gol2": 29250,
+    "tarif_gol3": 39000
+  },
+  {
+    "ruas": "Depok - Antasari",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 18500,
+    "tarif_gol2": 27750,
+    "tarif_gol3": 37000
+  },
+  {
+    "ruas": "JORR NON S",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 47000,
+    "tarif_gol2": 70500,
+    "tarif_gol3": 94000
+  },
+  {
+    "ruas": "JORR NON S",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 47000,
+    "tarif_gol2": 70500,
+    "tarif_gol3": 94000
+  },
+  {
+    "ruas": "Akses Tanjung Priok",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 17500,
+    "tarif_gol2": 26250,
+    "tarif_gol3": 35000
+  },
+  {
+    "ruas": "Akses Tanjung Priok",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 17500,
+    "tarif_gol2": 26250,
+    "tarif_gol3": 35000
+  },
+  {
+    "ruas": "Bekasi - Cawang - Kampung Melayu",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 23000,
+    "tarif_gol2": 34500,
+    "tarif_gol3": 46000
+  },
+  {
+    "ruas": "Bekasi - Cawang - Kampung Melayu",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 23000,
+    "tarif_gol2": 34500,
+    "tarif_gol3": 46000
+  },
+  {
+    "ruas": "Cibitung - Cilincing",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 52000,
+    "tarif_gol2": 78000,
+    "tarif_gol3": 104000
+  },
+  {
+    "ruas": "Jakarta - Bogor - Ciawi",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Sistem Terbuka (Flat)",
+    "tarif_gol1": 7500,
+    "tarif_gol2": 11500,
+    "tarif_gol3": 11500
+  },
+  {
+    "ruas": "Jakarta - Bogor - Ciawi",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Sistem Terbuka (Flat)",
+    "tarif_gol1": 7500,
+    "tarif_gol2": 11500,
+    "tarif_gol3": 11500
+  },
+  {
+    "ruas": "Bogor Ring Road",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 17000,
+    "tarif_gol2": 25500,
+    "tarif_gol3": 34000
+  },
+  {
+    "ruas": "Bogor Ring Road",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 17000,
+    "tarif_gol2": 25500,
+    "tarif_gol3": 34000
+  },
+  {
+    "ruas": "Jakarta - Cikampek II Elevated",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 57000,
+    "tarif_gol2": 85500,
+    "tarif_gol3": 114000
+  },
+  {
+    "ruas": "Jakarta - Cikampek II Elevated",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 57000,
+    "tarif_gol2": 85500,
+    "tarif_gol3": 114000
+  },
+  {
+    "ruas": "Cawang - Tomang - Pluit",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 35500,
+    "tarif_gol2": 53250,
+    "tarif_gol3": 71000
+  },
+  {
+    "ruas": "Cawang - Tomang - Pluit",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 35500,
+    "tarif_gol2": 53250,
+    "tarif_gol3": 71000
+  },
+  {
+    "ruas": "Binjai - Langsa",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 18000,
+    "tarif_gol2": 27000,
+    "tarif_gol3": 36000
+  },
+  {
+    "ruas": "Medan - Binjai",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 27000,
+    "tarif_gol2": 40500,
+    "tarif_gol3": 54000
+  },
+  {
+    "ruas": "Medan - Binjai",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 27000,
+    "tarif_gol2": 40500,
+    "tarif_gol3": 54000
+  },
+  {
+    "ruas": "Belawan - Medan - Tanjung Morowa",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 64500,
+    "tarif_gol2": 96750,
+    "tarif_gol3": 129000
+  },
+  {
+    "ruas": "Belawan - Medan - Tanjung Morowa",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 64500,
+    "tarif_gol2": 96750,
+    "tarif_gol3": 129000
+  },
+  {
+    "ruas": "Medan - Kualanamu - Tebing Tinggi",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 93500,
+    "tarif_gol2": 140250,
+    "tarif_gol3": 187000
+  },
+  {
+    "ruas": "Medan - Kualanamu - Tebing Tinggi",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 93500,
+    "tarif_gol2": 140250,
+    "tarif_gol3": 187000
+  },
+  {
+    "ruas": "Pekanbaru - Dumai",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 198000,
+    "tarif_gol2": 297000,
+    "tarif_gol3": 396000
+  },
+  {
+    "ruas": "Pekanbaru - Dumai",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 198000,
+    "tarif_gol2": 297000,
+    "tarif_gol3": 396000
+  },
+  {
+    "ruas": "Pekanbaru - Padang (Pekanbaru - Bangkinang)",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 46500,
+    "tarif_gol2": 69750,
+    "tarif_gol3": 93000
+  },
+  {
+    "ruas": "Pekanbaru - Padang (Pekanbaru - Bangkinang)",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 46500,
+    "tarif_gol2": 69750,
+    "tarif_gol3": 93000
+  },
+  {
+    "ruas": "Lubuk Linggau - Curup - Bengkulu",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 25500,
+    "tarif_gol2": 38250,
+    "tarif_gol3": 51000
+  },
+  {
+    "ruas": "Lubuk Linggau - Curup - Bengkulu",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 25500,
+    "tarif_gol2": 38250,
+    "tarif_gol3": 51000
+  },
+  {
+    "ruas": "Simpang Indralaya - Muara Enim",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 95500,
+    "tarif_gol2": 143250,
+    "tarif_gol3": 191000
+  },
+  {
+    "ruas": "Simpang Indralaya - Muara Enim",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 95500,
+    "tarif_gol2": 143250,
+    "tarif_gol3": 191000
+  },
+  {
+    "ruas": "Palembang - Simpang Indralaya",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 32500,
+    "tarif_gol2": 48750,
+    "tarif_gol3": 65000
+  },
+  {
+    "ruas": "Palembang - Simpang Indralaya",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 32500,
+    "tarif_gol2": 48750,
+    "tarif_gol3": 65000
+  },
+  {
+    "ruas": "Kayu Agung - Palembang - Betung",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 56500,
+    "tarif_gol2": 84750,
+    "tarif_gol3": 113000
+  },
+  {
+    "ruas": "Kayu Agung - Palembang - Betung",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 56500,
+    "tarif_gol2": 84750,
+    "tarif_gol3": 113000
+  },
+  {
+    "ruas": "Terbanggi Besar - Pematang Panggang - Kayu Agung",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 284500,
+    "tarif_gol2": 426750,
+    "tarif_gol3": 569000
+  },
+  {
+    "ruas": "Terbanggi Besar - Pematang Panggang - Kayu Agung",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 284500,
+    "tarif_gol2": 426750,
+    "tarif_gol3": 569000
+  },
+  {
+    "ruas": "Serang - Panimbang",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 40000,
+    "tarif_gol2": 60000,
+    "tarif_gol3": 80000
+  },
+  {
+    "ruas": "Serang - Panimbang",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 40000,
+    "tarif_gol2": 60000,
+    "tarif_gol3": 80000
+  },
+  {
+    "ruas": "Cikampek - Purwakarta - Padalarang",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 88000,
+    "tarif_gol2": 132000,
+    "tarif_gol3": 176000
+  },
+  {
+    "ruas": "Cikampek - Purwakarta - Padalarang",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 88000,
+    "tarif_gol2": 132000,
+    "tarif_gol3": 176000
+  },
+  {
+    "ruas": "Ciawi - Sukabumi",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 40000,
+    "tarif_gol2": 60000,
+    "tarif_gol3": 80000
+  },
+  {
+    "ruas": "Ciawi - Sukabumi",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 40000,
+    "tarif_gol2": 60000,
+    "tarif_gol3": 80000
+  },
+  {
+    "ruas": "Soreang - Pasir Koja",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 12500,
+    "tarif_gol2": 18750,
+    "tarif_gol3": 25000
+  },
+  {
+    "ruas": "Soreang - Pasir Koja",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 12500,
+    "tarif_gol2": 18750,
+    "tarif_gol3": 25000
+  },
+  {
+    "ruas": "Padalarang - Cileunyi",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 97000,
+    "tarif_gol2": 145500,
+    "tarif_gol3": 194000
+  },
+  {
+    "ruas": "Padalarang - Cileunyi",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 97000,
+    "tarif_gol2": 145500,
+    "tarif_gol3": 194000
+  },
+  {
+    "ruas": "Cileunyi - Sumedang - Dawuan",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 93000,
+    "tarif_gol2": 139500,
+    "tarif_gol3": 186000
+  },
+  {
+    "ruas": "Cileunyi - Sumedang - Dawuan",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 93000,
+    "tarif_gol2": 139500,
+    "tarif_gol3": 186000
+  },
+  {
+    "ruas": "Semarang - Demak",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 24500,
+    "tarif_gol2": 36750,
+    "tarif_gol3": 49000
+  },
+  {
+    "ruas": "Semarang - Demak",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 24500,
+    "tarif_gol2": 36750,
+    "tarif_gol3": 49000
+  },
+  {
+    "ruas": "Krian - Legundi - Bunder - Manyar",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 43500,
+    "tarif_gol2": 65250,
+    "tarif_gol3": 87000
+  },
+  {
+    "ruas": "Krian - Legundi - Bunder - Manyar",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 43500,
+    "tarif_gol2": 65250,
+    "tarif_gol3": 87000
+  },
+  {
+    "ruas": "Surabaya - Gresik",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 31500,
+    "tarif_gol2": 47250,
+    "tarif_gol3": 63000
+  },
+  {
+    "ruas": "Surabaya - Gresik",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 31500,
+    "tarif_gol2": 47250,
+    "tarif_gol3": 63000
+  },
+  {
+    "ruas": "SS Waru - Bandara Juanda",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 19500,
+    "tarif_gol2": 29250,
+    "tarif_gol3": 39000
+  },
+  {
+    "ruas": "SS Waru - Bandara Juanda",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 19500,
+    "tarif_gol2": 29250,
+    "tarif_gol3": 39000
+  },
+  {
+    "ruas": "Pandaan - Malang",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 58000,
+    "tarif_gol2": 87000,
+    "tarif_gol3": 116000
+  },
+  {
+    "ruas": "Pandaan - Malang",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 58000,
+    "tarif_gol2": 87000,
+    "tarif_gol3": 116000
+  },
+  {
+    "ruas": "Nusa Dua - Ngurah Rai - Benoa (Bali Mandara)",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 15500,
+    "tarif_gol2": 23250,
+    "tarif_gol3": 31000
+  },
+  {
+    "ruas": "Nusa Dua - Ngurah Rai - Benoa (Bali Mandara)",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 15500,
+    "tarif_gol2": 23250,
+    "tarif_gol3": 31000
+  },
+  {
+    "ruas": "Ujung Pandang Seksi 1, 2, dan 3",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 15500,
+    "tarif_gol2": 23250,
+    "tarif_gol3": 31000
+  },
+  {
+    "ruas": "Balikpapan - Samarinda",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 146000,
+    "tarif_gol2": 219000,
+    "tarif_gol3": 292000
+  },
+  {
+    "ruas": "Balikpapan - Samarinda",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 146000,
+    "tarif_gol2": 219000,
+    "tarif_gol3": 292000
+  },
+  {
+    "ruas": "Manado - Bitung",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 60000,
+    "tarif_gol2": 90000,
+    "tarif_gol3": 120000
+  },
+  {
+    "ruas": "Manado - Bitung",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 60000,
+    "tarif_gol2": 90000,
+    "tarif_gol3": 120000
+  },
+  {
+    "ruas": "Makassar Seksi IV",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 17500,
+    "tarif_gol2": 26250,
+    "tarif_gol3": 35000
+  },
+  {
+    "ruas": "Makassar Seksi IV",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 17500,
+    "tarif_gol2": 26250,
+    "tarif_gol3": 35000
+  },
+  {
+    "ruas": "Cikopo - Palimanan",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 175500,
+    "tarif_gol2": 263250,
+    "tarif_gol3": 351000
+  },
+  {
+    "ruas": "Cikopo - Palimanan",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 175500,
+    "tarif_gol2": 263250,
+    "tarif_gol3": 351000
+  },
+  {
+    "ruas": "Palimanan - Plumbon - Kanci",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 39500,
+    "tarif_gol2": 59250,
+    "tarif_gol3": 79000
+  },
+  {
+    "ruas": "Palimanan - Plumbon - Kanci",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 39500,
+    "tarif_gol2": 59250,
+    "tarif_gol3": 79000
+  },
+  {
+    "ruas": "Batang - Semarang",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 112500,
+    "tarif_gol2": 168750,
+    "tarif_gol3": 225000
+  },
+  {
+    "ruas": "Batang - Semarang",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 112500,
+    "tarif_gol2": 168750,
+    "tarif_gol3": 225000
+  },
+  {
+    "ruas": "Serpong - Balaraja",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 6000,
+    "tarif_gol2": 9000,
+    "tarif_gol3": 12000
+  },
+  {
+    "ruas": "Serpong - Balaraja",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 6000,
+    "tarif_gol2": 9000,
+    "tarif_gol3": 12000
+  },
+  {
+    "ruas": "Pasuruan - Probolinggo",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 61000,
+    "tarif_gol2": 91500,
+    "tarif_gol3": 122000
+  },
+  {
+    "ruas": "Pasuruan - Probolinggo",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 61000,
+    "tarif_gol2": 91500,
+    "tarif_gol3": 122000
+  },
+  {
+    "ruas": "Ujung Pandang Seksi 1, 2, dan 3",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 15500,
+    "tarif_gol2": 23250,
+    "tarif_gol3": 31000
+  },
+  {
+    "ruas": "Sigli - Banda Aceh",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 73000,
+    "tarif_gol2": 109500,
+    "tarif_gol3": 146000
+  },
+  {
+    "ruas": "Sigli - Banda Aceh",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 73000,
+    "tarif_gol2": 109500,
+    "tarif_gol3": 146000
+  },
+  {
+    "ruas": "Cimanggis - Cibitung",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 10000,
+    "tarif_gol2": 15000,
+    "tarif_gol3": 20000
+  },
+  {
+    "ruas": "Cimanggis - Cibitung",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 10000,
+    "tarif_gol2": 15000,
+    "tarif_gol3": 20000
+  },
+  {
+    "ruas": "Depok - Antasari",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 18500,
+    "tarif_gol2": 27750,
+    "tarif_gol3": 37000
+  },
+  {
+    "ruas": "Cibitung - Cilincing",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 52000,
+    "tarif_gol2": 78000,
+    "tarif_gol3": 104000
+  },
+  {
+    "ruas": "Prof. Dr. Ir. Soedijatmo",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 21500,
+    "tarif_gol2": 32250,
+    "tarif_gol3": 43000
+  },
+  {
+    "ruas": "Jakarta - Cikampek",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 124500,
+    "tarif_gol2": 186750,
+    "tarif_gol3": 249000
+  },
+  {
+    "ruas": "Jakarta - Cikampek",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 124500,
+    "tarif_gol2": 186750,
+    "tarif_gol3": 249000
+  },
+  {
+    "ruas": "Prof. Dr. Ir. Soedijatmo",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 21500,
+    "tarif_gol2": 32250,
+    "tarif_gol3": 43000
+  },
+  {
+    "ruas": "Bakauheni - Terbanggi Besar",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 211000,
+    "tarif_gol2": 316500,
+    "tarif_gol3": 422000
+  },
+  {
+    "ruas": "Bakauheni - Terbanggi Besar",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 211000,
+    "tarif_gol2": 316500,
+    "tarif_gol3": 422000
+  },
+  {
+    "ruas": "Kuala Tanjung - Tebing Tinggi - Parapat",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 42500,
+    "tarif_gol2": 63750,
+    "tarif_gol3": 85000
+  },
+  {
+    "ruas": "Pekanbaru - Padang (Bangkinang - Pangkalan Tahap I)",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 37500,
+    "tarif_gol2": 56250,
+    "tarif_gol3": 75000
+  },
+  {
+    "ruas": "Pekanbaru - Padang (Bangkinang - Pangkalan Tahap I)",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 37500,
+    "tarif_gol2": 56250,
+    "tarif_gol3": 75000
+  },
+  {
+    "ruas": "Indrapura - Kisaran",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 15000,
+    "tarif_gol2": 22500,
+    "tarif_gol3": 30000
+  },
+  {
+    "ruas": "Indrapura - Kisaran",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 15000,
+    "tarif_gol2": 22500,
+    "tarif_gol3": 30000
+  },
+  {
+    "ruas": "Kuala Tanjung - Tebing Tinggi - Parapat",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 42500,
+    "tarif_gol2": 63750,
+    "tarif_gol3": 85000
+  },
+  {
+    "ruas": "Binjai - Langsa",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 18000,
+    "tarif_gol2": 27000,
+    "tarif_gol3": 36000
+  },
+  {
+    "ruas": "Pekanbaru - Padang (Sicincin - Padang)",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 53500,
+    "tarif_gol2": 80250,
+    "tarif_gol3": 107000
+  },
+  {
+    "ruas": "Pekanbaru - Padang (Sicincin - Padang)",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 53500,
+    "tarif_gol2": 80250,
+    "tarif_gol3": 107000
+  },
+  {
+    "ruas": "Solo - Yogyakarta - NYIA Kulonprogo",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 45500,
+    "tarif_gol2": 68250,
+    "tarif_gol3": 91000
+  },
+  {
+    "ruas": "Solo - Yogyakarta - NYIA Kulonprogo",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 45500,
+    "tarif_gol2": 68250,
+    "tarif_gol3": 91000
+  },
+  {
+    "ruas": "Kuala Tanjung - Tebing Tinggi - Parapat",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 15500,
+    "tarif_gol2": 23250,
+    "tarif_gol3": 31000
+  },
+  {
+    "ruas": "Kuala Tanjung - Tebing Tinggi - Parapat",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 15500,
+    "tarif_gol2": 23250,
+    "tarif_gol3": 31000
+  },
+  {
+    "ruas": "Betung - Tempino Jambi",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 79000,
+    "tarif_gol2": 118500,
+    "tarif_gol3": 158000
+  },
+  {
+    "ruas": "Betung - Tempino Jambi",
+    "asal": "Gerbang Utama",
+    "tujuan": "Gerbang Akhir",
+    "kepmen": "Estimasi Sistem (Rp 1.500/km)",
+    "tarif_gol1": 79000,
+    "tarif_gol2": 118500,
+    "tarif_gol3": 158000
+  }
+]

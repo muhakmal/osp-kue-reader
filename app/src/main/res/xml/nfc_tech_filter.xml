@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Hanya teknologi yang benar-benar bisa kami baca saldonya: kartu e-money berbasis
+   ISO 14443-4 (IsoDep) dan FeliCa (KMT). Daftar lama ikut memuat Ndef, NfcA,
+   MifareUltralight, dsb., sehingga tag NFC apa pun membuka aplikasi ini.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <tech-list>
+        <tech>android.nfc.tech.IsoDep</tech>
+    </tech-list>
+    <tech-list>
+        <tech>android.nfc.tech.NfcF</tech>
+    </tech-list>
+</resources>

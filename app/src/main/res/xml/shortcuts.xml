@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- App Shortcuts: tekan lama ikon aplikasi untuk langsung membuka layar ini. -->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="toll_calculator"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_toll"
+        android:shortcutShortLabel="@string/shortcut_toll_short"
+        android:shortcutLongLabel="@string/shortcut_toll_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.baskom.pembacakue"
+            android:targetClass="com.baskom.pembacakue.MainActivity">
+            <extra android:name="open_screen" android:value="TOLL_CALCULATOR" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="history"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_history"
+        android:shortcutShortLabel="@string/shortcut_history_short"
+        android:shortcutLongLabel="@string/shortcut_history_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.baskom.pembacakue"
+            android:targetClass="com.baskom.pembacakue.MainActivity">
+            <extra android:name="open_screen" android:value="HISTORY" />
+        </intent>
+    </shortcut>
+</shortcuts>

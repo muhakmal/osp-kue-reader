@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regulasi Bank Indonesia | PembacaKUE Learning</title>
+    <meta name="description" content="Mengenal aturan Bank Indonesia terkait Uang Elektronik (UE) dan perbedaan antara Chip Based (KUE) dan Server Based.">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <span class="logo-icon"></span>
+            PembacaKUE <span style="font-weight: 300; font-size: 1rem; margin-left: 10px;">Learning</span>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="radio-waves.html">Gelombang Radio</a></li>
+            <li><a href="nfc-basics.html">Dasar NFC</a></li>
+            <li><a href="data-exchange.html">Pertukaran Data</a></li>
+            <li><a href="components.html">Komponen Project</a></li>
+            <li><a href="history-trivia.html">Sejarah & Trivia</a></li>
+            <li><a href="terminology.html">Kamus Istilah</a></li>
+            <li><a href="regulasi-bi.html" class="active">Regulasi BI</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero fade-in">
+            <h1>Literasi Hukum: <span class="text-gradient">Uang Elektronik & BI</span></h1>
+            <p>
+                Sebagai seorang pengembang atau pengguna teknologi pembayaran, kita wajib memahami landasan hukum yang mengaturnya di Indonesia. Mari bedah Peraturan Bank Indonesia (PBI) secara sederhana.
+            </p>
+        </section>
+
+        <section class="content-section fade-in delay-1">
+            <div class="split-layout">
+                <div class="text-content">
+                    <h2>Dasar Hukum Utama</h2>
+                    <p>
+                        Pengaturan mengenai uang elektronik di Indonesia saat ini mengacu secara spesifik pada <strong>Peraturan Bank Indonesia (PBI) Nomor 20/6/PBI/2018 tentang Uang Elektronik</strong> (dan telah disempurnakan seiring berjalannya blueprint Sistem Pembayaran Indonesia).
+                    </p>
+                    <p>
+                        Dalam peraturan tersebut, <strong>Uang Elektronik (UE)</strong> secara resmi didefinisikan sebagai alat pembayaran yang memenuhi tiga unsur penting:
+                    </p>
+                    <ol style="margin-left: 1.5rem; color: var(--text-secondary); margin-bottom: 1.5rem; line-height: 1.8;">
+                        <li>Diterbitkan atas dasar nilai uang yang disetor terlebih dahulu (prabayar/<i>prepaid</i>).</li>
+                        <li>Nilai uang disimpan secara elektronik dalam suatu media (seperti server atau chip).</li>
+                        <li><strong>Bukan merupakan simpanan</strong>. (Artinya dana di e-money tidak dijamin oleh LPS dan tidak mendapatkan bunga seperti uang di rekening tabungan bank).</li>
+                    </ol>
+                </div>
+                <div class="visual-content">
+                    <div class="glass-card" style="text-align: center; width: 100%;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">⚖️ 🏦</div>
+                        <h3>PBI No. 20/6/PBI/2018</h3>
+                        <p style="font-size: 0.9rem; margin-top: 10px;">Landasan sah beroperasinya seluruh dompet digital dan kartu pintar di Indonesia.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="split-layout reverse fade-in delay-2">
+                <div class="text-content">
+                    <h2>Chip-Based (KUE) vs Server-Based</h2>
+                    <p>
+                        Bank Indonesia mengklasifikasikan Uang Elektronik berdasarkan <strong>media penyimpanan nilai uangnya</strong>. Inilah yang membedakan proyek "PembacaKUE" dengan aplikasi seperti GoPay.
+                    </p>
+                    <div style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 15px;">
+                        <div style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 10px; border-left: 4px solid var(--accent-1);">
+                            <h3 style="color: var(--accent-1); margin-bottom: 5px;">Chip Based (KUE / Kartu Uang Elektronik)</h3>
+                            <p style="font-size: 0.95rem; color: var(--text-secondary); margin-top: 5px; line-height: 1.6;">
+                                Nilai uang (saldo) benar-benar <strong>disimpan di dalam microchip fisik</strong> yang ada pada kartu tersebut. Karena saldo ada di fisik kartunya, transaksi dilakukan secara <em>offline</em> dengan cara ditempel (<i>tap</i>) ke mesin pembaca (NFC). <br>
+                                <strong>Contoh:</strong> e-Money Mandiri, BCA Flazz, BNI TapCash, BRI Brizzi, KMT KAI.
+                            </p>
+                        </div>
+                        <div style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 10px; border-left: 4px solid var(--accent-2);">
+                            <h3 style="color: var(--accent-2); margin-bottom: 5px;">Server Based</h3>
+                            <p style="font-size: 0.95rem; color: var(--text-secondary); margin-top: 5px; line-height: 1.6;">
+                                Nilai uang (saldo) Anda disimpan di <strong>komputer pusat (Server) milik perusahaan penerbit</strong>. Aplikasi di HP Anda hanyalah alat untuk meminta server mengurangi saldo tersebut. Karena butuh konfirmasi ke pusat, transaksi ini harus dilakukan secara <em>online</em> (butuh koneksi internet).<br>
+                                <strong>Contoh:</strong> GoPay, OVO, DANA, ShopeePay.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="split-layout fade-in delay-3">
+                <div class="text-content">
+                    <h2>Klasifikasi Registered vs Unregistered</h2>
+                    <p>
+                        Selain dari media simpannya, BI juga membagi UE berdasarkan pencatatan data identitas pengguna:
+                    </p>
+                    <ul style="margin-left: 1.5rem; color: var(--text-secondary); margin-bottom: 1.5rem; line-height: 1.8;">
+                        <li><strong>Unregistered:</strong> Data identitas (KTP/Nama) tidak dicatat di sistem penerbit. Kartu E-Toll (KUE) umumnya adalah <i>unregistered</i>. Karena itu, jika kartu hilang, uangnya ikut hilang seperti uang kertas biasa. Batas saldonya biasanya lebih kecil (maks Rp 2 juta).</li>
+                        <li><strong>Registered:</strong> Identitas pengguna didaftarkan secara resmi (KYC / <i>Know Your Customer</i>). Jika HP atau alatnya hilang, saldo masih bisa diselamatkan karena tercatat atas nama Anda di server. Batas saldo bisa mencapai Rp 20 juta.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 3rem;" class="fade-in delay-3">
+                <a href="index.html" style="display: inline-block; padding: 1rem 2rem; background: linear-gradient(135deg, var(--accent-1), var(--accent-2)); color: white; text-decoration: none; border-radius: 30px; font-weight: 600; transition: transform 0.3s ease; box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);">
+                    Kembali ke Beranda ➔
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Project Learning PembacaKUE. Dibuat dengan cinta untuk pembelajaran IoT.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

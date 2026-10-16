@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="57dp"
+    android:minHeight="57dp"
+    android:targetCellWidth="1"
+    android:targetCellHeight="1"
+    android:resizeMode="none"
+    android:widgetCategory="home_screen"
+    android:initialLayout="@layout/widget_scan"
+    android:previewImage="@mipmap/ic_launcher"
+    android:description="@string/widget_scan_description"
+    android:updatePeriodMillis="0" />

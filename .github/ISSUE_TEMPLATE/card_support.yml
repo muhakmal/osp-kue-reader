@@ -1,0 +1,37 @@
+name: 💳 New Card Support Request
+description: Request support for a new contactless smart card or variant
+title: "feat(nfc): add support for [Card Name]"
+labels: ["card-support", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to request reading support for a new contactless electronic money or transit card.
+  - type: input
+    id: card_name
+    attributes:
+      label: Card Name & Issuer
+      description: Name of the card and issuing bank/transit authority.
+      placeholder: "e.g., JakLingko Card (Bank DKI / MRT / Transjakarta)"
+    validations:
+      required: true
+  - type: input
+    id: tech_info
+    attributes:
+      label: NFC Tech & Standards
+      description: Does the card use IsoDep (ISO 14443-4), Mifare Classic, FeliCa (NfcF), or ISO 15693?
+      placeholder: "e.g., IsoDep, Type A"
+    validations:
+      required: true
+  - type: textarea
+    id: apdu_info
+    attributes:
+      label: Known AID / APDU details (if available)
+      description: If you know the Application Identifier (AID) or public read commands, please share them.
+  - type: checkboxes
+    id: test_willingness
+    attributes:
+      label: Testing Capability
+      options:
+        - label: I own this physical card and am able to test experimental builds / provide debug APDU logs.
+          required: true

@@ -1,0 +1,14 @@
+## Local Configuration Example for OSP KUE Reader
+## Copy this file to `local.properties` and customize as needed.
+
+## Location of the Android SDK
+sdk.dir=/Users/YOUR_USERNAME/Library/Android/sdk
+
+## (Optional) Proprietary IronSource Ad Key
+# IRONSOURCE_APP_KEY=your_ironsource_app_key_here
+
+## (Optional) Release Signing Configuration
+# RELEASE_STORE_FILE=path/to/your/release-keystore.jks
+# RELEASE_STORE_PASSWORD=your_keystore_password
+# RELEASE_KEY_ALIAS=your_key_alias
+# RELEASE_KEY_PASSWORD=your_key_password
