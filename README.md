@@ -1,169 +1,246 @@
-# OSP KUE Reader — Indonesian Contactless Card NFC Reader
+# KUE Reader SDK — Indonesian Contactless Card (NFC) Toolkit for Android
 
 <p align="center">
-  <img src="playstore-asset/icon.png" width="128" height="128" alt="OSP KUE Reader Logo" />
+  <img src="docs/showcase/pembacakue_icon.png" width="96" height="96" alt="KUE Reader SDK Logo" />
 </p>
 
 <p align="center">
-  <strong>Fast, private, and offline Android NFC reader for Indonesian electronic money cards.</strong><br>
-  Built with modern Kotlin & Jetpack Compose.
+  <strong>Lightweight, modular, and privacy-preserving Android SDK for reading Indonesian contactless electronic money cards via NFC.</strong><br>
+  Built with Kotlin & modern Android NFC architecture.
 </p>
 
 <p align="center">
   <a href="https://github.com/muhakmal/osp-kue-reader/actions/workflows/ci.yml"><img src="https://github.com/muhakmal/osp-kue-reader/actions/workflows/ci.yml/badge.svg" alt="CI Status" /></a>
+  <a href="https://jitpack.io/#muhakmal/osp-kue-reader"><img src="https://jitpack.io/v/muhakmal/osp-kue-reader.svg" alt="JitPack" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License: Apache 2.0" /></a>
   <img src="https://img.shields.io/badge/Platform-Android-green.svg" alt="Platform" />
-  <img src="https://img.shields.io/badge/Kotlin-2.0.21-purple.svg" alt="Kotlin" />
-  <img src="https://img.shields.io/badge/Jetpack_Compose-Material_3-4285F4.svg" alt="Compose" />
+  <img src="https://img.shields.io/badge/Min_SDK-24-orange.svg" alt="Min SDK" />
+  <img src="https://img.shields.io/badge/Kotlin-2.0-purple.svg" alt="Kotlin" />
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" /></a>
 </p>
 
 ---
 
-## 📖 Table of Contents
-- [English](#-english)
-  - [Overview](#overview)
-  - [Supported Cards](#supported-cards)
-  - [Key Features](#key-features)
-  - [Architecture & Tech Stack](#architecture--tech-stack)
-  - [Getting Started & Build Instructions](#getting-started--build-instructions)
-  - [Privacy & Security](#privacy--security)
-  - [Project Roadmap](ROADMAP.md)
-  - [Disclaimer & Trademarks](#disclaimer--trademarks)
-- [Bahasa Indonesia](#-bahasa-indonesia)
-  - [Ikhtisar](#ikhtisar)
-  - [Kartu yang Didukung](#kartu-yang-didukung)
-  - [Fitur Utama](#fitur-utama)
-  - [Panduan Build & Menjalankan](#panduan-build--menjalankan)
+## 🌟 Production Showcase: Pembaca KUE
+
+> [!NOTE]
+> **Battle-Tested in Production**  
+> This SDK is the core open-source engine powering **[Pembaca KUE](https://play.google.com/store/apps/details?id=com.baskom.pembacakue)**, the top-rated Indonesian electronic money card reader app on Google Play with thousands of active card scans daily.
+>
+> If you are looking for a ready-to-use end-user application with sound announcements, expense tracking, and toll calculators, install **Pembaca KUE**. If you are a developer looking to integrate electronic money reading into your own app, use this **KUE Reader SDK**!
+
+<p align="center">
+  <img src="docs/showcase/pembacakue_scan.jpg" width="320" alt="Pembaca KUE Production Showcase" />
+</p>
 
 ---
 
-## 🇬🇧 English
+## 📖 Table of Contents
+- [Features](#-features)
+- [Supported Cards](#-supported-cards)
+- [Installation](#-installation)
+- [Quick Start](#-quick-start)
+- [Sample Application](#-sample-application)
+- [Architecture & Extensibility](#-architecture--extensibility)
+- [Privacy & Security](#-privacy--security)
+- [Disclaimer & Trademarks](#-disclaimer--trademarks)
+- [Contributing & License](#-contributing--license)
 
-### Overview
-**OSP KUE Reader** (*Open Source Project - Kartu Uang Elektronik Reader*) is a native Android application designed to read current balances, detailed transaction histories, and card identifiers from Indonesian contactless electronic money smartcards via Near Field Communication (NFC).
+---
 
-The application operates **100% locally on-device**. No cardholder data, card numbers, or transaction logs are ever sent over a network.
+## ⚡ Features
 
-### Supported Cards
+- **🚀 Ultra Lightweight (~56 KB AAR)**: Zero heavy third-party runtime dependencies. Only relies on core Android NFC APIs and Kotlin Coroutines.
+- **🛡️ 100% Offline & Private**: Zero network permissions required. Card data and balances are decoded strictly on-device.
+- **🔒 Strictly Read-Only**: Implements standard read APDU commands (`SELECT`, `READ RECORD`, `READ BINARY`). Never attempts write operations or cryptographic tampering.
+- **🔌 Pluggable Parser Pipeline**: Add support for new transit cards or proprietary applets using the `EmoneyParser` interface and `ApduChannel` test abstractions.
+- **🧪 Comprehensive Unit Test Suite**: Includes mock APDU channel fixtures for regression testing without physical NFC cards.
 
-| Card Type | Issuer | NFC Standard | Balance | History | Notes |
+---
+
+## 💳 Supported Cards
+
+| Card Type | Issuer | Protocol / Standard | Balance | History | Notes |
 |:---|:---|:---:|:---:|:---:|:---|
-| **Mandiri e-money** | Bank Mandiri | ISO/IEC 14443-4 (IsoDep) | ✅ | ✅ | Supports new (00 D1) & legacy records |
-| **BCA Flazz (Gen 2)** | Bank Central Asia | ISO/IEC 14443-4 (IsoDep) | ✅ | ✅ | Full balance & recent transaction log |
+| **Mandiri e-money** | Bank Mandiri | ISO/IEC 14443-4 (IsoDep) | ✅ | ✅ | Supports new (`00 D1`) and legacy records |
+| **BCA Flazz (Gen 2)** | Bank Central Asia | ISO/IEC 14443-4 (IsoDep) | ✅ | ✅ | Full balance & recent merchant/transit log |
 | **BCA Flazz (Gen 1)** | Bank Central Asia | ISO/IEC 14443-4 (IsoDep) | ⚠️ Encrypted | ⚠️ Encrypted | Requires proprietary bank SAM |
-| **BNI TapCash** | Bank Negara Indonesia | ISO/IEC 14443-4 (IsoDep) | ✅ | ✅ | Reads balance & terminal history |
-| **BRI Brizzi** | Bank Rakyat Indonesia | ISO/IEC 14443-4 (IsoDep) | ✅ | ✅ | Standard contactless log |
-| **JakCard** | Bank DKI | ISO/IEC 14443-4 (IsoDep) | ✅ | ✅ | Jakarta transit & toll card |
-| **KMT (Kartu Multi Trip)**| PT Kereta Commuter Indonesia | JIS X 6319-4 (FeliCa) / Mifare | ✅ | ✅ | Commuter Line & MRT Jakarta |
+| **BNI TapCash** | Bank Negara Indonesia | ISO/IEC 14443-4 (IsoDep) | ✅ | ✅ | Reads balance & terminal transaction log |
+| **BRI Brizzi** | Bank Rakyat Indonesia | ISO/IEC 14443-4 (IsoDep) | ✅ | ✅ | DESFire wrapped native records |
+| **JakCard** | Bank DKI | ISO/IEC 14443-4 (IsoDep) | ✅ | ✅ | Jakarta transit & public transport card |
+| **KMT (Kartu Multi Trip)**| PT KCI | JIS X 6319-4 (FeliCa) / Mifare | ✅ | ✅ | Commuter Line & MRT Jakarta |
 
-### Key Features
-- **⚡ Instant Tap-to-Read**: Low-latency APDU transceive logic with robust error handling and haptic feedback.
-- **🔊 Voice Pack Announcements**: Spoken balance announcements upon card tap in natural Indonesian accents (custom voice engine).
-- **📊 Local Expense Analytics & History**: Automatic classification of toll, transit, and retail transactions stored securely in a local Room database.
-- **🛣️ Toll Fare Estimator**: Integrated Indonesian toll expressway rate database for trip budgeting.
-- **🎨 Modern Material 3 UI**: Clean, expressive user interface powered by Jetpack Compose with Dark/Light theme switching.
-- **📲 Home Screen Widget & Quick Tile**: Quick-access shortcuts to initiate NFC scans directly from the Android Quick Settings panel.
+---
 
-### Architecture & Tech Stack
-- **UI**: Jetpack Compose, Material 3, Lottie Compose Animations
-- **Core Language**: Kotlin 2.0 (Coroutines, StateFlow)
-- **NFC Engine**: `android.nfc` API with decoupled `ApduChannel` transceivers
-- **Database**: Room (SQLite) with schema migration testing
-- **DI & Structure**: Clean MVVM / Unidirectional Data Flow pattern
+## 📦 Installation
+
+Add JitPack to your project repository settings:
+
+### Gradle (Kotlin DSL)
+```kotlin
+// settings.gradle.kts
+dependencyResolutionManagement {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url = uri("https://jitpack.io") }
+    }
+}
+
+// build.gradle.kts (app module)
+dependencies {
+    implementation("com.github.muhakmal:osp-kue-reader:1.0.0")
+}
+```
+
+### Gradle (Groovy)
+```groovy
+// settings.gradle or root build.gradle
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+// build.gradle
+dependencies {
+    implementation 'com.github.muhakmal:osp-kue-reader:1.0.0'
+}
+```
+
+---
+
+## 🚀 Quick Start
+
+### 1. Basic Card Reading
+When an Android NFC `Tag` is discovered:
+
+```kotlin
+import io.github.muhakmal.kuereader.KueReader
+import io.github.muhakmal.kuereader.model.CardData
+
+// In your Activity / NFC reader callback:
+val cardData: CardData? = KueReader.readTag(tag)
+
+if (cardData != null && cardData.isBalanceReadable) {
+    Log.d("KueReader", "Detected: ${cardData.cardName}")
+    Log.d("KueReader", "Balance: Rp ${cardData.balance}")
+    Log.d("KueReader", "Card UID: ${cardData.rawId}")
+
+    for (tx in cardData.transactionHistory) {
+        Log.d("KueReader", "${tx.date} | ${tx.type} | Rp ${tx.amount} | ${tx.location}")
+    }
+} else {
+    Log.w("KueReader", "Card not recognized or balance unreadable.")
+}
+```
+
+### 2. Using `NfcManager` in an Activity
+The SDK includes an optional lifecycle helper for Reader Mode:
+
+```kotlin
+class ScanActivity : ComponentActivity() {
+
+    private lateinit var nfcManager: NfcManager
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        nfcManager = NfcManager(this)
+
+        lifecycleScope.launch {
+            nfcManager.nfcTags.collectLatest { tag ->
+                val card = KueReader.readTag(tag)
+                // Update UI state with card data
+            }
+        }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        nfcManager.enableReaderMode(this)
+    }
+
+    override fun onPause() {
+        super.onPause()
+        nfcManager.disableReaderMode(this)
+    }
+}
+```
+
+---
+
+## 📱 Sample Application
+
+A reference Android Jetpack Compose application is available in the [`:sample`](sample/) directory.
+
+To build and run the sample application on a physical device:
+```bash
+./gradlew :sample:installDebug
+# or: make build
+```
+
+---
+
+## 🏛️ Architecture & Extensibility
 
 ```mermaid
 graph TD
-    User([User Taps Card]) --> NFC[NFC Hardware / Android Tag]
-    NFC --> Mgr[NfcManager / ApduChannel]
-    Mgr --> Registry[CardParser Registry]
-    Registry --> Mandiri[MandiriParser]
-    Registry --> Flazz[FlazzParser]
-    Registry --> TapCash[TapCashParser]
-    Registry --> Brizzi[BrizziParser]
-    Registry --> JakCard[JakCardParser]
-    Registry --> Felica[FelicaParser]
-    Mandiri & Flazz & TapCash & Brizzi & JakCard & Felica --> Data[CardData Result]
-    Data --> VM[ScanViewModel]
-    VM --> UI[Jetpack Compose UI]
-    VM --> Room[(Local Room SQLite)]
-    VM --> Audio[BalanceAnnouncer / VoicePack]
+    Tag[Android NFC Tag] --> Facade[KueReader.readTag]
+    Facade --> Core[CardParser.parse]
+    Core --> Apdu[ApduChannel Transceiver]
+    Apdu --> Mandiri[MandiriParser]
+    Apdu --> Flazz[FlazzParser]
+    Apdu --> TapCash[TapCashParser]
+    Apdu --> Brizzi[BrizziParser]
+    Apdu --> JakCard[JakCardParser]
+    Apdu --> Felica[FelicaParser]
+    Apdu --> Custom[Custom User Parsers]
+    Mandiri & Flazz & TapCash & Brizzi & JakCard & Felica & Custom --> Model[CardData & Transactions]
 ```
 
-### Getting Started & Build Instructions
+### Adding a Custom Card Parser
+You can implement the `EmoneyParser` interface and register your custom parser at runtime:
 
-#### Prerequisites
-- **JDK 17 or 21**
-- **Android SDK** (API 36, Android Build Tools 36+)
-- **Android Device** with NFC support (Android 7.0 / API 24+)
+```kotlin
+class MyCustomTransitParser : EmoneyParser {
+    override fun canHandle(tag: Tag): Boolean {
+        return tag.techList.contains(IsoDep::class.java.name)
+    }
 
-#### Cloning & Building
-```bash
-# 1. Clone this repository
-git clone https://github.com/muhakmal/osp-kue-reader.git
-cd osp-kue-reader
+    override fun parse(tag: Tag, logBuilder: StringBuilder): CardData? {
+        val isoDep = CardParser.getSharedIsoDep(tag) ?: return null
+        val channel = isoDep.asChannel()
+        // Send APDU commands and parse balance
+        return CardData("My Custom Card", balance = 50000.0)
+    }
+}
 
-# 2. Run unit tests
-./gradlew testDebugUnitTest
-# or: make test
-
-# 3. Build Debug APK
-./gradlew assembleDebug
-# or: make build
+// Register with the SDK:
+KueReader.registerCustomParser(MyCustomTransitParser())
 ```
-The output APK will be placed at:  
-`app/build/outputs/apk/debug/app-debug.apk`
-
----
-
-## 🇮🇩 Bahasa Indonesia
-
-### Ikhtisar
-**OSP KUE Reader** adalah aplikasi Android native sumber terbuka (*open source*) untuk membaca sisa saldo, riwayat transaksi, dan nomor kartu uang elektronik Indonesia (e-money, Flazz, TapCash, Brizzi, JakCard, dan KMT) melalui NFC.
-
-Aplikasi ini berjalan **100% lokal di dalam perangkat**. Tidak ada data pengguna, nomor kartu, atau histori transaksi yang dikirim ke server luar.
-
-### Kartu yang Didukung
-- **Mandiri e-money** (Saldo & Riwayat Transaksi)
-- **BCA Flazz Gen 2** (Saldo & Riwayat Transaksi)
-- **BNI TapCash** (Saldo & Riwayat Transaksi)
-- **BRI Brizzi** (Saldo & Riwayat Transaksi)
-- **Bank DKI JakCard** (Saldo & Riwayat Transaksi)
-- **KMT KRL Commuter Line** (Saldo & Riwayat Transaksi)
-
-### Panduan Build & Menjalankan
-Pastikan Anda telah memasang **JDK 17/21** dan Android SDK, lalu jalankan perintah berikut:
-```bash
-# Menjalankan unit test
-./gradlew testDebugUnitTest
-
-# Melakukan kompilasi file APK debug
-./gradlew assembleDebug
-```
-File APK siap dipasang ke ponsel Android ber-NFC di `app/build/outputs/apk/debug/app-debug.apk`.
 
 ---
 
 ## 🔒 Privacy & Security
-- **Read-Only Operations**: Aplikasi ini hanya menggunakan perintah APDU standar baca (`SELECT`, `READ RECORD`, `READ BINARY`). Tidak pernah menulis data atau memodifikasi saldo kartu.
-- **Zero Telemetry**: Seluruh riwayat scan dan data transaksi hanya disimpan di database lokal ponsel pengguna (`HistoryDatabase` SQLite).
+
+- **Strictly On-Device**: All card reads happen in-memory on the user's device. The library contains no telemetry, analytics, or network permissions.
+- **Read-Only**: The SDK never sends write APDU commands or modifies card data.
 
 ---
 
 ## ⚖️ Disclaimer & Trademarks
-1. **Non-Affiliation**: This software is an independent open-source project created for personal interoperability and educational utility. It is not affiliated with, endorsed by, or authorized by Bank Mandiri, Bank Central Asia, Bank Negara Indonesia, Bank Rakyat Indonesia, Bank DKI, or PT Kereta Commuter Indonesia.
-2. **Trademarks**: *Mandiri e-money*, *Flazz*, *TapCash*, *Brizzi*, *JakCard*, *KMT*, and other referenced card names/logos are trademarks of their respective banking and transit institutions.
-3. **No Warranty**: Provided under the [Apache License 2.0](LICENSE) on an "AS IS" basis, without warranties of any kind.
+
+1. **Non-Affiliation**: This SDK is an independent open-source library. It is not affiliated with, endorsed by, or sponsored by Bank Mandiri, Bank Central Asia (BCA), Bank Negara Indonesia (BNI), Bank Rakyat Indonesia (BRI), Bank DKI, or PT Kereta Commuter Indonesia.
+2. **Trademarks**: *Mandiri e-money*, *Flazz*, *TapCash*, *Brizzi*, *JakCard*, and *KMT* are trademarks of their respective banking and transit institutions.
+3. **No Warranty**: Distributed under the [Apache License 2.0](LICENSE) on an "AS IS" basis.
 
 ---
 
-## 🗺️ Project Roadmap
-Check out [ROADMAP.md](ROADMAP.md) to explore planned milestones, upcoming card protocols, and long-term goals for 2026-2027.
-
----
-
-## 🤝 Contributing
-Contributions are warmly welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for branch conventions, commit rules, and instructions on how to add support for new cards.
+## 🤝 Contributing & Roadmap
+- See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines and testing practices.
+- See [ROADMAP.md](ROADMAP.md) for planned features and upcoming card protocol additions.
 
 ## 📄 License
-This project is open-source under the terms of the [Apache License 2.0](LICENSE).
+This project is licensed under the [Apache License 2.0](LICENSE).
